@@ -1,5 +1,7 @@
 export type StoryStatus = "draft" | "published";
 
+export type MonthCover = { month: number; image_url: string };
+
 export type StoryActivities = {
   cloze_text: string;
   true_false: string[];

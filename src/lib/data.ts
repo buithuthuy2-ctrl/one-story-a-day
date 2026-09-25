@@ -2,11 +2,14 @@
 
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { DEMO_STORIES } from "./catalog";
-import type { Attempt, Question, Story } from "./types";
+import type { Attempt, MonthCover, Question, Story } from "./types";
 
 const STORY_KEY = "storyday:stories:v1";
 const ATTEMPT_KEY = "storyday:attempts:v1";
 const DELETED_KEY = "storyday:deleted:v1";
+const MONTH_COVER_KEY = "storyday:month-covers:v1";
+const COVER_BUCKET = "story-covers";
+const COVER_TYPES: Record<string, string> = { "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp" };
 
 export const isDemo = !process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 
@@ -37,6 +40,75 @@ export async function getStories(includeDrafts = false): Promise<Story[]> {
   return (data as Story[]).map(story => ({ ...story, questions: [...(story.questions || [])].sort((a, b) => a.sort_order - b.sort_order) }));
 }
 
+export async function getMonthCovers(): Promise<MonthCover[]> {
+  const db = supabase();
+  if (!db) {
+    try { return JSON.parse(localStorage.getItem(MONTH_COVER_KEY) || "[]") as MonthCover[]; }
+    catch { return []; }
+  }
+  const { data, error } = await db.from("month_covers").select("month, image_url").order("month");
+  if (error) throw error;
+  return data as MonthCover[];
+}
+
+export function validateCoverFile(file: File): void {
+  if (!COVER_TYPES[file.type]) throw new Error("Chọn ảnh JPG, PNG hoặc WebP.");
+  if (file.size > 5 * 1024 * 1024) throw new Error("Ảnh phải nhỏ hơn 5 MB.");
+}
+
+async function uploadCover(file: File, folder: string): Promise<string> {
+  validateCoverFile(file);
+  const db = supabase();
+  if (!db) {
+    return await new Promise<string>((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(String(reader.result));
+      reader.onerror = () => reject(new Error("Không đọc được ảnh."));
+      reader.readAsDataURL(file);
+    });
+  }
+  const path = `${folder}/${crypto.randomUUID()}.${COVER_TYPES[file.type]}`;
+  const { error } = await db.storage.from(COVER_BUCKET).upload(path, file, {
+    contentType: file.type, cacheControl: "3600", upsert: false,
+  });
+  if (error) throw error;
+  return db.storage.from(COVER_BUCKET).getPublicUrl(path).data.publicUrl;
+}
+
+async function removeCover(url: string): Promise<void> {
+  const db = supabase();
+  const prefix = `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/${COVER_BUCKET}/`;
+  if (!db || !url.startsWith(prefix)) return;
+  const path = decodeURIComponent(url.slice(prefix.length).split("?")[0]);
+  const { error } = await db.storage.from(COVER_BUCKET).remove([path]);
+  if (error) throw error;
+}
+
+export async function saveMonthCover(month: number, file: File | null, previousUrl: string): Promise<string> {
+  const db = supabase();
+  const imageUrl = file ? await uploadCover(file, `months/${month}`) : "";
+  try {
+    if (!db) {
+      const covers = await getMonthCovers();
+      localStorage.setItem(MONTH_COVER_KEY, JSON.stringify([...covers.filter(item => item.month !== month), { month, image_url: imageUrl }]));
+    } else {
+      const { error } = await db.from("month_covers").upsert({ month, image_url: imageUrl, updated_at: new Date().toISOString() });
+      if (error) throw error;
+    }
+  } catch (error) {
+    if (imageUrl) await removeCover(imageUrl).catch(() => {});
+    throw error;
+  }
+  if (previousUrl && previousUrl !== imageUrl) await removeCover(previousUrl).catch(() => {});
+  return imageUrl;
+}
+
+export async function saveStoryWithCover(story: Story, file: File | null, previousUrl: string): Promise<void> {
+  const imageUrl = file ? await uploadCover(file, `stories/${story.id}`) : story.image_url;
+  await saveStory({ ...story, image_url: imageUrl });
+  if (previousUrl && previousUrl !== imageUrl) await removeCover(previousUrl).catch(() => {});
+}
+
 export async function saveStory(story: Story): Promise<void> {
   const db = supabase();
   if (!db) {
@@ -58,7 +130,7 @@ export async function saveStory(story: Story): Promise<void> {
   }
 }
 
-export async function deleteStory(id: string): Promise<void> {
+export async function deleteStory(id: string, imageUrl = ""): Promise<void> {
   const db = supabase();
   if (!db) {
     const deleted = JSON.parse(localStorage.getItem(DELETED_KEY) || "[]") as string[];
@@ -68,6 +140,7 @@ export async function deleteStory(id: string): Promise<void> {
   }
   const { error } = await db.from("stories").delete().eq("id", id);
   if (error) throw error;
+  if (imageUrl) await removeCover(imageUrl).catch(() => {});
 }
 
 export async function getAttempts(): Promise<Attempt[]> {
