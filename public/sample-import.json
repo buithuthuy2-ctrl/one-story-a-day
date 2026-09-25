@@ -1,0 +1,20 @@
+[
+  {
+    "month": 3,
+    "day": 1,
+    "title": "Tên truyện mẫu",
+    "summary": "Một câu giới thiệu ngắn.",
+    "content": "Đoạn đầu của câu chuyện.\n\nĐoạn tiếp theo của câu chuyện.",
+    "youtube_url": "https://www.youtube.com/watch?v=VIDEO_ID",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "questions": [
+      {
+        "prompt": "Điều gì đã xảy ra trong truyện?",
+        "options": ["Đáp án A", "Đáp án B", "Đáp án C", "Đáp án D"],
+        "answer_index": 0,
+        "explanation": "Giải thích ngắn cho đáp án đúng."
+      }
+    ]
+  }
+]

@@ -1,0 +1,2670 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000009001",
+    "month": 9,
+    "day": 1,
+    "title": "Stop the Cars",
+    "summary": "We should help animals stay safe.",
+    "content": "One day, a mother duck and her babies were waiting to cross the road.\n\nCars kept coming. The mother duck and her babies waited and waited. Finally, a man got out of his car and stopped the traffic.\n\nAs the ducks crossed the road, many people took pictures. Who would think that a little mother duck could make all the cars stop?\n\nThese baby ducks must have been so proud of their mom!",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900010",
+        "story_id": "00000000-0000-4000-8000-000000009001",
+        "prompt": "Who was waiting to cross the road?",
+        "options": [
+          "A mother duck and her babies",
+          "A man and his children",
+          "A dog and its puppies",
+          "A mother bird and her babies"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900011",
+        "story_id": "00000000-0000-4000-8000-000000009001",
+        "prompt": "Why couldn’t the ducks cross the road?",
+        "options": [
+          "It was raining.",
+          "Cars kept coming.",
+          "They were tired.",
+          "The road was closed."
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900012",
+        "story_id": "00000000-0000-4000-8000-000000009001",
+        "prompt": "Who stopped the traffic?",
+        "options": [
+          "A police officer",
+          "A woman",
+          "A man",
+          "A child"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900013",
+        "story_id": "00000000-0000-4000-8000-000000009001",
+        "prompt": "What did many people do as the ducks crossed the road?",
+        "options": [
+          "They waved at the ducks.",
+          "They fed the ducks.",
+          "They stopped their cars.",
+          "They took pictures."
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "One day, a ………. duck and her babies were waiting to ……….. the road.\n………. kept coming. The mother duck and her babies waited and ………….. Finally, a man got out of his car and …………. the traffic.\nAs the ducks ………… the road, many people took pictures. Who would think that a little mother duck could ………… all the cars stop?\nThese baby ducks must have been so …………….. of their mom!",
+      "true_false": [
+        "The mother duck and her babies wanted to cross the road.",
+        "The cars stopped as soon as the ducks arrived.",
+        "A man got out of his car and stopped the traffic.",
+        "Nobody took pictures of the ducks."
+      ],
+      "short_answer": [
+        "What animal was waiting by the road?",
+        "Who was with the mother duck?",
+        "What kept coming?",
+        "Who stopped the traffic?",
+        "Did people take pictures?"
+      ],
+      "discussion": [
+        "How do you think the mother duck felt when the cars stopped?",
+        "What should you do when you see animals crossing a road?",
+        "Why is it important to help animals stay safe?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009002",
+    "month": 9,
+    "day": 2,
+    "title": "Sleeping Horses",
+    "summary": "Animals have amazing ways to rest safely.",
+    "content": "When it’s time to sleep, you go to bed and lie down. Soon, you fall asleep.\n\nBut not all animals are like that. Horses, for example, can stand while they sleep. Isn’t that strange! How do they do that?\n\nIt’s all in the horse’s knees. A horse can lock its knees so it does not fall down. Isn’t that amazing?\n\nYes, horses can sleep standing up without falling over!",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900020",
+        "story_id": "00000000-0000-4000-8000-000000009002",
+        "prompt": "What do people usually do when it is time to sleep?",
+        "options": [
+          "Sit on a chair",
+          "Go to bed and lie down",
+          "Stand by the bed",
+          "Walk around the room"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900021",
+        "story_id": "00000000-0000-4000-8000-000000009002",
+        "prompt": "How can horses sleep?",
+        "options": [
+          "Standing up",
+          "Sitting down",
+          "In a tree",
+          "Under the water"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900022",
+        "story_id": "00000000-0000-4000-8000-000000009002",
+        "prompt": "What can a horse lock while it sleeps?",
+        "options": [
+          "Its feet",
+          "Its back",
+          "Its knees",
+          "Its neck"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900023",
+        "story_id": "00000000-0000-4000-8000-000000009002",
+        "prompt": "Why doesn’t a sleeping horse fall down?",
+        "options": [
+          "It stands near a wall.",
+          "It locks its knees.",
+          "Someone holds it.",
+          "It does not sleep for long."
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "When it’s time to ……….you go to bed and ……….down. Soon, you fall asleep.\nBut not all animals are like that. Horses, for example, can ……….. while they sleep. Isn’t that strange! How do they do that?\nIt’s all in the horse’s knees. A horse can lock its ……….. so it does not fall down. Isn’t that amazing?\nYes, …………. can sleep standing up without falling over!",
+      "true_false": [
+        "People usually lie down when they go to sleep.",
+        "Horses can only sleep when they are lying down.",
+        "A horse can lock its knees while it sleeps.",
+        "Horses always fall over when they sleep standing up."
+      ],
+      "short_answer": [
+        "Where do people go when it is time to sleep?",
+        "What animal can sleep standing up?",
+        "What can a horse lock?",
+        "Why does a horse lock its knees?",
+        "Can horses sleep without falling over?"
+      ],
+      "discussion": [
+        "How do you feel when you learn something amazing about animals?",
+        "Why is sleep important for people and animals?",
+        "What other interesting things do you know about animals?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009003",
+    "month": 9,
+    "day": 3,
+    "title": "The Giant Pumpkin",
+    "summary": "Nature can give us amazing surprises.",
+    "content": "Pumpkins are orange and round. They are harvested in the fall.\n\nMost pumpkins are about the size of a basketball. But Jen sees a GIANT pumpkin in her uncle’s garden. The pumpkin is bigger than she is!\n\nIt is so big that Jen can’t put her arms around it. She can’t even reach to touch the top of it.\n\nHow big is it? It is the biggest pumpkin in all the land.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900030",
+        "story_id": "00000000-0000-4000-8000-000000009003",
+        "prompt": "What colour are pumpkins?",
+        "options": [
+          "Green",
+          "Orange",
+          "Blue",
+          "Purple"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900031",
+        "story_id": "00000000-0000-4000-8000-000000009003",
+        "prompt": "When are pumpkins harvested?",
+        "options": [
+          "In the spring",
+          "In the summer",
+          "In the fall",
+          "In the winter"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900032",
+        "story_id": "00000000-0000-4000-8000-000000009003",
+        "prompt": "Where does Jen see the giant pumpkin?",
+        "options": [
+          "In her uncle’s garden",
+          "In her school garden",
+          "In a shop",
+          "In a park"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900033",
+        "story_id": "00000000-0000-4000-8000-000000009003",
+        "prompt": "How big is the giant pumpkin?",
+        "options": [
+          "It is smaller than Jen.",
+          "It is the size of a ball.",
+          "It is bigger than Jen.",
+          "It is as big as Jen."
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Pumpkins are ……… and round. They are harvested in the ……….\nMost …………… are about the size of a basketball. But Jen sees a GIANT pumpkin in her uncle’s ……….. The pumpkin is bigger than she is!\nIt is so big that Jen can’t put her ………. around it. She can’t even reach to touch the ………. of it.\nHow big is it? It is the…………..pumpkin in all the land.",
+      "true_false": [
+        "Pumpkins are orange and round.",
+        "Most pumpkins are about the size of a football.",
+        "The giant pumpkin is in Jen’s uncle’s garden.",
+        "Jen can easily touch the top of the pumpkin."
+      ],
+      "short_answer": [
+        "What colour are pumpkins?",
+        "When are pumpkins harvested?",
+        "Who sees the giant pumpkin?",
+        "Where is the giant pumpkin?",
+        "Can Jen touch its top?"
+      ],
+      "discussion": [
+        "How do you think Jen feels when she sees the giant pumpkin?",
+        "What vegetables or fruit do you like growing?",
+        "Why should we take care of gardens and plants?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009004",
+    "month": 9,
+    "day": 4,
+    "title": "My Eyes",
+    "summary": "We should take good care of our eyes.",
+    "content": "I have two eyes. They let me see everything around me.\n\nCan everyone see with their eyes? No. Some people cannot see at all. They are blind.\n\nOther people cannot see well with their eyes. They wear glasses to help them see better.\n\nSometimes, it’s hard to see when the sun is shining very bright, so people wear sunglasses to help them see.\n\nTake care of your eyes. They are very important.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900040",
+        "story_id": "00000000-0000-4000-8000-000000009004",
+        "prompt": "What do our eyes help us do?",
+        "options": [
+          "Hear everything",
+          "See everything",
+          "Smell everything",
+          "Touch everything"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900041",
+        "story_id": "00000000-0000-4000-8000-000000009004",
+        "prompt": "What does it mean when a person is blind?",
+        "options": [
+          "They cannot hear.",
+          "They cannot walk.",
+          "They cannot see.",
+          "They cannot speak."
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900042",
+        "story_id": "00000000-0000-4000-8000-000000009004",
+        "prompt": "Why do some people wear glasses?",
+        "options": [
+          "To help them see better",
+          "To help them hear better",
+          "To protect their ears",
+          "To look taller"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900043",
+        "story_id": "00000000-0000-4000-8000-000000009004",
+        "prompt": "When do people wear sunglasses?",
+        "options": [
+          "When it is raining",
+          "When the sun is shining very bright",
+          "When it is snowing",
+          "When it is dark"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "I have two eyes. They let me ……… everything around me.\nCan everyone see with their eyes? No. Some people ……… see at all. They are ………..\nOther people cannot see well with their eyes. They wear ……… to help them see better. Sometimes, it’s hard to see when the sun is ………. very bright, so people wear …………………to help them see.\nTake care of your eyes. They are very important.",
+      "true_false": [
+        "Our eyes let us see everything around us.",
+        "Everyone can see with their eyes.",
+        "Some people wear glasses to help them see better.",
+        "People wear sunglasses when it is very dark."
+      ],
+      "short_answer": [
+        "How many eyes do you have?",
+        "What do your eyes help you do?",
+        "What are people called when they cannot see?",
+        "What helps some people see better?",
+        "Are our eyes important?"
+      ],
+      "discussion": [
+        "What can you do to take care of your eyes?",
+        "How can you help someone who cannot see?",
+        "Why are your eyes important?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009005",
+    "month": 9,
+    "day": 5,
+    "title": "The Magic Blanket",
+    "summary": "Special family things can bring love and happy memories.",
+    "content": "When I was a baby, my grandma made a blanket for me. It was my favourite thing. I slept with it every night. It made me feel warm and safe.\n\nWhen I got married, my wife thought the blanket was too old. She asked if she could throw it away.\n\n“No!” I said. “A special thing like that never gets too old.”\n\nJust ask my son. Now it’s his favourite blanket!",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900050",
+        "story_id": "00000000-0000-4000-8000-000000009005",
+        "prompt": "Who made the blanket?",
+        "options": [
+          "The boy’s mother",
+          "The boy’s grandma",
+          "The boy’s wife",
+          "The boy’s sister"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900051",
+        "story_id": "00000000-0000-4000-8000-000000009005",
+        "prompt": "When did he sleep with the blanket?",
+        "options": [
+          "Every morning",
+          "Every afternoon",
+          "Every night",
+          "Every weekend"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900052",
+        "story_id": "00000000-0000-4000-8000-000000009005",
+        "prompt": "How did the blanket make him feel?",
+        "options": [
+          "Warm and safe",
+          "Cold and afraid",
+          "Tired and sad",
+          "Angry and worried"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900053",
+        "story_id": "00000000-0000-4000-8000-000000009005",
+        "prompt": "Who has the blanket now?",
+        "options": [
+          "His grandma",
+          "His wife",
+          "His friend",
+          "His son"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "When I was a ……….., my grandma made a blanket for me. It was my ………. thing. I ……….. with it every night. It ………. me feel warm and safe.\nWhen I got married, my wife ………… the blanket was too old. She ………. if she could throw it away.\n“No!” I said. “A special thing like that never gets too old.”\nJust …….. my son. Now it’s his favourite blanket!",
+      "true_false": [
+        "His grandma made the blanket for him when he was a baby.",
+        "The blanket made him feel cold and afraid.",
+        "His wife wanted to throw the old blanket away.",
+        "His son does not like the blanket."
+      ],
+      "short_answer": [
+        "Who made the blanket?",
+        "When did he get the blanket?",
+        "How often did he sleep with it?",
+        "Did he let his wife throw it away?",
+        "Whose favourite blanket is it now?"
+      ],
+      "discussion": [
+        "Do you have a special thing from your family?",
+        "How do special things make you feel?",
+        "Why is it important to keep happy family memories?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009006",
+    "month": 9,
+    "day": 6,
+    "title": "In the Kitchen",
+    "summary": "We should always be careful in the kitchen.",
+    "content": "Sam’s mother was cooking in the kitchen. Sam watched her busily cutting vegetables.\n\n“Can I help?” said Sam.\n\n“Of course, you can help me peel this garlic,” said his mother.\n\n“Always be careful when helping out in the kitchen. See the knife? It is sharp. Even I get a cut sometimes.”\n\n“Will you slow down then?” Sam asked.\n\n“Sure!” said Sam’s mother.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900060",
+        "story_id": "00000000-0000-4000-8000-000000009006",
+        "prompt": "Where was Sam’s mother cooking?",
+        "options": [
+          "In the garden",
+          "In the kitchen",
+          "In the bedroom",
+          "In the living room"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900061",
+        "story_id": "00000000-0000-4000-8000-000000009006",
+        "prompt": "What was Sam’s mother cutting?",
+        "options": [
+          "Fruit",
+          "Bread",
+          "Vegetables",
+          "Meat"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900062",
+        "story_id": "00000000-0000-4000-8000-000000009006",
+        "prompt": "What did Sam’s mother ask him to peel?",
+        "options": [
+          "An onion",
+          "A potato",
+          "A carrot",
+          "Some garlic"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900063",
+        "story_id": "00000000-0000-4000-8000-000000009006",
+        "prompt": "Why should people be careful with a knife?",
+        "options": [
+          "It is heavy.",
+          "It is hot.",
+          "It is sharp.",
+          "It is dirty."
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Sam’s mother ………. cooking in the kitchen. Sam …………. her busily cutting vegetables.\n“Can I help?” said Sam.\n“Of course, you …… help me peel this garlic,” said his mother.\n“Always……….careful when helping out in the kitchen. See the knife? It …… sharp. Even I ………. a cut sometimes.”\n“Will you slow down then?” Sam asked.\n“Sure!” ……… Sam’s mother.",
+      "true_false": [
+        "Sam’s mother was cooking in the kitchen.",
+        "Sam did not want to help his mother.",
+        "Sam’s mother asked him to peel some garlic.",
+        "The knife was not sharp."
+      ],
+      "short_answer": [
+        "Who was cooking in the kitchen?",
+        "What was Sam’s mother cutting?",
+        "Did Sam offer to help?",
+        "What did Sam peel?",
+        "Was the knife sharp?"
+      ],
+      "discussion": [
+        "How can you help your family in the kitchen?",
+        "Why should children be careful in the kitchen?",
+        "What should you do before using a sharp knife?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009007",
+    "month": 9,
+    "day": 7,
+    "title": "Swim Safely",
+    "summary": "We should always follow safety rules when swimming.",
+    "content": "I love swimming. When I go swimming, I always go with a friend. Why? Swimming can be dangerous.\n\nOnce, I was swimming in the sea, and I was almost pulled away by the big waves. That was scary.\n\nI like to go to the beach, but I only go swimming if there is a lifeguard. Don’t go too far out in the water. Stay close, so the lifeguard can see you.\n\nSwimming is fun. But always be careful. Swim safely.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900070",
+        "story_id": "00000000-0000-4000-8000-000000009007",
+        "prompt": "Who does the writer always go swimming with?",
+        "options": [
+          "A teacher",
+          "A friend",
+          "A parent",
+          "A lifeguard"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900071",
+        "story_id": "00000000-0000-4000-8000-000000009007",
+        "prompt": "What almost pulled the writer away?",
+        "options": [
+          "A boat",
+          "A fish",
+          "The big waves",
+          "The wind"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900072",
+        "story_id": "00000000-0000-4000-8000-000000009007",
+        "prompt": "When does the writer go swimming at the beach?",
+        "options": [
+          "When there is a lifeguard",
+          "When the beach is quiet",
+          "When the water is cold",
+          "When there are no waves"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900073",
+        "story_id": "00000000-0000-4000-8000-000000009007",
+        "prompt": "Why should swimmers stay close?",
+        "options": [
+          "So they can play together",
+          "So the lifeguard can see them",
+          "So they can find shells",
+          "So they can see the beach"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "I ………. swimming. When I ……. swimming, I always go with a friend. Why? Swimming ……….. be dangerous.\nOnce, I ……….. swimming in the sea, and I was almost ………….. away by the big waves. That was scary.\nI ………. to go to the beach, but I only go swimming if there is a lifeguard. Don’t go too far out in the water. ………… close, so the lifeguard can see you.\nSwimming is fun. But always be careful. ………… safely.",
+      "true_false": [
+        "The writer always goes swimming with a friend.",
+        "Small fish almost pulled the writer away.",
+        "The writer only swims at the beach when there is a lifeguard.",
+        "Swimmers should go very far out in the water."
+      ],
+      "short_answer": [
+        "What does the writer love doing?",
+        "Who goes swimming with the writer?",
+        "Where was the writer swimming?",
+        "What almost pulled the writer away?",
+        "Should swimmers stay close?"
+      ],
+      "discussion": [
+        "How can you stay safe when swimming?",
+        "Why is it important to swim with another person?",
+        "What should you do if the waves are very big?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009008",
+    "month": 9,
+    "day": 8,
+    "title": "Goodnight, Moon!",
+    "summary": "We can find comfort in the beauty of nature.",
+    "content": "Every night, Jody turns on her night light to sleep. One evening, the bulb had burned out.\n\n“Oh, no,” she said. “What will I use for a light?”\n\nHer dad opened the curtains and the moon light shone into her bedroom.\n\n“It’s a full moon tonight. The moon can be your night light,” says her dad.\n\nJody looked at her father and said, “Good night, Dad.” Then she looked up at the moon and said, “Good night, Moon.”",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900080",
+        "story_id": "00000000-0000-4000-8000-000000009008",
+        "prompt": "What does Jody turn on every night?",
+        "options": [
+          "A television",
+          "A night light",
+          "A fan",
+          "A radio"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900081",
+        "story_id": "00000000-0000-4000-8000-000000009008",
+        "prompt": "What happened to the bulb?",
+        "options": [
+          "It fell down.",
+          "It became too bright.",
+          "It burned out.",
+          "It changed colour."
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900082",
+        "story_id": "00000000-0000-4000-8000-000000009008",
+        "prompt": "Who opened the curtains?",
+        "options": [
+          "Jody",
+          "Jody’s mother",
+          "Jody’s brother",
+          "Jody’s dad"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900083",
+        "story_id": "00000000-0000-4000-8000-000000009008",
+        "prompt": "What became Jody’s night light?",
+        "options": [
+          "The moon",
+          "A star",
+          "A candle",
+          "A torch"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Every night, Jody ………. on her night light to sleep. One evening, the bulb …….. burned out.\n“Oh, no,” she said. “What will I ……… for a light?”\nHer dad ………….. the curtains and the moon light ………. into her bedroom.\n“It’s a full moon tonight. The moon can be your night light,” says her dad.\nJody ………… at her father and said, “Good night, Dad.” Then she ………. up at the moon and ………., “Good night, Moon.”",
+      "true_false": [
+        "Jody uses a night light to sleep.",
+        "The bulb was working well that evening.",
+        "Jody’s dad opened the curtains.",
+        "There was no moon that night."
+      ],
+      "short_answer": [
+        "Who uses a night light?",
+        "What happened to the bulb?",
+        "Who opened the curtains?",
+        "What shone into Jody’s bedroom?",
+        "Was it a full moon?"
+      ],
+      "discussion": [
+        "How do you think Jody felt when the bulb burned out?",
+        "What helps you feel safe at night?",
+        "What beautiful things can you see in the night sky?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009009",
+    "month": 9,
+    "day": 9,
+    "title": "Measure with Care",
+    "summary": "We should always check our work carefully.",
+    "content": "Long ago, there was a king who had a beautiful robe. But the robe was too long. An old man was asked to cut the robe to fit the king.\n\nThe man was scared and nervous. He quickly measured the king. Then, he cut the beautiful cloth. But to everyone’s surprise, the cloth was now too short!\n\nThe king was furious. He ordered the man to spend the rest of his life in jail.\n\nThe lesson to learn is measure twice and cut once.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900090",
+        "story_id": "00000000-0000-4000-8000-000000009009",
+        "prompt": "What did the king have?",
+        "options": [
+          "A beautiful robe",
+          "A golden crown",
+          "A new shirt",
+          "A long coat"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900091",
+        "story_id": "00000000-0000-4000-8000-000000009009",
+        "prompt": "What was wrong with the robe?",
+        "options": [
+          "It was too old.",
+          "It was too short.",
+          "It was too long.",
+          "It was too small."
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900092",
+        "story_id": "00000000-0000-4000-8000-000000009009",
+        "prompt": "How did the old man feel?",
+        "options": [
+          "Happy and excited",
+          "Scared and nervous",
+          "Calm and proud",
+          "Tired and hungry"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900093",
+        "story_id": "00000000-0000-4000-8000-000000009009",
+        "prompt": "What happened after the man cut the cloth?",
+        "options": [
+          "It was still too long.",
+          "It fitted the king well.",
+          "It became too wide.",
+          "It was too short."
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Long ago, there …….. a king who had a beautiful robe. But the robe was too ……….. An old man was………to cut the robe to fit the king.\nThe man was ……….. and nervous. He quickly measured the king. Then, he ……… the beautiful cloth. But to everyone’s surprise, the cloth was now too ………….!\nThe king was furious. He ……….. the man to spend the rest of his life in jail.\nThe lesson to learn is measure twice and cut once.",
+      "true_false": [
+        "The king had a beautiful robe.",
+        "The robe was too short at first.",
+        "The old man quickly measured the king.",
+        "The king was pleased with the finished robe."
+      ],
+      "short_answer": [
+        "Who had a beautiful robe?",
+        "Why did the robe need cutting?",
+        "Who measured the king?",
+        "How did the man feel?",
+        "Was the cloth too short?"
+      ],
+      "discussion": [
+        "Why should we check our work carefully?",
+        "How do you feel when you make a mistake?",
+        "What can you do before finishing an important job?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009010",
+    "month": 9,
+    "day": 10,
+    "title": "Walking to School",
+    "summary": "We should ask for help when we feel afraid.",
+    "content": "Billy does not like walking to school. Why? On his way to school, Billy has to walk past a big, angry dog. It really scares Billy.\n\nWhen Billy tells his mom about the dog, his mom has an idea. She goes with Billy to the house where the dog lives.\n\nThey ask the man if he can keep his dog inside. The man agrees. Now Billy loves walking to school, and he is not afraid anymore.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900100",
+        "story_id": "00000000-0000-4000-8000-000000009010",
+        "prompt": "Why does Billy not like walking to school?",
+        "options": [
+          "The school is too far away.",
+          "He has to walk past an angry dog.",
+          "He does not like his school.",
+          "The road is very busy."
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900101",
+        "story_id": "00000000-0000-4000-8000-000000009010",
+        "prompt": "Who does Billy tell about the dog?",
+        "options": [
+          "His teacher",
+          "His friend",
+          "His mom",
+          "His dad"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900102",
+        "story_id": "00000000-0000-4000-8000-000000009010",
+        "prompt": "Where does Billy’s mom go with him?",
+        "options": [
+          "To the school",
+          "To the park",
+          "To the dog’s house",
+          "To the police station"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900103",
+        "story_id": "00000000-0000-4000-8000-000000009010",
+        "prompt": "What does the dog’s owner agree to do?",
+        "options": [
+          "Keep the dog inside",
+          "Give the dog away",
+          "Walk Billy to school",
+          "Build a new road"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Billy does not like ………. to school. Why? On his way to school, Billy has to ………. past a big, angry dog. It really scares Billy.\nWhen Billy tells his mom about the dog, his mom has an ……….. She goes with Billy to the house where the dog lives.\nThey ask the man if he can ………. his dog inside. The man agrees. Now Billy …….. walking to school, and he is not ………… anymore.",
+      "true_false": [
+        "Billy has to walk past a big, angry dog.",
+        "Billy is not scared of the dog.",
+        "Billy’s mom goes with him to the dog’s house.",
+        "The dog’s owner refuses to keep the dog inside."
+      ],
+      "short_answer": [
+        "Where is Billy walking?",
+        "What animal scares Billy?",
+        "Who helps Billy?",
+        "What does the man agree to do?",
+        "Is Billy afraid anymore?"
+      ],
+      "discussion": [
+        "Who do you ask for help when you feel afraid?",
+        "What should you do if a dog scares you?",
+        "Why is it important to tell an adult about a problem?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009011",
+    "month": 9,
+    "day": 11,
+    "title": "The Window",
+    "summary": "We should take responsibility for our mistakes.",
+    "content": "My mom gives my brother and me money every week. We call it our ‘fun money’.\n\nOne day, my brother and I were playing catch in the house. We threw the ball back and forth, and then suddenly “Bang!” The window was broken.\n\nDad didn’t even look up from his dinner as he said, “That will be four weeks of fun money each.”\n\nIt sure was a long month.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900110",
+        "story_id": "00000000-0000-4000-8000-000000009011",
+        "prompt": "Who gives the children money every week?",
+        "options": [
+          "Their dad",
+          "Their mom",
+          "Their grandma",
+          "Their teacher"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900111",
+        "story_id": "00000000-0000-4000-8000-000000009011",
+        "prompt": "What do the children call their weekly money?",
+        "options": [
+          "School money",
+          "Food money",
+          "Fun money",
+          "Game money"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900112",
+        "story_id": "00000000-0000-4000-8000-000000009011",
+        "prompt": "What were the children doing in the house?",
+        "options": [
+          "Playing catch",
+          "Watching television",
+          "Eating dinner",
+          "Doing homework"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900113",
+        "story_id": "00000000-0000-4000-8000-000000009011",
+        "prompt": "How many weeks of fun money did each child lose?",
+        "options": [
+          "Two weeks",
+          "Three weeks",
+          "Four weeks",
+          "Five weeks"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "My mom ……… my brother and me money every week. We ……… it our ‘fun money’.\nOne day, my brother and I ……… playing catch in the house. We …….. the ball back and forth, and then suddenly “Bang!” The window was ……….\nDad didn’t even look up from his dinner as he said, “That …….. be four weeks of fun money each.”\nIt sure …….. a long month.",
+      "true_false": [
+        "The children receive fun money every week.",
+        "They were playing catch outside the house.",
+        "The ball broke the window.",
+        "Their dad gave them extra fun money."
+      ],
+      "short_answer": [
+        "Who gives the children money?",
+        "How often do they get money?",
+        "What were the children throwing?",
+        "What did they break?",
+        "How much fun money did each child lose?"
+      ],
+      "discussion": [
+        "How should you behave when playing inside the house?",
+        "What should you do when you break something?",
+        "Why is it important to take responsibility for your mistakes?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009012",
+    "month": 9,
+    "day": 12,
+    "title": "New Skin",
+    "summary": "We should take good care of our skin.",
+    "content": "Our body is covered with skin. It’s the largest human organ!\n\nIt is a very important part of us. It covers and protects everything inside our body. That’s why we need to take good care of our skin.\n\nNature helps us too. In our lifetime, our skin will replace itself almost 1,000 times.\n\nStill, take care of your skin. How? Eat healthy food. Drink more water and don’t stay in the strong sun too long!",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900120",
+        "story_id": "00000000-0000-4000-8000-000000009012",
+        "prompt": "What is the largest human organ?",
+        "options": [
+          "The heart",
+          "The skin",
+          "The brain",
+          "The stomach"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900121",
+        "story_id": "00000000-0000-4000-8000-000000009012",
+        "prompt": "What does our skin protect?",
+        "options": [
+          "Our clothes",
+          "Our hair",
+          "Everything inside our body",
+          "The food we eat"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900122",
+        "story_id": "00000000-0000-4000-8000-000000009012",
+        "prompt": "How many times will our skin replace itself?",
+        "options": [
+          "Almost 100 times",
+          "Almost 500 times",
+          "Almost 1,000 times",
+          "Almost 2,000 times"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900123",
+        "story_id": "00000000-0000-4000-8000-000000009012",
+        "prompt": "What should we drink to care for our skin?",
+        "options": [
+          "More water",
+          "More juice",
+          "More milk",
+          "More tea"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Our body is covered with skin. It’s the largest human organ!\nIt is a very important part of us. It covers and protects everything inside our body. That’s why we need to take good care of our skin.\nNature helps us too. In our lifetime, our skin will replace itself almost 1,000 times.\nStill, take care of your skin. How? Eat healthy food. Drink more water and don’t stay in the strong sun too long!",
+      "true_false": [
+        "Skin is the largest human organ.",
+        "Our skin does not protect our body.",
+        "Our skin can replace itself many times.",
+        "We should stay in the strong sun for a long time."
+      ],
+      "short_answer": [
+        "What covers our body?",
+        "What does our skin protect?",
+        "How many times can our skin replace itself?",
+        "What kind of food should we eat?",
+        "Should we drink more water?"
+      ],
+      "discussion": [
+        "What do you do to take care of your skin?",
+        "Why should we drink enough water?",
+        "How can you stay safe in the strong sun?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009013",
+    "month": 9,
+    "day": 13,
+    "title": "Are Clouds Heavy?",
+    "summary": "Nature is full of amazing surprises.",
+    "content": "Look up in the sky! What do you see? Big, white, fluffy clouds slowly floating by.\n\nClouds look so soft and light. Can you hold a cloud in your hand? Well, maybe if you are really strong. Why?\n\nClouds are actually quite heavy. They are made up of millions of water droplets.\n\nOne cloud, not too big and not too small, weighs a lot. How much? Almost as much as 100 elephants!",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900130",
+        "story_id": "00000000-0000-4000-8000-000000009013",
+        "prompt": "What colour are the clouds in the story?",
+        "options": [
+          "Grey",
+          "Black",
+          "White",
+          "Orange"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900131",
+        "story_id": "00000000-0000-4000-8000-000000009013",
+        "prompt": "How do clouds look?",
+        "options": [
+          "Soft and light",
+          "Hard and dark",
+          "Small and dry",
+          "Hot and heavy"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900132",
+        "story_id": "00000000-0000-4000-8000-000000009013",
+        "prompt": "What are clouds made of?",
+        "options": [
+          "Millions of stars",
+          "Millions of water droplets",
+          "Millions of snowballs",
+          "Millions of feathers"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900133",
+        "story_id": "00000000-0000-4000-8000-000000009013",
+        "prompt": "How much can one cloud weigh?",
+        "options": [
+          "Almost as much as 10 elephants",
+          "Almost as much as 50 elephants",
+          "Almost as much as 100 elephants",
+          "Almost as much as 1,000 elephants"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Look up in the sky! What do you see? Big, white, fluffy clouds slowly floating by.\nClouds ………. so soft and light. ………you hold a cloud in your hand? Well, maybe if you are really strong. Why?\nClouds …….. actually quite heavy. They are made up of millions of water droplets.\nOne cloud, not too big and not too small, weighs a lot. How ………? Almost as much as 100 elephants!",
+      "true_false": [
+        "The clouds in the story are big, white and fluffy.",
+        "Clouds are made of millions of water droplets.",
+        "Clouds are actually very light.",
+        "One cloud weighs as much as only one elephant."
+      ],
+      "short_answer": [
+        "Where can you see clouds?",
+        "What colour are the clouds?",
+        "What are clouds made of?",
+        "Are clouds quite heavy?",
+        "How many elephants can one cloud weigh as much as?"
+      ],
+      "discussion": [
+        "How do you feel when you look at clouds?",
+        "Why is water important in nature?",
+        "What other amazing things do you know about the sky?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009014",
+    "month": 9,
+    "day": 14,
+    "title": "Maple Tree",
+    "summary": "Trees give us many beautiful and useful things.",
+    "content": "Do you have a favourite tree? My favourite tree is the maple tree.\n\nWhy? Maple trees grow nearly everywhere in Canada. They are strong, tall and straight.\n\nIn autumn, the maple tree leaves turn different colours. Red, yellow and orange. The changing leaves are so beautiful!\n\nIn the spring, maple trees give us something very special—sweet and delicious maple syrup!\n\nMaple trees are the best!",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900140",
+        "story_id": "00000000-0000-4000-8000-000000009014",
+        "prompt": "What is the writer’s favourite tree?",
+        "options": [
+          "The apple tree",
+          "The maple tree",
+          "The orange tree",
+          "The coconut tree"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900141",
+        "story_id": "00000000-0000-4000-8000-000000009014",
+        "prompt": "Where do maple trees grow nearly everywhere?",
+        "options": [
+          "In Canada",
+          "In England",
+          "In Australia",
+          "In India"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900142",
+        "story_id": "00000000-0000-4000-8000-000000009014",
+        "prompt": "What colours do maple leaves turn in autumn?",
+        "options": [
+          "Blue, green and white",
+          "Red, yellow and orange",
+          "Pink, purple and grey",
+          "Black, brown and white"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900143",
+        "story_id": "00000000-0000-4000-8000-000000009014",
+        "prompt": "What do maple trees give us in spring?",
+        "options": [
+          "Maple syrup",
+          "Orange juice",
+          "Apple pie",
+          "Coconut milk"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Do you have a ……… tree? My favourite tree is the ……… tree.\nWhy? Maple trees ………. nearly everywhere in Canada. They are strong, ……… and straight.\nIn autumn, the maple tree leaves turn different colours. Red, yellow and …………. The changing leaves are so beautiful!\nIn the spring, maple trees ……… us something very special—sweet and delicious maple syrup!\nMaple trees are the ……… !",
+      "true_false": [
+        "Maple trees grow nearly everywhere in Canada.",
+        "Maple trees are short and weak.",
+        "Maple leaves change colour in autumn.",
+        "Maple trees give us honey in spring."
+      ],
+      "short_answer": [
+        "What is the writer’s favourite tree?",
+        "Where do maple trees grow?",
+        "What colour can maple leaves turn?",
+        "When do maple leaves change colour?",
+        "What do maple trees give us?"
+      ],
+      "discussion": [
+        "What is your favourite tree and why?",
+        "How can we take care of trees?",
+        "Why are trees important to people and animals?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009015",
+    "month": 9,
+    "day": 15,
+    "title": "Making Uji",
+    "summary": "We should be happy to help our family.",
+    "content": "Mary lives with her mother in a village in Kenya. Mama needs water for making her breakfast.\n\n“Mary, go to bring back a jug of water,” says her mother.\n\n“Yes, Mama!” says Mary. It’s a long way to the well, but she is happy to help her mom.\n\nShe runs to the well with her jug. Carefully, she carries the water back to Mama.\n\nMary watches Mama make a pot of uji, a wonderful porridge. Soon, she is having a big bowl of uji. It tastes really good!",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900150",
+        "story_id": "00000000-0000-4000-8000-000000009015",
+        "prompt": "Where does Mary live?",
+        "options": [
+          "In a village in Kenya",
+          "In a town in Canada",
+          "In a city in England",
+          "On a farm in Australia"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900151",
+        "story_id": "00000000-0000-4000-8000-000000009015",
+        "prompt": "Why does Mama need water?",
+        "options": [
+          "To wash her clothes",
+          "To water the plants",
+          "To make breakfast",
+          "To clean the house"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900152",
+        "story_id": "00000000-0000-4000-8000-000000009015",
+        "prompt": "Where does Mary get the water?",
+        "options": [
+          "From a river",
+          "From a well",
+          "From a shop",
+          "From a lake"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900153",
+        "story_id": "00000000-0000-4000-8000-000000009015",
+        "prompt": "What is uji?",
+        "options": [
+          "A kind of soup",
+          "A wonderful porridge",
+          "A sweet drink",
+          "A type of bread"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Mary ……… with her mother in a village in Kenya. Mama …….. water for making her breakfast.\n“Mary, go to …….. back a jug of water,” says her mother.\n“Yes, Mama!” says Mary. It’s a long way to the well, but she is ………… to help her mom. She ………. to the well with her jug. Carefully, she ………. the water back to Mama.\nMary ………… Mama make a pot of uji, a wonderful porridge. Soon, she is having a big bowl of uji. It …….. really good!",
+      "true_false": [
+        "Mary lives with her mother in Kenya.",
+        "Mary is unhappy about helping her mom.",
+        "Mary carries the water back carefully.",
+        "Mary does not like the taste of uji."
+      ],
+      "short_answer": [
+        "Who does Mary live with?",
+        "What does Mama need?",
+        "Where does Mary get the water?",
+        "What does Mama make?",
+        "Does the uji taste good?"
+      ],
+      "discussion": [
+        "How do you help your family at home?",
+        "How do you feel when you help someone?",
+        "Why is it important to help our parents?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009016",
+    "month": 9,
+    "day": 16,
+    "title": "Staying Cool",
+    "summary": "People and animals have different ways of staying cool.",
+    "content": "When we are too hot, we can use a fan to cool down. Most importantly, our body has a natural way of staying cool. When we feel hot, we sweat.\n\nHow can a dog cool down on a hot day? A dog can jump in the water. A dog can sit under a tree. What else does a dog do?\n\nA dog can pant, which is a short and quick breath, to let heat out through its tongue.\n\nWhy do they do this? Dogs cannot sweat!",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900160",
+        "story_id": "00000000-0000-4000-8000-000000009016",
+        "prompt": "What can people use to cool down?",
+        "options": [
+          "A lamp",
+          "A fan",
+          "A blanket",
+          "A heater"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900161",
+        "story_id": "00000000-0000-4000-8000-000000009016",
+        "prompt": "What does our body do when we feel hot?",
+        "options": [
+          "It sleeps.",
+          "It shakes.",
+          "It sweats.",
+          "It jumps."
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900162",
+        "story_id": "00000000-0000-4000-8000-000000009016",
+        "prompt": "Where can a dog sit to stay cool?",
+        "options": [
+          "Under a tree",
+          "On a roof",
+          "Near a fire",
+          "In the sun"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900163",
+        "story_id": "00000000-0000-4000-8000-000000009016",
+        "prompt": "How does a dog let heat out?",
+        "options": [
+          "Through its ears",
+          "Through its paws",
+          "Through its tail",
+          "Through its tongue"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "When we are …….. hot, we …….. use a fan to cool down. Most importantly, our body has a natural way of ………. cool. When we ……….. hot, we sweat.\nHow can a dog ………. down on a hot day? A dog can………in the water. A dog can sit ……… a tree. What else does a dog do?\nA dog can …….., which is a short and quick breath, to let …….. out through its tongue.\nWhy do they do this? Dogs cannot ………….!",
+      "true_false": [
+        "People sweat when they feel hot.",
+        "A dog can jump in the water to cool down.",
+        "Dogs let heat out through their tails.",
+        "Dogs can sweat like people."
+      ],
+      "short_answer": [
+        "What can we use to cool down?",
+        "What do people do when they feel hot?",
+        "Where can a dog sit?",
+        "What is a short, quick breath called?",
+        "Can dogs sweat?"
+      ],
+      "discussion": [
+        "How do you stay cool on a hot day?",
+        "How can you help an animal stay cool?",
+        "Why is it important to drink water in hot weather?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009017",
+    "month": 9,
+    "day": 17,
+    "title": "Goldfish",
+    "summary": "We should love and take good care of our pets.",
+    "content": "I have a pet fish. Her name is Gabby. She is a goldfish.\n\nGabby lives in a bowl. I feed Gabby every day. Once a week, I change the water in her bowl.\n\nGabby is very pretty. I like to watch Gabby swim. She is a great swimmer!\n\nGabby is very special to me. She is a gift from my aunt.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900170",
+        "story_id": "00000000-0000-4000-8000-000000009017",
+        "prompt": "What is the fish’s name?",
+        "options": [
+          "Gabby",
+          "Sally",
+          "Molly",
+          "Lucy"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900171",
+        "story_id": "00000000-0000-4000-8000-000000009017",
+        "prompt": "Where does Gabby live?",
+        "options": [
+          "In a lake",
+          "In a bowl",
+          "In a river",
+          "In the sea"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900172",
+        "story_id": "00000000-0000-4000-8000-000000009017",
+        "prompt": "How often does Gabby get food?",
+        "options": [
+          "Every day",
+          "Once a week",
+          "Once a month",
+          "Every Sunday"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900173",
+        "story_id": "00000000-0000-4000-8000-000000009017",
+        "prompt": "Who gave Gabby as a gift?",
+        "options": [
+          "The writer’s mother",
+          "The writer’s friend",
+          "The writer’s aunt",
+          "The writer’s sister"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "I have a pet ……….. Her name is Gabby. She is a …………..\nGabby ……… in a bowl. I feed Gabby every day. Once a week, I ………. the water in her bowl.\nGabby is very pretty. I like to watch Gabby ……….. She is a great swimmer!\nGabby is very ………. to me. She is a gift from my ………..",
+      "true_false": [
+        "Gabby is a goldfish.",
+        "Gabby lives in the sea.",
+        "The water in Gabby’s bowl is changed once a week.",
+        "Gabby was a gift from the writer’s uncle."
+      ],
+      "short_answer": [
+        "What kind of pet is Gabby?",
+        "Where does Gabby live?",
+        "How often is Gabby fed?",
+        "What does the writer like to watch?",
+        "Who gave Gabby as a gift?"
+      ],
+      "discussion": [
+        "Do you have a pet or want one?",
+        "How should we take care of a pet?",
+        "Why should people be kind to animals?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009018",
+    "month": 9,
+    "day": 18,
+    "title": "Food or Money–1",
+    "summary": "Everyone must work to provide the things people need.",
+    "content": "There once was a place where everyone wanted money, but no one liked to work.\n\nSlowly, farmers stopped growing things too.\n\nSoon, there was very little food. People had lots of money, but there was almost no food to buy. Everyone was going hungry.\n\nThey asked each other, “Why has money become worthless? What should we do? We are hungry and we really need to eat.”",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900180",
+        "story_id": "00000000-0000-4000-8000-000000009018",
+        "prompt": "What did everyone want?",
+        "options": [
+          "Money",
+          "Food",
+          "Houses",
+          "Clothes"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900181",
+        "story_id": "00000000-0000-4000-8000-000000009018",
+        "prompt": "What did no one like to do?",
+        "options": [
+          "Eat",
+          "Sleep",
+          "Work",
+          "Shop"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900182",
+        "story_id": "00000000-0000-4000-8000-000000009018",
+        "prompt": "What did the farmers stop doing?",
+        "options": [
+          "Selling clothes",
+          "Growing things",
+          "Building houses",
+          "Buying food"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900183",
+        "story_id": "00000000-0000-4000-8000-000000009018",
+        "prompt": "Why was everyone going hungry?",
+        "options": [
+          "There was very little food.",
+          "They had no money.",
+          "They did not like food.",
+          "The shops were too far away."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "There once was a place where everyone ………… money, but no one …….. to work.\nSlowly, farmers ………. growing things too.\nSoon, there was very little ……... People had lots of money, but there was almost no ……… to buy. Everyone was going ………..\nThey asked each other, “Why has money become worthless? What ……… we do? We are hungry and we really need to eat.”",
+      "true_false": [
+        "Everyone wanted money.",
+        "The farmers continued growing lots of food.",
+        "People had lots of money.",
+        "There was plenty of food to buy."
+      ],
+      "short_answer": [
+        "What did everyone want?",
+        "What did no one like doing?",
+        "Who stopped growing things?",
+        "What became worthless?",
+        "Was everyone hungry?"
+      ],
+      "discussion": [
+        "Why is work important in a community?",
+        "Which is more important when you are hungry: food or money?",
+        "How do farmers help other people?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009019",
+    "month": 9,
+    "day": 19,
+    "title": "Food or Money–2",
+    "summary": "We should value food, the Earth and farmers’ hard work.",
+    "content": "One man said, “I have gold, but I can’t eat gold.”\n\n“That’s right. We have gold and we have money, but we cannot eat these things! We need food. What shall we do?” said another.\n\nAn old man stood up and said, “Go back to the land. We must never forget where our food comes from. It comes from the Earth. And from all the hard work of farmers.”\n\nThe people saw how wrong it was to think that money is the most important thing.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900190",
+        "story_id": "00000000-0000-4000-8000-000000009019",
+        "prompt": "What did the first man have?",
+        "options": [
+          "Gold",
+          "Bread",
+          "Rice",
+          "Fruit"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900191",
+        "story_id": "00000000-0000-4000-8000-000000009019",
+        "prompt": "What did the people need?",
+        "options": [
+          "More clothes",
+          "More houses",
+          "Food",
+          "Gold"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900192",
+        "story_id": "00000000-0000-4000-8000-000000009019",
+        "prompt": "Who told the people to go back to the land?",
+        "options": [
+          "A farmer",
+          "An old man",
+          "A king",
+          "A child"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900193",
+        "story_id": "00000000-0000-4000-8000-000000009019",
+        "prompt": "Where does our food come from?",
+        "options": [
+          "The Earth and farmers’ hard work",
+          "Gold and money",
+          "Shops and banks",
+          "Houses and schools"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "One man said, “I have …….., but I can’t eat gold.”\n“That’s right. We have gold and we have ………., but we cannot ……. these things! We need ………. What shall we do?” said another.\nAn old man ………. up and said, “Go back to the land. We must never forget ………. our food comes from. It comes from the Earth. And from all the hard work of ………….”\nThe people …….. how wrong it was to think that money is the most ………… thing.",
+      "true_false": [
+        "The first man had gold.",
+        "The people could eat their money.",
+        "An old man told them to go back to the land.",
+        "The people still believed that money was the most important thing."
+      ],
+      "short_answer": [
+        "What did the first man have?",
+        "Could he eat his gold?",
+        "What did the people need?",
+        "Who stood up and spoke?",
+        "Where does food come from?"
+      ],
+      "discussion": [
+        "Why should we be thankful to farmers?",
+        "How can we avoid wasting food?",
+        "What things are more important than money?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009020",
+    "month": 9,
+    "day": 20,
+    "title": "Polar Bears",
+    "summary": "Animals are full of amazing surprises.",
+    "content": "Polar bears are big. They live in the cold north. They have a nice coat of fur to keep them warm.\n\nWhat colour are polar bears? Well, that’s easy. Polar bears are white.\n\nThat is true, but there is something really interesting about polar bears. Yes, their fur is white. But under all that nice warm fur, polar bears are black.\n\nThat’s right! Polar bears have black skin.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900200",
+        "story_id": "00000000-0000-4000-8000-000000009020",
+        "prompt": "Where do polar bears live?",
+        "options": [
+          "In the hot south",
+          "In the cold north",
+          "In warm forests",
+          "In dry deserts"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900201",
+        "story_id": "00000000-0000-4000-8000-000000009020",
+        "prompt": "What keeps polar bears warm?",
+        "options": [
+          "Their thick tails",
+          "Their large feet",
+          "Their coat of fur",
+          "Their small ears"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900202",
+        "story_id": "00000000-0000-4000-8000-000000009020",
+        "prompt": "What colour is a polar bear’s fur?",
+        "options": [
+          "Black",
+          "Brown",
+          "Grey",
+          "White"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900203",
+        "story_id": "00000000-0000-4000-8000-000000009020",
+        "prompt": "What colour is a polar bear’s skin?",
+        "options": [
+          "White",
+          "Black",
+          "Pink",
+          "Yellow"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Polar ………… are big. They live in the cold north. They have a nice ……… of fur to keep them ………… .\nWhat ………… are polar bears? Well, that’s easy. Polar bears are ……….. .\nThat is true, but there is something really ………… about polar bears. Yes, their fur is white. But under all that nice ……….. fur, polar bears are black.\nThat’s ……….! Polar bears have black skin.",
+      "true_false": [
+        "Polar bears live in the cold north.",
+        "Polar bears have white fur.",
+        "Polar bears have white skin.",
+        "Their fur does not keep them warm."
+      ],
+      "short_answer": [
+        "Where do polar bears live?",
+        "What keeps polar bears warm?",
+        "What colour is their fur?",
+        "What colour is their skin?",
+        "Are polar bears big?"
+      ],
+      "discussion": [
+        "How do polar bears stay warm?",
+        "Why should we protect polar bears?",
+        "What other interesting facts do you know about animals?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009021",
+    "month": 9,
+    "day": 21,
+    "title": "Renting a Donkey–1",
+    "summary": "We should solve problems by being fair and sharing.",
+    "content": "A farmer needs a donkey for one day. He finds a man who can rent a donkey to him.\n\nThe farmer pays one dollar to use the donkey for the day. It is a very hot day. The two men want to stand in the shade cast by the donkey’s body.\n\nThere is a problem. The shadow is only big enough to protect one of them from the hot sun.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900210",
+        "story_id": "00000000-0000-4000-8000-000000009021",
+        "prompt": "What does the farmer need?",
+        "options": [
+          "A horse",
+          "A donkey",
+          "A camel",
+          "A cow"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900211",
+        "story_id": "00000000-0000-4000-8000-000000009021",
+        "prompt": "How long does the farmer need the donkey?",
+        "options": [
+          "For one hour",
+          "For one week",
+          "For one day",
+          "For one month"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900212",
+        "story_id": "00000000-0000-4000-8000-000000009021",
+        "prompt": "How much does the farmer pay?",
+        "options": [
+          "One dollar",
+          "Two dollars",
+          "Five dollars",
+          "Ten dollars"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900213",
+        "story_id": "00000000-0000-4000-8000-000000009021",
+        "prompt": "Why do the men want to stand in the shade?",
+        "options": [
+          "It is raining.",
+          "It is very windy.",
+          "It is a very hot day.",
+          "They are waiting for the donkey."
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "— based on a Middle Eastern folk tale\nA farmer ……… a donkey for one day. He ………. a man who can rent a ………. to him.\nThe farmer ……….. one dollar to use the donkey for the day. It is a very hot day. The two men ………. to stand in the shade cast by the donkey’s body.\nThere is a problem. The …….. is only big enough to ………one of them from the hot sun.",
+      "true_false": [
+        "The farmer needs a donkey for one day.",
+        "The farmer pays ten dollars for the donkey.",
+        "Both men want to stand in the donkey’s shade.",
+        "The shadow is big enough for both men."
+      ],
+      "short_answer": [
+        "Who needs a donkey?",
+        "How long does he need it?",
+        "How much does he pay?",
+        "What is the weather like?",
+        "How many people can the shadow protect?"
+      ],
+      "discussion": [
+        "How should the two men solve their problem?",
+        "Why is sharing important?",
+        "What can you do when two people want the same thing?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009023",
+    "month": 9,
+    "day": 23,
+    "title": "Names",
+    "summary": "Names can tell us interesting things about animals.",
+    "content": "A name can tell us a lot about something. An animal named the anteater loves to eat ants.\n\nA little insect named the honeybee is a bee and it loves to eat honey.\n\nThere is a bird named the red-wing blackbird. Can you guess what this bird looks like? Yes, it is a black bird with red wings.\n\nAlso, a walking stick is not a stick. It is an insect, but it really looks like a stick.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900230",
+        "story_id": "00000000-0000-4000-8000-000000009023",
+        "prompt": "What does an anteater love to eat?",
+        "options": [
+          "Bees",
+          "Ants",
+          "Honey",
+          "Leaves"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900231",
+        "story_id": "00000000-0000-4000-8000-000000009023",
+        "prompt": "What does a honeybee love to eat?",
+        "options": [
+          "Honey",
+          "Grass",
+          "Fruit",
+          "Fish"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900232",
+        "story_id": "00000000-0000-4000-8000-000000009023",
+        "prompt": "What does the red-wing blackbird look like?",
+        "options": [
+          "A red bird with black wings",
+          "A black bird with white wings",
+          "A black bird with red wings",
+          "A white bird with red wings"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900233",
+        "story_id": "00000000-0000-4000-8000-000000009023",
+        "prompt": "What is a walking stick?",
+        "options": [
+          "A plant",
+          "An insect",
+          "A bird",
+          "A real stick"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "A name …….. tell us a lot about something. An animal ………… the anteater loves to eat ants.\nA little insect named the ……………. is a bee and it ………… to eat honey.\nThere is a bird named the red-wing blackbird. Can you ……….what this bird looks like? Yes, it is a ………. bird with red wings.\nAlso, a walking stick is not a ……….. It is an insect, but it really ……….. like a stick.",
+      "true_false": [
+        "An anteater loves to eat ants.",
+        "A honeybee is a bird.",
+        "The red-wing blackbird has red wings.",
+        "A walking stick is a real stick."
+      ],
+      "short_answer": [
+        "What does an anteater eat?",
+        "What kind of animal is a honeybee?",
+        "What colour is the blackbird?",
+        "What colour are its wings?",
+        "What does a walking stick look like?"
+      ],
+      "discussion": [
+        "Which animal in the story is most interesting to you?",
+        "Why is it helpful to learn about animals?",
+        "What other animal has an interesting name?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009024",
+    "month": 9,
+    "day": 24,
+    "title": "A Sleepover",
+    "summary": "Sharing new experiences with friends can be lots of fun.",
+    "content": "Tonight, Eric is going to his best friend Jack’s house for a sleepover. It will be his first time sleeping away from home. He is excited.\n\nEric has packed a sleeping bag, his favourite pillow, a pair of pajamas and a toothbrush to take with him.\n\nThe two friends will play games, eat snacks, and watch movies all night. They will stay up late and have lots of fun!\n\nAnd maybe, if they have time, they will sleep.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900240",
+        "story_id": "00000000-0000-4000-8000-000000009024",
+        "prompt": "Where is Eric going tonight?",
+        "options": [
+          "To his cousin’s house",
+          "To Jack’s house",
+          "To a hotel",
+          "To school"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900241",
+        "story_id": "00000000-0000-4000-8000-000000009024",
+        "prompt": "How does Eric feel about the sleepover?",
+        "options": [
+          "Excited",
+          "Angry",
+          "Tired",
+          "Worried"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900242",
+        "story_id": "00000000-0000-4000-8000-000000009024",
+        "prompt": "What has Eric packed?",
+        "options": [
+          "A tent",
+          "A football",
+          "A sleeping bag",
+          "A television"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900243",
+        "story_id": "00000000-0000-4000-8000-000000009024",
+        "prompt": "What will the two friends do?",
+        "options": [
+          "Do their homework",
+          "Play games and watch movies",
+          "Go shopping",
+          "Visit a museum"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Tonight, Eric is ………..to his best friend Jack’s house for a sleepover. It will be his first time ……….. away from home. He is ……….\nEric has ………. a sleeping bag, his favourite pillow, a pair of pajamas and a ………….. to take with him.\nThe two friends will play ………., eat ………., and ……….. movies all night. They will stay up late and have lots of fun!\nAnd maybe, if they have time, they will sleep.",
+      "true_false": [
+        "This is Eric’s first time sleeping away from home.",
+        "Eric has packed his favourite pillow.",
+        "Eric is going to his brother’s house.",
+        "The boys plan to go to bed early."
+      ],
+      "short_answer": [
+        "Who is Eric’s best friend?",
+        "Where is Eric going?",
+        "How does Eric feel?",
+        "What will the friends eat?",
+        "Will they stay up late?"
+      ],
+      "discussion": [
+        "How would you feel at your first sleepover?",
+        "What should you take to a sleepover?",
+        "How can you be a good guest at a friend’s house?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009025",
+    "month": 9,
+    "day": 25,
+    "title": "Birds of a Feather–1",
+    "summary": "We should be kind and never frighten others.",
+    "content": "A pretty little bird loves to sit in her tree and sing beautiful songs. Her friends gather and listen to her every day.\n\nOne day, a cat comes to the tree. He does not like the little bird’s singing.\n\n“Stop! Stop! Stop!” shouts the cat. “This is my tree now, and I will not allow singing here!”\n\nHe runs across a branch and frightens the little blue bird. She flies away. Her bird friends are sad and they fly away too.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900250",
+        "story_id": "00000000-0000-4000-8000-000000009025",
+        "prompt": "What does the little bird love to do?",
+        "options": [
+          "Build nests",
+          "Sing beautiful songs",
+          "Look for food",
+          "Fly over the sea"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900251",
+        "story_id": "00000000-0000-4000-8000-000000009025",
+        "prompt": "Who listens to the bird every day?",
+        "options": [
+          "Her family",
+          "Her friends",
+          "The cat",
+          "The children"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900252",
+        "story_id": "00000000-0000-4000-8000-000000009025",
+        "prompt": "Who comes to the tree?",
+        "options": [
+          "A dog",
+          "A fox",
+          "A cat",
+          "A rabbit"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900253",
+        "story_id": "00000000-0000-4000-8000-000000009025",
+        "prompt": "Why does the little bird fly away?",
+        "options": [
+          "She is hungry.",
+          "She wants to find her friends.",
+          "The cat frightens her.",
+          "It starts to rain."
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "A pretty little bird ……… to sit in her tree and sing beautiful songs. Her ………. gather and listen to her every day.\nOne day, a cat ………… to the tree. He does not like the little bird’s singing.\n“Stop! Stop! Stop!” ………the cat. “This is my tree now, and I will not ……….. singing here!”\nHe ……… across a branch and ………… the little blue bird. She flies away. Her bird friends are …….. and they fly away too.",
+      "true_false": [
+        "The little bird sings beautiful songs.",
+        "The cat enjoys listening to the bird.",
+        "The cat frightens the little blue bird.",
+        "The bird’s friends stay happily in the tree."
+      ],
+      "short_answer": [
+        "Where does the little bird sit?",
+        "What does she sing?",
+        "Who comes to the tree?",
+        "Does the cat like her singing?",
+        "Why does she fly away?"
+      ],
+      "discussion": [
+        "How do you think the little bird feels?",
+        "What should the cat do instead of frightening her?",
+        "How can friends help each other when someone is unkind?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009026",
+    "month": 9,
+    "day": 26,
+    "title": "Birds of a Feather–2",
+    "summary": "Friends are stronger when they stay together.",
+    "content": "The little bird and her friends gather in a new tree.\n\n“What can we do? We are birds. We cannot fight the cat. He is big and he is strong.”\n\nAn old bird speaks up. “Yes, the cat is big and strong. But there is only one of him. We are many. We are birds. We do not like to fight, but it is our tree. Birds of a feather stay together. If we do this, we are strong.”\n\nThe birds know what to do, now.",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900260",
+        "story_id": "00000000-0000-4000-8000-000000009026",
+        "prompt": "Where do the little bird and her friends gather?",
+        "options": [
+          "In their old tree",
+          "In a new tree",
+          "On the ground",
+          "Near a river"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900261",
+        "story_id": "00000000-0000-4000-8000-000000009026",
+        "prompt": "Why do the birds think they cannot fight the cat?",
+        "options": [
+          "The cat is fast.",
+          "The cat is clever.",
+          "The cat is big and strong.",
+          "The cat is their friend."
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900262",
+        "story_id": "00000000-0000-4000-8000-000000009026",
+        "prompt": "Who speaks up?",
+        "options": [
+          "The little bird",
+          "An old bird",
+          "The cat",
+          "A young bird"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900263",
+        "story_id": "00000000-0000-4000-8000-000000009026",
+        "prompt": "What makes the birds strong?",
+        "options": [
+          "Flying away",
+          "Singing loudly",
+          "Staying together",
+          "Finding food"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "The little ……..and her friends gather in a new ……… .\n“What can we do? We are birds. We cannot …….. the cat. He is big and he is strong.”\nAn old bird ……….. up. “Yes, the cat is big and strong. But there is only one of him. We …….many. We are birds. We do not like to fight, but it is our tree. Birds of a ……….. stay together. If we do this, we are ………..”\nThe birds know what to do, now.",
+      "true_false": [
+        "The birds gather in a new tree.",
+        "The cat is small and weak.",
+        "An old bird tells the others to stay together.",
+        "The birds like to fight."
+      ],
+      "short_answer": [
+        "Who gathers in a new tree?",
+        "Who is big and strong?",
+        "How many cats are there?",
+        "Who speaks up?",
+        "What makes the birds strong?"
+      ],
+      "discussion": [
+        "Why is it important for friends to stay together?",
+        "How can a group solve a problem peacefully?",
+        "What can you do when a friend needs help?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009027",
+    "month": 9,
+    "day": 27,
+    "title": "Birds of a Feather–3",
+    "summary": "Friends are stronger when they work together.",
+    "content": "They all fly to the tree. One by one, they begin to sing.\n\nThe cat is angry. He chases away each bird as it begins to sing. But another bird comes. The cat runs after that bird too.\n\nThe cat chases many birds away, one after another. After many hours, the cat grows tired. He cannot win against so many birds.\n\nThe old bird smiles and says again, “Birds of a feather stay together. That is what makes us strong.”",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900270",
+        "story_id": "00000000-0000-4000-8000-000000009027",
+        "prompt": "Where do all the birds fly?",
+        "options": [
+          "To the river",
+          "To the tree",
+          "To a house",
+          "To the ground"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900271",
+        "story_id": "00000000-0000-4000-8000-000000009027",
+        "prompt": "What do the birds begin to do?",
+        "options": [
+          "Dance",
+          "Eat",
+          "Sing",
+          "Sleep"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900272",
+        "story_id": "00000000-0000-4000-8000-000000009027",
+        "prompt": "How does the cat feel?",
+        "options": [
+          "Angry",
+          "Happy",
+          "Afraid",
+          "Excited"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900273",
+        "story_id": "00000000-0000-4000-8000-000000009027",
+        "prompt": "Why does the cat stop winning?",
+        "options": [
+          "The birds fly far away.",
+          "The cat falls asleep.",
+          "The old bird frightens him.",
+          "The cat grows tired."
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "They all ……….to the tree. One by one, they begin to sing.\nThe cat is angry. He ……….. away each bird as it begins to sing. But another bird comes. The cat ……… after that bird too.\nThe cat chases many ………. away, one after another. After many hours, the cat ……….. tired. He cannot win against so many birds.\nThe old bird ………. and says again, “Birds of a feather stay together. That is what makes us …………..”",
+      "true_false": [
+        "The birds begin to sing one by one.",
+        "The cat is happy to hear the birds.",
+        "The cat grows tired after many hours.",
+        "The old bird says the birds are stronger alone."
+      ],
+      "short_answer": [
+        "Where do the birds fly?",
+        "What do they begin to do?",
+        "Who chases the birds?",
+        "How does the cat feel?",
+        "Why does the cat stop?"
+      ],
+      "discussion": [
+        "How did the birds solve their problem together?",
+        "Why is teamwork important?",
+        "How can you help your friends work as a team?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009028",
+    "month": 9,
+    "day": 28,
+    "title": "Visit to Uncle Bear",
+    "summary": "A good idea can make a difficult journey easier.",
+    "content": "Two bears are going to visit their uncle. He lives far away, on the other side of the mountain.\n\nThe two bears go up the mountain. They are very tired, but they get to the top. They can see their uncle’s house. It is at the bottom of the mountain.\n\n“Now we go down the mountain,” says one bear. “Yes. It is a long walk.”\n\n“I have an idea! Let’s slide down!” says the other. Hooray!",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900280",
+        "story_id": "00000000-0000-4000-8000-000000009028",
+        "prompt": "Who are the two bears going to visit?",
+        "options": [
+          "Their aunt",
+          "Their uncle",
+          "Their friend",
+          "Their grandma"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900281",
+        "story_id": "00000000-0000-4000-8000-000000009028",
+        "prompt": "Where does their uncle live?",
+        "options": [
+          "Near the river",
+          "At the top of the mountain",
+          "On the other side of the mountain",
+          "In the forest"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900282",
+        "story_id": "00000000-0000-4000-8000-000000009028",
+        "prompt": "How do the bears feel when they reach the top?",
+        "options": [
+          "Tired",
+          "Angry",
+          "Hungry",
+          "Afraid"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900283",
+        "story_id": "00000000-0000-4000-8000-000000009028",
+        "prompt": "How do they plan to go down the mountain?",
+        "options": [
+          "Run down",
+          "Fly down",
+          "Slide down",
+          "Drive down"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Two bears are going to ………. their uncle. He lives far away, on the other ……… of the …………...\nThe two bears go up the mountain. They are very ……….., but they get to the top. They can see their uncle’s house. It is at the …………. of the mountain.\n“Now we go down the mountain,” says one bear. “Yes. It is a long walk.”\n“I have an idea! Let’s ……… down!” says the other. Hooray!",
+      "true_false": [
+        "The two bears are going to visit their uncle.",
+        "Their uncle lives near their home.",
+        "The bears reach the top of the mountain.",
+        "The bears decide to climb another mountain."
+      ],
+      "short_answer": [
+        "Who are the bears visiting?",
+        "Where does their uncle live?",
+        "How do the bears feel?",
+        "Where is the uncle’s house?",
+        "How will the bears go down?"
+      ],
+      "discussion": [
+        "How do you feel when you visit your family?",
+        "What can you do when a journey is difficult?",
+        "Why is it helpful to share ideas with others?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009029",
+    "month": 9,
+    "day": 29,
+    "title": "The Old Guitar",
+    "summary": "Old things can hold special memories and bring us happiness.",
+    "content": "Grandpa’s old guitar broke so we bought him a new one. But he hardly played it.\n\nOne day, when he opened up the guitar case, he got a big surprise. It was his old guitar fixed up. He laughed.\n\nI asked, “Why are you so happy?”\n\nHe said, “I love to see my old guitar back. It is old. It doesn’t look or sound very good.”\n\nThen, he let out a big laugh. “It’s just like me!”",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900290",
+        "story_id": "00000000-0000-4000-8000-000000009029",
+        "prompt": "Why did the family buy Grandpa a new guitar?",
+        "options": [
+          "His old guitar broke.",
+          "He lost his old guitar.",
+          "He wanted two guitars.",
+          "His old guitar was too small."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900291",
+        "story_id": "00000000-0000-4000-8000-000000009029",
+        "prompt": "How often did Grandpa play the new guitar?",
+        "options": [
+          "Every day",
+          "Every week",
+          "Hardly ever",
+          "All the time"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900292",
+        "story_id": "00000000-0000-4000-8000-000000009029",
+        "prompt": "What was inside the guitar case?",
+        "options": [
+          "A new guitar",
+          "His fixed old guitar",
+          "Some music books",
+          "A birthday present"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900293",
+        "story_id": "00000000-0000-4000-8000-000000009029",
+        "prompt": "Why did Grandpa laugh?",
+        "options": [
+          "The guitar was very loud.",
+          "The guitar looked funny.",
+          "The old guitar was just like him.",
+          "He could not open the case."
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Grandpa’s old guitar ………. so we bought him a new one. But he hardly …………. it.\nOne day, when he ………… up the guitar case, he got a …….. surprise. It was his old guitar ……… up. He laughed.\nI asked, “Why are you so happy?”\nHe said, “I ………. to see my old guitar back. It is old. It doesn’t ……… or sound very good.”\nThen, he let out a big ……... “It’s just like me!”",
+      "true_false": [
+        "Grandpa’s old guitar was broken.",
+        "Grandpa often played the new guitar.",
+        "Grandpa was happy to see his old guitar again.",
+        "The old guitar looked and sounded perfect."
+      ],
+      "short_answer": [
+        "Whose guitar broke?",
+        "What did the family buy?",
+        "What was in the case?",
+        "How did Grandpa feel?",
+        "Was the old guitar fixed?"
+      ],
+      "discussion": [
+        "Do you have an old thing that is special to you?",
+        "Why can old things make people happy?",
+        "How can we care for special family belongings?"
+      ]
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000009030",
+    "month": 9,
+    "day": 30,
+    "title": "Practice Makes Perfect",
+    "summary": "We can improve when we practise and work hard.",
+    "content": "Ben is six years old. He is learning how to play chess.\n\nAfter a few weeks of learning, his grandpa comes for a visit. Ben is excited.\n\n“Come, Grandpa. Let’s play a game of chess,” he says. In only a few minutes, Grandpa beats him. Ben begins to cry.\n\nHis grandpa says, “Don’t be upset. You can only get good at something if you work really hard at it. Practice makes perfect.”",
+    "youtube_url": "",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000900300",
+        "story_id": "00000000-0000-4000-8000-000000009030",
+        "prompt": "How old is Ben?",
+        "options": [
+          "Five years old",
+          "Six years old",
+          "Seven years old",
+          "Eight years old"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900301",
+        "story_id": "00000000-0000-4000-8000-000000009030",
+        "prompt": "What is Ben learning to play?",
+        "options": [
+          "Football",
+          "Tennis",
+          "Chess",
+          "Basketball"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900302",
+        "story_id": "00000000-0000-4000-8000-000000009030",
+        "prompt": "Who comes to visit Ben?",
+        "options": [
+          "His uncle",
+          "His cousin",
+          "His friend",
+          "His grandpa"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000900303",
+        "story_id": "00000000-0000-4000-8000-000000009030",
+        "prompt": "Why does Ben begin to cry?",
+        "options": [
+          "Grandpa beats him at chess.",
+          "He loses a chess piece.",
+          "Grandpa goes home.",
+          "He does not want to play."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "Ben is six ………. old. He is learning how to play chess.\nAfter a few weeks of ………, his grandpa comes for a visit. Ben is ……...\n“Come, Grandpa. Let’s ………. a game of chess,” he says. In only a few minutes, Grandpa beats him. Ben begins to ………. .\nHis grandpa says, “Don’t be ………. You can only get…………at something if you…………really hard at it. Practice makes perfect.”",
+      "true_false": [
+        "Ben is learning how to play chess.",
+        "Ben’s grandpa comes for a visit.",
+        "Ben wins the chess game.",
+        "Grandpa tells Ben to stop practising."
+      ],
+      "short_answer": [
+        "How old is Ben?",
+        "What is Ben learning?",
+        "Who visits Ben?",
+        "Who wins the game?",
+        "Does Ben begin to cry?"
+      ],
+      "discussion": [
+        "How do you feel when you lose a game?",
+        "What skill would you like to practise?",
+        "Why is it important to keep trying?"
+      ]
+    }
+  }
+]
