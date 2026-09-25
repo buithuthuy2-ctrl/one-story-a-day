@@ -7,6 +7,10 @@ export type StoryActivities = {
   true_false: string[];
   short_answer: string[];
   discussion: string[];
+  true_false_answers?: boolean[];
+  short_answer_keys?: string[];
+  vocabulary?: { term: string; meaning: string }[];
+  language_notice?: string;
 };
 
 export type Question = {

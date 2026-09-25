@@ -1,5 +1,6 @@
 import type { Question, Story } from "./types";
 import septemberStories from "@/data/september.json";
+import octoberStories from "@/data/october.json";
 
 export const MONTHS = [
   "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6",
@@ -50,6 +51,7 @@ export const DEMO_STORIES: Story[] = [
     questions: [q("demo-feb-01", 1, "Điều gì giúp hạt mầm lớn lên?", ["Sự kiên trì", "Một chiếc chai", "Cơn gió mạnh", "Một con thuyền"], 0, "Hạt mầm vươn lên mỗi ngày và không bỏ cuộc.")],
   },
   ...(septemberStories as Story[]),
+  ...(octoberStories as Story[]),
 ];
 
 export function youtubeId(url: string): string | null {

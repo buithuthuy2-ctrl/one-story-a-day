@@ -1,0 +1,3722 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000010001",
+    "month": 10,
+    "day": 1,
+    "title": "New Shoes",
+    "summary": "Making a practical choice can lead to a happy reward.",
+    "content": "Mom looked down at Ben’s feet. “Your shoes have holes. It’s time to buy new shoes,” she said.\n\nShe took Ben to the shoe store. Ben tried on many different shoes. He tried on brown ones and green ones, blue ones and black ones. In the end, they bought the green ones.\n\n“You did a good job buying shoes,” said Mom. “For a treat, let’s stop at the beach.”\n\n“Yay!” said Ben. “I will go barefoot!”",
+    "youtube_url": "https://www.youtube.com/watch?v=nojcC9KrRHM",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100011",
+        "story_id": "00000000-0000-4000-8000-000000010001",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Making a practical choice can lead to a happy reward.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100012",
+        "story_id": "00000000-0000-4000-8000-000000010001",
+        "prompt": "Why did Ben need new shoes?",
+        "options": [
+          "His shoes had holes.",
+          "They were too green.",
+          "He lost them at the beach.",
+          "They were wet."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100013",
+        "story_id": "00000000-0000-4000-8000-000000010001",
+        "prompt": "Which shoes did Ben and Mom buy?",
+        "options": [
+          "The green ones.",
+          "The brown ones.",
+          "The blue ones.",
+          "The black ones."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100014",
+        "story_id": "00000000-0000-4000-8000-000000010001",
+        "prompt": "Where did Mom suggest going afterward?",
+        "options": [
+          "The beach.",
+          "The park.",
+          "School.",
+          "The library."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Ben’s old shoes had holes.",
+        "Ben tried on only one pair of shoes.",
+        "They bought the green shoes.",
+        "Ben wanted to wear shoes on the beach."
+      ],
+      "short_answer": [
+        "Why did Ben need new shoes?",
+        "Which shoes did Ben and Mom buy?",
+        "Where did Mom suggest going afterward?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "His shoes had holes.",
+        "The green ones.",
+        "The beach."
+      ],
+      "vocabulary": [
+        {
+          "term": "holes",
+          "meaning": "openings or broken places"
+        },
+        {
+          "term": "shoe store",
+          "meaning": "a shop that sells shoes"
+        },
+        {
+          "term": "tried on",
+          "meaning": "put on to check the fit"
+        },
+        {
+          "term": "treat",
+          "meaning": "something special and enjoyable"
+        },
+        {
+          "term": "barefoot",
+          "meaning": "without shoes or socks"
+        }
+      ],
+      "language_notice": "“It’s time to + verb” is used to say that an action should happen now."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010002",
+    "month": 10,
+    "day": 2,
+    "title": "One Little Seed, One Big Tree",
+    "summary": "Small beginnings can grow into something big.",
+    "content": "Kate really likes apples. She asks her teacher, “Where do apples come from?”\n\n“Apples grow on apple trees,” says her teacher.\n\n“Where do apple trees come from?” Kate asks again.\n\n“Apple trees come from apple seeds. Inside an apple, there are many little seeds. Each seed can grow into an apple tree,” her teacher says.\n\nWow! From this little seed, a big apple tree will grow!",
+    "youtube_url": "https://www.youtube.com/watch?v=KqbftM5HKJM",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100021",
+        "story_id": "00000000-0000-4000-8000-000000010002",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Small beginnings can grow into something big.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100022",
+        "story_id": "00000000-0000-4000-8000-000000010002",
+        "prompt": "What fruit does Kate like?",
+        "options": [
+          "Apples.",
+          "Oranges.",
+          "Bananas.",
+          "Grapes."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100023",
+        "story_id": "00000000-0000-4000-8000-000000010002",
+        "prompt": "Where do apples grow?",
+        "options": [
+          "On apple trees.",
+          "Under the ground.",
+          "On vines.",
+          "In ponds."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100024",
+        "story_id": "00000000-0000-4000-8000-000000010002",
+        "prompt": "What can each apple seed become?",
+        "options": [
+          "An apple tree.",
+          "A flower only.",
+          "A grapevine.",
+          "A vegetable."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Kate asks her teacher about apples.",
+        "Apple trees come from orange seeds.",
+        "There are seeds inside an apple.",
+        "A seed can never grow into a tree."
+      ],
+      "short_answer": [
+        "What fruit does Kate like?",
+        "Where do apples grow?",
+        "What can each apple seed become?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Apples.",
+        "On apple trees.",
+        "An apple tree."
+      ],
+      "vocabulary": [
+        {
+          "term": "seed",
+          "meaning": "the small part of a plant that can grow"
+        },
+        {
+          "term": "apple tree",
+          "meaning": "a tree that produces apples"
+        },
+        {
+          "term": "inside",
+          "meaning": "in the inner part"
+        },
+        {
+          "term": "grow",
+          "meaning": "to become bigger or develop"
+        },
+        {
+          "term": "teacher",
+          "meaning": "a person who helps students learn"
+        }
+      ],
+      "language_notice": "Questions with “Where do … come from?” ask about origin."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010003",
+    "month": 10,
+    "day": 3,
+    "title": "Grandma’s Cake",
+    "summary": "Unexpected accidents can become funny family memories.",
+    "content": "On Saturday, I was helping Grandma bake a cake. While I was mixing, her cat jumped right into the bowl!\n\nEverything spilled all over us. When we finally cleaned it all up, we couldn’t find the cat! Where had she gone?\n\nThere she was! She was lying on the floor while Grandma’s dog licked her clean.\n\nThe dog got more cake than we did!",
+    "youtube_url": "https://www.youtube.com/watch?v=V2BdsssM25I",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100031",
+        "story_id": "00000000-0000-4000-8000-000000010003",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Unexpected accidents can become funny family memories.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100032",
+        "story_id": "00000000-0000-4000-8000-000000010003",
+        "prompt": "What jumped into the bowl?",
+        "options": [
+          "Grandma’s cat.",
+          "Grandma’s dog.",
+          "A bird.",
+          "A mouse."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100033",
+        "story_id": "00000000-0000-4000-8000-000000010003",
+        "prompt": "What happened to the mixture?",
+        "options": [
+          "It spilled all over them.",
+          "It froze.",
+          "It burned.",
+          "It disappeared."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100034",
+        "story_id": "00000000-0000-4000-8000-000000010003",
+        "prompt": "How did the cat get clean?",
+        "options": [
+          "The dog licked her.",
+          "Grandma washed her.",
+          "She jumped in water.",
+          "She used a towel."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The story happened on Saturday.",
+        "The dog jumped into the bowl.",
+        "They could not find the cat at first.",
+        "The family ate more cake than the dog."
+      ],
+      "short_answer": [
+        "What jumped into the bowl?",
+        "What happened to the mixture?",
+        "How did the cat get clean?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Grandma’s cat.",
+        "It spilled all over them.",
+        "The dog licked her."
+      ],
+      "vocabulary": [
+        {
+          "term": "bake",
+          "meaning": "to cook food in an oven"
+        },
+        {
+          "term": "mixing",
+          "meaning": "combining ingredients together"
+        },
+        {
+          "term": "spilled",
+          "meaning": "fell or flowed out accidentally"
+        },
+        {
+          "term": "cleaned up",
+          "meaning": "made a place clean again"
+        },
+        {
+          "term": "licked",
+          "meaning": "touched with the tongue"
+        }
+      ],
+      "language_notice": "“While + past continuous” describes an action in progress when another action happened."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010004",
+    "month": 10,
+    "day": 4,
+    "title": "Our Changing Teeth–1",
+    "summary": "Our first teeth grow in a predictable order and are temporary.",
+    "content": "Do you know that our teeth are changing as we grow?\n\nAround the age of eight months, our first teeth begin to grow.\n\nThe middle teeth in the front of our mouth come first. Then, the teeth at the sides. And finally, the ones at the very back of the mouth.\n\nThere are 20 teeth in total. These teeth are called baby teeth. But these teeth won’t be with us for long.",
+    "youtube_url": "https://www.youtube.com/watch?v=blzjV-xO9Qk",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100041",
+        "story_id": "00000000-0000-4000-8000-000000010004",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Our first teeth grow in a predictable order and are temporary.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100042",
+        "story_id": "00000000-0000-4000-8000-000000010004",
+        "prompt": "When do first teeth begin to grow?",
+        "options": [
+          "Around eight months.",
+          "At seven years.",
+          "At twelve years.",
+          "At birth for everyone."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100043",
+        "story_id": "00000000-0000-4000-8000-000000010004",
+        "prompt": "Which teeth usually come first?",
+        "options": [
+          "The middle front teeth.",
+          "The back teeth.",
+          "The side teeth.",
+          "Adult teeth."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100044",
+        "story_id": "00000000-0000-4000-8000-000000010004",
+        "prompt": "How many baby teeth are there in total?",
+        "options": [
+          "20.",
+          "32.",
+          "8.",
+          "12."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Teeth change as we grow.",
+        "Back teeth always come first.",
+        "Baby teeth total 20.",
+        "Baby teeth stay with us forever."
+      ],
+      "short_answer": [
+        "When do first teeth begin to grow?",
+        "Which teeth usually come first?",
+        "How many baby teeth are there in total?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Around eight months.",
+        "The middle front teeth.",
+        "20."
+      ],
+      "vocabulary": [
+        {
+          "term": "teeth",
+          "meaning": "hard parts in the mouth used for biting"
+        },
+        {
+          "term": "front",
+          "meaning": "the part facing forward"
+        },
+        {
+          "term": "sides",
+          "meaning": "the left and right parts"
+        },
+        {
+          "term": "finally",
+          "meaning": "at the end"
+        },
+        {
+          "term": "in total",
+          "meaning": "altogether"
+        }
+      ],
+      "language_notice": "Sequence words “first,” “then,” and “finally” show the order of events."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010005",
+    "month": 10,
+    "day": 5,
+    "title": "Our Changing Teeth–2",
+    "summary": "Adult teeth must be cared for because they are meant to last a lifetime.",
+    "content": "By the time we reach the age of seven, our baby teeth begin to fall out.\n\nFirst, the front middle teeth fall out. Then the teeth on the side, and finally the teeth at the back of our mouth.\n\nDon’t worry though. As our baby teeth fall out, new teeth grow to take their place. By our late teens, we will have all 32 of our adult teeth.\n\nBut unlike our baby teeth, the adult teeth will be with us for the rest of our lives. That’s why it’s important to take care of these teeth. They are the last ones we will ever get.",
+    "youtube_url": "https://www.youtube.com/watch?v=AiuqbP98Xrs",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100051",
+        "story_id": "00000000-0000-4000-8000-000000010005",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Adult teeth must be cared for because they are meant to last a lifetime.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100052",
+        "story_id": "00000000-0000-4000-8000-000000010005",
+        "prompt": "Around what age do baby teeth begin to fall out?",
+        "options": [
+          "Seven.",
+          "One.",
+          "Three.",
+          "Twenty."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100053",
+        "story_id": "00000000-0000-4000-8000-000000010005",
+        "prompt": "What replaces baby teeth?",
+        "options": [
+          "Adult teeth.",
+          "More baby teeth.",
+          "No teeth.",
+          "Toy teeth."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100054",
+        "story_id": "00000000-0000-4000-8000-000000010005",
+        "prompt": "How many adult teeth do we have by our late teens?",
+        "options": [
+          "32.",
+          "20.",
+          "12.",
+          "40."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Front middle baby teeth fall out first.",
+        "Adults normally have only 20 teeth.",
+        "New teeth take the place of baby teeth.",
+        "Adult teeth do not need care."
+      ],
+      "short_answer": [
+        "Around what age do baby teeth begin to fall out?",
+        "What replaces baby teeth?",
+        "How many adult teeth do we have by our late teens?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Seven.",
+        "Adult teeth.",
+        "32."
+      ],
+      "vocabulary": [
+        {
+          "term": "fall out",
+          "meaning": "come loose and leave their place"
+        },
+        {
+          "term": "replace",
+          "meaning": "take the place of something"
+        },
+        {
+          "term": "adult teeth",
+          "meaning": "the permanent teeth after baby teeth"
+        },
+        {
+          "term": "late teens",
+          "meaning": "the later teenage years"
+        },
+        {
+          "term": "take care of",
+          "meaning": "keep safe and healthy"
+        }
+      ],
+      "language_notice": "“By the time” connects a time point with something completed or happening by then."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010006",
+    "month": 10,
+    "day": 6,
+    "title": "Purple Mountains–1",
+    "summary": "Curiosity encourages us to look more closely and learn.",
+    "content": "Josh’s family lives near the mountains. In the fall, the mountains look beautiful.\n\n“Look, Dad! Those mountains are purple!” says Josh.\n\nHis dad laughs. “They’re not really purple.”\n\nJosh is puzzled. He scratches his head and asks, “Then why do they look purple?”\n\nHis dad says, “Because we’re far away. Come! I’ll show you.”",
+    "youtube_url": "https://www.youtube.com/watch?v=oDztpYFHb0o",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100061",
+        "story_id": "00000000-0000-4000-8000-000000010006",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Curiosity encourages us to look more closely and learn.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100062",
+        "story_id": "00000000-0000-4000-8000-000000010006",
+        "prompt": "Where does Josh’s family live?",
+        "options": [
+          "Near the mountains.",
+          "Beside the ocean.",
+          "In a desert.",
+          "In a city centre."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100063",
+        "story_id": "00000000-0000-4000-8000-000000010006",
+        "prompt": "What colour do the mountains look from far away?",
+        "options": [
+          "Purple.",
+          "Red.",
+          "Black.",
+          "Orange."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100064",
+        "story_id": "00000000-0000-4000-8000-000000010006",
+        "prompt": "Why is Josh puzzled?",
+        "options": [
+          "The mountains look purple but are not really purple.",
+          "He cannot find his dad.",
+          "It is snowing.",
+          "The car is broken."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The story takes place in the fall.",
+        "Josh thinks the mountains look green.",
+        "Dad says they are far away.",
+        "Dad refuses to show Josh the mountains."
+      ],
+      "short_answer": [
+        "Where does Josh’s family live?",
+        "What colour do the mountains look from far away?",
+        "Why is Josh puzzled?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Near the mountains.",
+        "Purple.",
+        "The mountains look purple but are not really purple."
+      ],
+      "vocabulary": [
+        {
+          "term": "mountains",
+          "meaning": "very high areas of land"
+        },
+        {
+          "term": "fall",
+          "meaning": "the season after summer"
+        },
+        {
+          "term": "purple",
+          "meaning": "a colour made from red and blue"
+        },
+        {
+          "term": "puzzled",
+          "meaning": "confused or unsure"
+        },
+        {
+          "term": "far away",
+          "meaning": "at a great distance"
+        }
+      ],
+      "language_notice": "“Why do they look …?” asks for the reason behind an appearance."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010007",
+    "month": 10,
+    "day": 7,
+    "title": "Purple Mountains–2",
+    "summary": "Distance and light can change how colours appear.",
+    "content": "“Get in the car,” says Josh’s dad. “Let’s go to the mountains.”\n\nThey drive to the mountains. As they get closer, they see that the mountains are not purple anymore.\n\n“Oh, I see,” says Josh. “But why?”\n\n“From far away, the light scatters, making the mountains look purple,” says his dad.\n\n“Cool,” says Josh. “Let’s drive home and make them purple again!”",
+    "youtube_url": "https://www.youtube.com/watch?v=WH6dGQIqIEo",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100071",
+        "story_id": "00000000-0000-4000-8000-000000010007",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Distance and light can change how colours appear.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100072",
+        "story_id": "00000000-0000-4000-8000-000000010007",
+        "prompt": "How do Josh and Dad travel?",
+        "options": [
+          "By car.",
+          "By boat.",
+          "By train.",
+          "On foot."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100073",
+        "story_id": "00000000-0000-4000-8000-000000010007",
+        "prompt": "What happens as they get closer?",
+        "options": [
+          "The mountains no longer look purple.",
+          "The mountains disappear.",
+          "It begins to rain.",
+          "The road turns purple."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100074",
+        "story_id": "00000000-0000-4000-8000-000000010007",
+        "prompt": "What makes distant mountains look purple?",
+        "options": [
+          "Scattered light.",
+          "Purple paint.",
+          "Flowers.",
+          "Smoke."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Josh and Dad go toward the mountains.",
+        "The mountains look more purple up close.",
+        "Dad explains that light scatters.",
+        "Josh wants to stay at the mountain forever."
+      ],
+      "short_answer": [
+        "How do Josh and Dad travel?",
+        "What happens as they get closer?",
+        "What makes distant mountains look purple?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "By car.",
+        "The mountains no longer look purple.",
+        "Scattered light."
+      ],
+      "vocabulary": [
+        {
+          "term": "closer",
+          "meaning": "nearer"
+        },
+        {
+          "term": "anymore",
+          "meaning": "now or from now on, usually in negatives"
+        },
+        {
+          "term": "light",
+          "meaning": "energy that lets us see"
+        },
+        {
+          "term": "scatters",
+          "meaning": "spreads in different directions"
+        },
+        {
+          "term": "appear",
+          "meaning": "seem or look"
+        }
+      ],
+      "language_notice": "“As they get closer” shows two changes happening at the same time."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010008",
+    "month": 10,
+    "day": 8,
+    "title": "Pumpkins for Sale",
+    "summary": "Honesty allows people in a community to trust one another.",
+    "content": "October 31st was coming soon. While my mom was driving home, she saw many pumpkins on the road side.\n\nNo one was there, just a sign. It said: Pumpkins for sale. Large $10. Small $5.\n\nMy mom stopped the car. She took two large pumpkins. As she put the money in the basket, she saw many twenty-dollar bills inside.\n\n“Isn’t it nice that people can still trust each other like this?” Mom said to me.",
+    "youtube_url": "https://www.youtube.com/watch?v=VWs7Ovginz8",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100081",
+        "story_id": "00000000-0000-4000-8000-000000010008",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Honesty allows people in a community to trust one another.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100082",
+        "story_id": "00000000-0000-4000-8000-000000010008",
+        "prompt": "What holiday date was coming soon?",
+        "options": [
+          "October 31st.",
+          "December 25th.",
+          "January 1st.",
+          "July 1st."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100083",
+        "story_id": "00000000-0000-4000-8000-000000010008",
+        "prompt": "How much did a large pumpkin cost?",
+        "options": [
+          "$10.",
+          "$5.",
+          "$20.",
+          "$2."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100084",
+        "story_id": "00000000-0000-4000-8000-000000010008",
+        "prompt": "How many large pumpkins did Mom take?",
+        "options": [
+          "Two.",
+          "One.",
+          "Three.",
+          "Five."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The pumpkins were sold at the road side.",
+        "A seller stood beside the pumpkins.",
+        "Mom put money in a basket.",
+        "The basket was empty."
+      ],
+      "short_answer": [
+        "What holiday date was coming soon?",
+        "How much did a large pumpkin cost?",
+        "How many large pumpkins did Mom take?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "October 31st.",
+        "$10.",
+        "Two."
+      ],
+      "vocabulary": [
+        {
+          "term": "road side",
+          "meaning": "the area beside a road"
+        },
+        {
+          "term": "for sale",
+          "meaning": "available to buy"
+        },
+        {
+          "term": "sign",
+          "meaning": "a board that gives information"
+        },
+        {
+          "term": "bill",
+          "meaning": "paper money"
+        },
+        {
+          "term": "trust",
+          "meaning": "belief that someone is honest"
+        }
+      ],
+      "language_notice": "“While” and “as” can introduce actions happening at the same time."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010009",
+    "month": 10,
+    "day": 9,
+    "title": "The Red Plant",
+    "summary": "Patient, consistent care can bring about change.",
+    "content": "Adam gave his mom a special plant. It had red leaves. But after a few months, the leaves became green.\n\n“How can we make the plant red again?” he asked.\n\n“It takes some time, but it’s easy,” said his mom.\n\nDuring the day, they put the plant in sunlight. At night, they covered it with a box. They did this for two months.\n\nSoon, the plant was red again.",
+    "youtube_url": "https://www.youtube.com/watch?v=7W9XpxiI1uY",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100091",
+        "story_id": "00000000-0000-4000-8000-000000010009",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Patient, consistent care can bring about change.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100092",
+        "story_id": "00000000-0000-4000-8000-000000010009",
+        "prompt": "What colour were the leaves at first?",
+        "options": [
+          "Red.",
+          "Blue.",
+          "White.",
+          "Yellow."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100093",
+        "story_id": "00000000-0000-4000-8000-000000010009",
+        "prompt": "Where did they put the plant during the day?",
+        "options": [
+          "In sunlight.",
+          "In a cupboard.",
+          "Under a bed.",
+          "In water."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100094",
+        "story_id": "00000000-0000-4000-8000-000000010009",
+        "prompt": "How long did they follow the routine?",
+        "options": [
+          "Two months.",
+          "Two days.",
+          "One week.",
+          "One year."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Adam gave the plant to his mom.",
+        "The leaves became blue.",
+        "They covered the plant at night.",
+        "The plant stayed green forever."
+      ],
+      "short_answer": [
+        "What colour were the leaves at first?",
+        "Where did they put the plant during the day?",
+        "How long did they follow the routine?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Red.",
+        "In sunlight.",
+        "Two months."
+      ],
+      "vocabulary": [
+        {
+          "term": "special",
+          "meaning": "different in a good or important way"
+        },
+        {
+          "term": "leaves",
+          "meaning": "flat green or coloured parts of a plant"
+        },
+        {
+          "term": "sunlight",
+          "meaning": "light from the sun"
+        },
+        {
+          "term": "covered",
+          "meaning": "put something over"
+        },
+        {
+          "term": "routine",
+          "meaning": "a repeated way of doing things"
+        }
+      ],
+      "language_notice": "Time expressions “during the day” and “at night” contrast two routines."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010010",
+    "month": 10,
+    "day": 10,
+    "title": "A Ballet Dancer",
+    "summary": "Practice helps us perform confidently even when we feel nervous.",
+    "content": "Cora is a ballet dancer. Every week, she takes lessons with Miss Martha, learning the positions, steps, and movements.\n\nHer grandma’s 100th birthday is coming. On that day, Cora will dance for her grandma, and other family and friends.\n\nShe is nervous, but she has been practising. She dances nicely. Her friends and family stand and cheer for her after she finishes!",
+    "youtube_url": "https://www.youtube.com/watch?v=3eDycz363NE",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100101",
+        "story_id": "00000000-0000-4000-8000-000000010010",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Practice helps us perform confidently even when we feel nervous.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100102",
+        "story_id": "00000000-0000-4000-8000-000000010010",
+        "prompt": "What kind of dancer is Cora?",
+        "options": [
+          "A ballet dancer.",
+          "A tap dancer.",
+          "A singer.",
+          "A gymnast."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100103",
+        "story_id": "00000000-0000-4000-8000-000000010010",
+        "prompt": "Whose birthday is being celebrated?",
+        "options": [
+          "Cora’s grandma’s.",
+          "Miss Martha’s.",
+          "Cora’s brother’s.",
+          "Her friend’s."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100104",
+        "story_id": "00000000-0000-4000-8000-000000010010",
+        "prompt": "How old is Grandma turning?",
+        "options": [
+          "100.",
+          "10.",
+          "50.",
+          "80."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Cora takes lessons every week.",
+        "Cora never practises.",
+        "Her family cheers after the dance.",
+        "Cora dances only for Miss Martha."
+      ],
+      "short_answer": [
+        "What kind of dancer is Cora?",
+        "Whose birthday is being celebrated?",
+        "How old is Grandma turning?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "A ballet dancer.",
+        "Cora’s grandma’s.",
+        "100."
+      ],
+      "vocabulary": [
+        {
+          "term": "ballet",
+          "meaning": "a formal style of dance"
+        },
+        {
+          "term": "positions",
+          "meaning": "set ways of holding the body"
+        },
+        {
+          "term": "movements",
+          "meaning": "changes in body position"
+        },
+        {
+          "term": "nervous",
+          "meaning": "worried or uneasy"
+        },
+        {
+          "term": "cheer",
+          "meaning": "shout to show support"
+        }
+      ],
+      "language_notice": "The present perfect continuous “has been practising” describes an action continuing up to now."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010011",
+    "month": 10,
+    "day": 11,
+    "title": "Orange-Fish",
+    "summary": "Names may come from history rather than a literal appearance.",
+    "content": "Melissa bought a fish. “You’re my favourite orange-fish,” she said.\n\n“He is a goldfish,” said her brother Jimmy.\n\n“But look, he’s orange coloured, not gold,” she said.\n\n“That doesn’t matter,” said Jimmy. “A long time ago, silver carp turned yellowish-orange, and people called them goldfish.”\n\n“Well, he is an orange-fish to me,” said Melissa.",
+    "youtube_url": "https://www.youtube.com/watch?v=Qmx9URqDRNw",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100111",
+        "story_id": "00000000-0000-4000-8000-000000010011",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Names may come from history rather than a literal appearance.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100112",
+        "story_id": "00000000-0000-4000-8000-000000010011",
+        "prompt": "What pet did Melissa buy?",
+        "options": [
+          "A fish.",
+          "A puppy.",
+          "A bird.",
+          "A turtle."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100113",
+        "story_id": "00000000-0000-4000-8000-000000010011",
+        "prompt": "What does Jimmy call the fish?",
+        "options": [
+          "A goldfish.",
+          "A silver carp.",
+          "An orange bird.",
+          "A red fish."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100114",
+        "story_id": "00000000-0000-4000-8000-000000010011",
+        "prompt": "What colour does Melissa say the fish is?",
+        "options": [
+          "Orange.",
+          "Gold.",
+          "Silver.",
+          "Blue."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Melissa calls the fish her orange-fish.",
+        "Jimmy says it is a cat.",
+        "Goldfish were named a long time ago.",
+        "Melissa changes her name for the fish."
+      ],
+      "short_answer": [
+        "What pet did Melissa buy?",
+        "What does Jimmy call the fish?",
+        "What colour does Melissa say the fish is?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "A fish.",
+        "A goldfish.",
+        "Orange."
+      ],
+      "vocabulary": [
+        {
+          "term": "favourite",
+          "meaning": "liked more than others"
+        },
+        {
+          "term": "goldfish",
+          "meaning": "a small pet fish, often orange"
+        },
+        {
+          "term": "coloured",
+          "meaning": "having a particular colour"
+        },
+        {
+          "term": "silver carp",
+          "meaning": "a kind of freshwater fish"
+        },
+        {
+          "term": "yellowish-orange",
+          "meaning": "a colour between yellow and orange"
+        }
+      ],
+      "language_notice": "“To me” signals a personal opinion or way of seeing something."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010012",
+    "month": 10,
+    "day": 12,
+    "title": "A Party for Parents",
+    "summary": "Thoughtful creativity can make a celebration special.",
+    "content": "“Today is a special day for Mom and Dad,” said Nick. “Let’s throw a party for them,” said Sara.\n\nThey put balloons in the family room. They wanted to make a cake, but their parents were in the kitchen. So they drew a picture of a cake.\n\nThey invited their brother, sister, and grandma to the party.\n\nWhen their parents entered the family room, they yelled, “Happy Anniversary!”\n\nWhat a surprise!",
+    "youtube_url": "https://www.youtube.com/watch?v=9qcMonJVEJ4",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100121",
+        "story_id": "00000000-0000-4000-8000-000000010012",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Thoughtful creativity can make a celebration special.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100122",
+        "story_id": "00000000-0000-4000-8000-000000010012",
+        "prompt": "Who suggests throwing a party?",
+        "options": [
+          "Sara.",
+          "Mom.",
+          "Dad.",
+          "Grandma."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100123",
+        "story_id": "00000000-0000-4000-8000-000000010012",
+        "prompt": "Why do the children draw a cake?",
+        "options": [
+          "Their parents are in the kitchen.",
+          "They do not like cake.",
+          "There is no paper.",
+          "Grandma asks them to."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100124",
+        "story_id": "00000000-0000-4000-8000-000000010012",
+        "prompt": "What are they celebrating?",
+        "options": [
+          "Their parents’ anniversary.",
+          "A birthday.",
+          "Halloween.",
+          "A school holiday."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Nick says it is a special day.",
+        "They put balloons in the bedroom.",
+        "Grandma is invited.",
+        "The parents plan the surprise."
+      ],
+      "short_answer": [
+        "Who suggests throwing a party?",
+        "Why do the children draw a cake?",
+        "What are they celebrating?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Sara.",
+        "Their parents are in the kitchen.",
+        "Their parents’ anniversary."
+      ],
+      "vocabulary": [
+        {
+          "term": "throw a party",
+          "meaning": "organize a celebration"
+        },
+        {
+          "term": "balloons",
+          "meaning": "rubber bags filled with air or gas"
+        },
+        {
+          "term": "family room",
+          "meaning": "a room where a family relaxes together"
+        },
+        {
+          "term": "invited",
+          "meaning": "asked someone to come"
+        },
+        {
+          "term": "anniversary",
+          "meaning": "the yearly date of a special event"
+        }
+      ],
+      "language_notice": "“Let’s + verb” is used to make a suggestion for a group."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010013",
+    "month": 10,
+    "day": 13,
+    "title": "National Park",
+    "summary": "National Parks protect nature while allowing people to enjoy it.",
+    "content": "Henry lives near a National Park. That is a special type of park.\n\nNational Parks are usually very large pieces of land. The land is chosen to protect its beauty, plants, and animals. But National Parks are for people to enjoy too.\n\nOne day, Henry hopes to work in a National Park. He wants to help protect the land for everyone.",
+    "youtube_url": "https://www.youtube.com/watch?v=zRPnUFd4QlY",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100131",
+        "story_id": "00000000-0000-4000-8000-000000010013",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "National Parks protect nature while allowing people to enjoy it.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100132",
+        "story_id": "00000000-0000-4000-8000-000000010013",
+        "prompt": "Where does Henry live?",
+        "options": [
+          "Near a National Park.",
+          "In a pet store.",
+          "On a farm.",
+          "Beside a shoe store."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100133",
+        "story_id": "00000000-0000-4000-8000-000000010013",
+        "prompt": "Why is National Park land chosen?",
+        "options": [
+          "To protect nature.",
+          "To build factories.",
+          "To sell houses.",
+          "To grow only food."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100134",
+        "story_id": "00000000-0000-4000-8000-000000010013",
+        "prompt": "What does Henry hope to do?",
+        "options": [
+          "Work in a National Park.",
+          "Become a chef.",
+          "Drive a train.",
+          "Open a shop."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "National Parks are usually large.",
+        "They protect only buildings.",
+        "People can enjoy National Parks.",
+        "Henry wants to damage the land."
+      ],
+      "short_answer": [
+        "Where does Henry live?",
+        "Why is National Park land chosen?",
+        "What does Henry hope to do?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Near a National Park.",
+        "To protect nature.",
+        "Work in a National Park."
+      ],
+      "vocabulary": [
+        {
+          "term": "National Park",
+          "meaning": "protected land for nature and people"
+        },
+        {
+          "term": "protect",
+          "meaning": "keep safe from harm"
+        },
+        {
+          "term": "beauty",
+          "meaning": "the quality of being pleasing"
+        },
+        {
+          "term": "plants",
+          "meaning": "living things that grow in soil"
+        },
+        {
+          "term": "land",
+          "meaning": "the solid part of Earth"
+        }
+      ],
+      "language_notice": "“Hope to + verb” expresses a desired future action."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010014",
+    "month": 10,
+    "day": 14,
+    "title": "Going Too Fast–1",
+    "summary": "Excitement can grow quickly when an activity speeds up.",
+    "content": "On a cold, snowy winter day, Charlie and his father wanted to have some fun.\n\nThey took their snowboard to the hill and set it down at the top.\n\n“Ready?” asked Charlie. “Here we go!” said his father.\n\nThe snowboard carrying them began to go down the hill. It was slow at the beginning, then it was going faster and faster.\n\n“Here we come!” Charlie was excited.",
+    "youtube_url": "https://www.youtube.com/watch?v=TS2rS1EW9rw",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100141",
+        "story_id": "00000000-0000-4000-8000-000000010014",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Excitement can grow quickly when an activity speeds up.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100142",
+        "story_id": "00000000-0000-4000-8000-000000010014",
+        "prompt": "What is the weather like?",
+        "options": [
+          "Cold and snowy.",
+          "Hot and dry.",
+          "Warm and rainy.",
+          "Windless and sunny."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100143",
+        "story_id": "00000000-0000-4000-8000-000000010014",
+        "prompt": "What do Charlie and his father ride?",
+        "options": [
+          "A snowboard.",
+          "A bicycle.",
+          "A boat.",
+          "A horse."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100144",
+        "story_id": "00000000-0000-4000-8000-000000010014",
+        "prompt": "How does the ride change?",
+        "options": [
+          "It becomes faster and faster.",
+          "It stops immediately.",
+          "It moves uphill.",
+          "It becomes slower and slower."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Charlie is with his father.",
+        "They start at the bottom of the hill.",
+        "The snowboard begins slowly.",
+        "Charlie feels bored."
+      ],
+      "short_answer": [
+        "What is the weather like?",
+        "What do Charlie and his father ride?",
+        "How does the ride change?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Cold and snowy.",
+        "A snowboard.",
+        "It becomes faster and faster."
+      ],
+      "vocabulary": [
+        {
+          "term": "snowy",
+          "meaning": "with snow falling or on the ground"
+        },
+        {
+          "term": "snowboard",
+          "meaning": "a board used to ride on snow"
+        },
+        {
+          "term": "hill",
+          "meaning": "raised land lower than a mountain"
+        },
+        {
+          "term": "at the beginning",
+          "meaning": "at the start"
+        },
+        {
+          "term": "excited",
+          "meaning": "very happy and eager"
+        }
+      ],
+      "language_notice": "Repeated comparatives such as “faster and faster” show continuing change."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010015",
+    "month": 10,
+    "day": 15,
+    "title": "Going Too Fast–2",
+    "summary": "Fun activities still require care and attention to safety.",
+    "content": "When Charlie’s father found the board was going too fast, he tried to slow it down, but it was too late.\n\nIn a few seconds, they flew off the board and hit the tree at the bottom of the hill.\n\n“Ouch!” his father cried. “I think I broke my ankle!”\n\nCharlie started to cry. His father said, “I’m okay. Let’s go to the hospital.”\n\nHe smiled and said, “We had fun today, didn’t we?”",
+    "youtube_url": "https://www.youtube.com/watch?v=r_M0mtyy0i4",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100151",
+        "story_id": "00000000-0000-4000-8000-000000010015",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Fun activities still require care and attention to safety.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100152",
+        "story_id": "00000000-0000-4000-8000-000000010015",
+        "prompt": "What does Father try to do?",
+        "options": [
+          "Slow the board down.",
+          "Make it faster.",
+          "Turn it purple.",
+          "Carry it home."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100153",
+        "story_id": "00000000-0000-4000-8000-000000010015",
+        "prompt": "What do they hit?",
+        "options": [
+          "A tree.",
+          "A house.",
+          "A car.",
+          "A fence."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100154",
+        "story_id": "00000000-0000-4000-8000-000000010015",
+        "prompt": "Where do they decide to go?",
+        "options": [
+          "The hospital.",
+          "The beach.",
+          "A restaurant.",
+          "School."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The board is going too fast.",
+        "They land safely without hitting anything.",
+        "Father thinks he broke his ankle.",
+        "Charlie laughs at the accident."
+      ],
+      "short_answer": [
+        "What does Father try to do?",
+        "What do they hit?",
+        "Where do they decide to go?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Slow the board down.",
+        "A tree.",
+        "The hospital."
+      ],
+      "vocabulary": [
+        {
+          "term": "slow down",
+          "meaning": "reduce speed"
+        },
+        {
+          "term": "flew off",
+          "meaning": "left suddenly through the air"
+        },
+        {
+          "term": "ankle",
+          "meaning": "the joint between the foot and leg"
+        },
+        {
+          "term": "hospital",
+          "meaning": "a place where sick or injured people receive care"
+        },
+        {
+          "term": "too late",
+          "meaning": "after the useful time has passed"
+        }
+      ],
+      "language_notice": "The tag question “didn’t we?” asks for agreement about a past statement."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010016",
+    "month": 10,
+    "day": 16,
+    "title": "Clean Room",
+    "summary": "Cleaning and persistence can help us find what seems lost.",
+    "content": "Abe couldn’t find his favourite toy car. “If you clean up your bedroom, you might find it,” his mom said.\n\nAbe put away his clothes, books, and toys. He found his toy truck and dirt bike. But he didn’t find his toy car.\n\nFeeling sad, he lay on his bed. Then, he felt something underneath. It was his toy car!",
+    "youtube_url": "https://www.youtube.com/watch?v=LSKC5fwvhwc",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100161",
+        "story_id": "00000000-0000-4000-8000-000000010016",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Cleaning and persistence can help us find what seems lost.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100162",
+        "story_id": "00000000-0000-4000-8000-000000010016",
+        "prompt": "What is Abe looking for?",
+        "options": [
+          "His favourite toy car.",
+          "His book.",
+          "His shoe.",
+          "His ball."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100163",
+        "story_id": "00000000-0000-4000-8000-000000010016",
+        "prompt": "What does Mom suggest?",
+        "options": [
+          "Cleaning the bedroom.",
+          "Buying another car.",
+          "Going outside.",
+          "Calling Grandma."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100164",
+        "story_id": "00000000-0000-4000-8000-000000010016",
+        "prompt": "Where is the toy car?",
+        "options": [
+          "Under the bed.",
+          "In the kitchen.",
+          "In a box outside.",
+          "At school."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Abe cleans up his bedroom.",
+        "He finds no other toys.",
+        "He feels something under the bed.",
+        "The toy car is at the store."
+      ],
+      "short_answer": [
+        "What is Abe looking for?",
+        "What does Mom suggest?",
+        "Where is the toy car?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "His favourite toy car.",
+        "Cleaning the bedroom.",
+        "Under the bed."
+      ],
+      "vocabulary": [
+        {
+          "term": "favourite",
+          "meaning": "liked best"
+        },
+        {
+          "term": "clean up",
+          "meaning": "make neat and tidy"
+        },
+        {
+          "term": "put away",
+          "meaning": "return to the proper place"
+        },
+        {
+          "term": "underneath",
+          "meaning": "below something"
+        },
+        {
+          "term": "dirt bike",
+          "meaning": "a motorcycle made for rough ground"
+        }
+      ],
+      "language_notice": "The first conditional pattern “If …, might …” describes a possible result."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010017",
+    "month": 10,
+    "day": 17,
+    "title": "The Happy Pumpkin",
+    "summary": "It is good to express your own creative ideas.",
+    "content": "For many years, my brothers and I visited a farm and picked pumpkins for Halloween.\n\nMy brothers wanted to carve scary pumpkins with sharp teeth and angry eyes, but not me. I wanted my pumpkin to be different and special.\n\nI carved a laughing pumpkin with a friendly smile and kind eyes. It was my happy pumpkin.",
+    "youtube_url": "https://www.youtube.com/watch?v=L7qX35v5yiE",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100171",
+        "story_id": "00000000-0000-4000-8000-000000010017",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "It is good to express your own creative ideas.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100172",
+        "story_id": "00000000-0000-4000-8000-000000010017",
+        "prompt": "Where does the family get pumpkins?",
+        "options": [
+          "At a farm.",
+          "At school.",
+          "At the beach.",
+          "At a restaurant."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100173",
+        "story_id": "00000000-0000-4000-8000-000000010017",
+        "prompt": "What kind of pumpkins do the brothers want?",
+        "options": [
+          "Scary pumpkins.",
+          "Happy pumpkins.",
+          "Tiny pumpkins.",
+          "Uncarved pumpkins."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100174",
+        "story_id": "00000000-0000-4000-8000-000000010017",
+        "prompt": "What expression does the narrator carve?",
+        "options": [
+          "A friendly, laughing smile.",
+          "Angry eyes only.",
+          "Sharp teeth only.",
+          "A sad face."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The family picks pumpkins for Halloween.",
+        "The narrator copies the brothers exactly.",
+        "The happy pumpkin has kind eyes.",
+        "The narrator wants an angry pumpkin."
+      ],
+      "short_answer": [
+        "Where does the family get pumpkins?",
+        "What kind of pumpkins do the brothers want?",
+        "What expression does the narrator carve?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "At a farm.",
+        "Scary pumpkins.",
+        "A friendly, laughing smile."
+      ],
+      "vocabulary": [
+        {
+          "term": "carve",
+          "meaning": "cut a shape or design into something"
+        },
+        {
+          "term": "scary",
+          "meaning": "causing fear"
+        },
+        {
+          "term": "sharp",
+          "meaning": "having an edge or point that can cut"
+        },
+        {
+          "term": "friendly",
+          "meaning": "kind and pleasant"
+        },
+        {
+          "term": "special",
+          "meaning": "different and important"
+        }
+      ],
+      "language_notice": "“But not me” is a short contrast meaning the speaker has a different preference."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010018",
+    "month": 10,
+    "day": 18,
+    "title": "Coco the Bird–1",
+    "summary": "Dreams may begin to come true through unexpected opportunities.",
+    "content": "Coco the bird lived in a pet store, waiting for someone to buy him.\n\n“Someday, I’ll sail the seas on a pirate’s ship,” he said.\n\n“That’s awesome,” said Max the puppy.\n\nOne day, a lady came into the store. “I’d like a special pet,” she said.\n\n“This bird likes the water,” said the owner.\n\n“I’ll buy him,” she said and took him home.",
+    "youtube_url": "https://www.youtube.com/watch?v=5qu_8EselT0",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100181",
+        "story_id": "00000000-0000-4000-8000-000000010018",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Dreams may begin to come true through unexpected opportunities.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100182",
+        "story_id": "00000000-0000-4000-8000-000000010018",
+        "prompt": "Where does Coco live at first?",
+        "options": [
+          "In a pet store.",
+          "On a ship.",
+          "In a forest.",
+          "At a school."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100183",
+        "story_id": "00000000-0000-4000-8000-000000010018",
+        "prompt": "What does Coco dream of doing?",
+        "options": [
+          "Sailing on a pirate’s ship.",
+          "Flying to the moon.",
+          "Becoming a dog.",
+          "Living in a tree."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100184",
+        "story_id": "00000000-0000-4000-8000-000000010018",
+        "prompt": "Why does the owner recommend Coco?",
+        "options": [
+          "He likes water.",
+          "He can cook.",
+          "He is very quiet.",
+          "He is a fish."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Coco is waiting for someone to buy him.",
+        "Max is a kitten.",
+        "A lady wants a special pet.",
+        "The lady leaves Coco in the store."
+      ],
+      "short_answer": [
+        "Where does Coco live at first?",
+        "What does Coco dream of doing?",
+        "Why does the owner recommend Coco?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "In a pet store.",
+        "Sailing on a pirate’s ship.",
+        "He likes water."
+      ],
+      "vocabulary": [
+        {
+          "term": "pet store",
+          "meaning": "a shop that sells animals and pet supplies"
+        },
+        {
+          "term": "sail",
+          "meaning": "travel on water in a boat or ship"
+        },
+        {
+          "term": "pirate",
+          "meaning": "a person who robs ships at sea"
+        },
+        {
+          "term": "awesome",
+          "meaning": "very impressive or exciting"
+        },
+        {
+          "term": "owner",
+          "meaning": "a person who owns something"
+        }
+      ],
+      "language_notice": "“Someday, I’ll …” expresses a hope or prediction about the future."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010019",
+    "month": 10,
+    "day": 19,
+    "title": "Coco the Bird–2",
+    "summary": "Imagination and friendship can turn disappointment into fun.",
+    "content": "Coco stared at the lady’s pool, wishing he could sail the high seas. “I guess the pirate’s life is not for me.” Ding Dong.\n\n“Welcome, Peter,” said his Grandma. “Meet Coco, my new pet bird.”\n\n“Cool,” said Peter. He put Coco on his shoulder and said, “I’m Pirate Peter!”\n\nAll day, they swam in the pool, pretending to sail the seas and fly the pirate flag.",
+    "youtube_url": "https://www.youtube.com/watch?v=4FMLRe65mEQ",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100191",
+        "story_id": "00000000-0000-4000-8000-000000010019",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Imagination and friendship can turn disappointment into fun.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100192",
+        "story_id": "00000000-0000-4000-8000-000000010019",
+        "prompt": "What does Coco look at?",
+        "options": [
+          "The lady’s pool.",
+          "A mountain.",
+          "A cake.",
+          "A shoe store."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100193",
+        "story_id": "00000000-0000-4000-8000-000000010019",
+        "prompt": "Who comes to visit?",
+        "options": [
+          "Peter.",
+          "Max.",
+          "Josh.",
+          "Henry."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100194",
+        "story_id": "00000000-0000-4000-8000-000000010019",
+        "prompt": "What do Peter and Coco pretend to do?",
+        "options": [
+          "Sail the seas.",
+          "Bake a cake.",
+          "Plant a tree.",
+          "Sell pumpkins."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Coco first feels the pirate life is not for him.",
+        "Peter puts Coco under a table.",
+        "They play in the pool all day.",
+        "They fly a real pirate ship."
+      ],
+      "short_answer": [
+        "What does Coco look at?",
+        "Who comes to visit?",
+        "What do Peter and Coco pretend to do?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "The lady’s pool.",
+        "Peter.",
+        "Sail the seas."
+      ],
+      "vocabulary": [
+        {
+          "term": "stared",
+          "meaning": "looked for a long time"
+        },
+        {
+          "term": "high seas",
+          "meaning": "the open ocean"
+        },
+        {
+          "term": "shoulder",
+          "meaning": "the body part between neck and arm"
+        },
+        {
+          "term": "pretending",
+          "meaning": "imagining and acting as if something is real"
+        },
+        {
+          "term": "flag",
+          "meaning": "a piece of cloth used as a symbol"
+        }
+      ],
+      "language_notice": "“Wishing he could …” describes a desire that is not yet real."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010020",
+    "month": 10,
+    "day": 20,
+    "title": "Grandma’s Old Pot",
+    "summary": "Useful objects deserve care, gratitude, and less waste.",
+    "content": "Grandma has an old cooking pot. Over the years, she has made so many wonderful meals for us with that pot.\n\nNow, that pot is too old. We told Grandma to throw it away. But she said, “No. It’s still usable. If I throw it away, it will just be trash.”\n\nFor Christmas, we sent her a new pot as a gift. Grandma said, “Thank you. But I still won’t throw my old pot away. Just think about how much work it took to make this pot!”",
+    "youtube_url": "https://youtu.be/96pVaLsZdtQ",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100201",
+        "story_id": "00000000-0000-4000-8000-000000010020",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Useful objects deserve care, gratitude, and less waste.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100202",
+        "story_id": "00000000-0000-4000-8000-000000010020",
+        "prompt": "What has Grandma made with the old pot?",
+        "options": [
+          "Many wonderful meals.",
+          "Shoes.",
+          "Toys.",
+          "Paintings."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100203",
+        "story_id": "00000000-0000-4000-8000-000000010020",
+        "prompt": "Why will Grandma not throw it away?",
+        "options": [
+          "It is still usable.",
+          "It is new.",
+          "It is made of gold.",
+          "She has no kitchen."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100204",
+        "story_id": "00000000-0000-4000-8000-000000010020",
+        "prompt": "What gift does the family give Grandma?",
+        "options": [
+          "A new pot.",
+          "A cake.",
+          "A bird.",
+          "A book."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Grandma’s pot is old.",
+        "The family gives her a new pan for Halloween.",
+        "Grandma thinks throwing it away creates trash.",
+        "Grandma immediately throws out the old pot."
+      ],
+      "short_answer": [
+        "What has Grandma made with the old pot?",
+        "Why will Grandma not throw it away?",
+        "What gift does the family give Grandma?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Many wonderful meals.",
+        "It is still usable.",
+        "A new pot."
+      ],
+      "vocabulary": [
+        {
+          "term": "cooking pot",
+          "meaning": "a deep container used to cook food"
+        },
+        {
+          "term": "usable",
+          "meaning": "still able to be used"
+        },
+        {
+          "term": "throw away",
+          "meaning": "put in the trash"
+        },
+        {
+          "term": "gift",
+          "meaning": "something given to someone"
+        },
+        {
+          "term": "trash",
+          "meaning": "things that are thrown away"
+        }
+      ],
+      "language_notice": "The first conditional “If I throw it away, it will …” shows a likely result."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010021",
+    "month": 10,
+    "day": 21,
+    "title": "Learn to Wait",
+    "summary": "Patience is necessary because worthwhile things take time.",
+    "content": "Jimmy and his mother are at a restaurant. They have just ordered their food.\n\nJimmy begins to cry. “I am hungry! So hungry!” he cries. “Where is my food?”\n\nHis mom looks at him and says, “We only ordered our food one minute ago. It takes time to prepare and cook the food.”\n\nThen his mom says, “Learn to wait. Good things come to those who wait.”",
+    "youtube_url": "https://youtu.be/SJuPdoSbMf0",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100211",
+        "story_id": "00000000-0000-4000-8000-000000010021",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Patience is necessary because worthwhile things take time.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100212",
+        "story_id": "00000000-0000-4000-8000-000000010021",
+        "prompt": "Where are Jimmy and his mother?",
+        "options": [
+          "At a restaurant.",
+          "At home.",
+          "At school.",
+          "At a park."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100213",
+        "story_id": "00000000-0000-4000-8000-000000010021",
+        "prompt": "How long ago did they order?",
+        "options": [
+          "One minute ago.",
+          "One hour ago.",
+          "Yesterday.",
+          "Ten minutes ago."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100214",
+        "story_id": "00000000-0000-4000-8000-000000010021",
+        "prompt": "What lesson does Mom teach?",
+        "options": [
+          "Learn to wait.",
+          "Eat very quickly.",
+          "Leave the restaurant.",
+          "Cook at the table."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Jimmy is hungry.",
+        "Their food was ordered an hour ago.",
+        "Preparing food takes time.",
+        "Mom tells Jimmy to keep crying."
+      ],
+      "short_answer": [
+        "Where are Jimmy and his mother?",
+        "How long ago did they order?",
+        "What lesson does Mom teach?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "At a restaurant.",
+        "One minute ago.",
+        "Learn to wait."
+      ],
+      "vocabulary": [
+        {
+          "term": "restaurant",
+          "meaning": "a place where meals are served"
+        },
+        {
+          "term": "ordered",
+          "meaning": "asked a restaurant to bring food"
+        },
+        {
+          "term": "prepare",
+          "meaning": "get something ready"
+        },
+        {
+          "term": "patient",
+          "meaning": "able to wait calmly"
+        },
+        {
+          "term": "those",
+          "meaning": "the people being mentioned"
+        }
+      ],
+      "language_notice": "“Have just + past participle” describes something that happened very recently."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010022",
+    "month": 10,
+    "day": 22,
+    "title": "Tap Tap Tap",
+    "summary": "A repeated habit can become a talent and may run in a family.",
+    "content": "Tap tap tap is all Kate ever did. Sitting in school. On the bus. At home. Her tapping would drive everyone crazy.\n\nOne day her uncle bought her a set of drums. She became really good at it.\n\nMany years passed. Kate grew up and had a son.\n\nOne day, she heard tap tap tap. It was her son. Kate smiled.\n\nHer husband said, “Like mother, like son!”",
+    "youtube_url": "https://youtu.be/f7fMjeOAtxM",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100221",
+        "story_id": "00000000-0000-4000-8000-000000010022",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "A repeated habit can become a talent and may run in a family.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100222",
+        "story_id": "00000000-0000-4000-8000-000000010022",
+        "prompt": "What habit does Kate have?",
+        "options": [
+          "Tapping.",
+          "Singing.",
+          "Running.",
+          "Drawing."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100223",
+        "story_id": "00000000-0000-4000-8000-000000010022",
+        "prompt": "What does her uncle buy her?",
+        "options": [
+          "A set of drums.",
+          "A piano.",
+          "A bicycle.",
+          "A book."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100224",
+        "story_id": "00000000-0000-4000-8000-000000010022",
+        "prompt": "Who taps many years later?",
+        "options": [
+          "Kate’s son.",
+          "Kate’s uncle.",
+          "Her teacher.",
+          "Her husband."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Kate taps in many places.",
+        "Her uncle buys her a flute.",
+        "Kate becomes good at drumming.",
+        "Kate is angry when her son taps."
+      ],
+      "short_answer": [
+        "What habit does Kate have?",
+        "What does her uncle buy her?",
+        "Who taps many years later?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Tapping.",
+        "A set of drums.",
+        "Kate’s son."
+      ],
+      "vocabulary": [
+        {
+          "term": "tap",
+          "meaning": "make a light repeated hitting sound"
+        },
+        {
+          "term": "drive someone crazy",
+          "meaning": "annoy someone very much"
+        },
+        {
+          "term": "set of drums",
+          "meaning": "a group of drums played together"
+        },
+        {
+          "term": "grew up",
+          "meaning": "became an adult"
+        },
+        {
+          "term": "like mother, like son",
+          "meaning": "a child behaves like a parent"
+        }
+      ],
+      "language_notice": "“Would” can describe a repeated or typical action in the past."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010023",
+    "month": 10,
+    "day": 23,
+    "title": "A Family of Birds–1",
+    "summary": "Young birds depend on their parents for care and guidance.",
+    "content": "There once was a family of birds who lived in a nest far above the canyon.\n\nMother and Father Bird loved their baby birds. They fed them, kept them warm, and taught them their bird song.\n\nTweet, tweet, tweet.\n\nOne day, Father Bird left and didn’t return. Then, Mother Bird left and didn’t return for a long time.\n\n“Where are they?” said one baby bird.\n\n“I’m hungry,” said another.",
+    "youtube_url": "https://youtu.be/BFhVHsNVz2U",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100231",
+        "story_id": "00000000-0000-4000-8000-000000010023",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Young birds depend on their parents for care and guidance.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100232",
+        "story_id": "00000000-0000-4000-8000-000000010023",
+        "prompt": "Where does the bird family live?",
+        "options": [
+          "In a nest above a canyon.",
+          "In a pond.",
+          "In a pet store.",
+          "In a cave."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100233",
+        "story_id": "00000000-0000-4000-8000-000000010023",
+        "prompt": "What do the parents teach the babies?",
+        "options": [
+          "Their bird song.",
+          "How to swim.",
+          "How to cook.",
+          "How to read."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100234",
+        "story_id": "00000000-0000-4000-8000-000000010023",
+        "prompt": "How do the baby birds feel after the parents leave?",
+        "options": [
+          "Hungry and worried.",
+          "Excited and full.",
+          "Angry at the nest.",
+          "Sleepy and warm."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The parents feed and warm the babies.",
+        "The nest is under the canyon.",
+        "Father Bird does not return that day.",
+        "The baby birds are not hungry."
+      ],
+      "short_answer": [
+        "Where does the bird family live?",
+        "What do the parents teach the babies?",
+        "How do the baby birds feel after the parents leave?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "In a nest above a canyon.",
+        "Their bird song.",
+        "Hungry and worried."
+      ],
+      "vocabulary": [
+        {
+          "term": "nest",
+          "meaning": "a home built by birds"
+        },
+        {
+          "term": "canyon",
+          "meaning": "a deep valley with steep sides"
+        },
+        {
+          "term": "fed",
+          "meaning": "gave food to"
+        },
+        {
+          "term": "bird song",
+          "meaning": "sounds made by birds"
+        },
+        {
+          "term": "return",
+          "meaning": "come back"
+        }
+      ],
+      "language_notice": "“There once was …” is a traditional way to begin a story."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010024",
+    "month": 10,
+    "day": 24,
+    "title": "A Family of Birds–2",
+    "summary": "Encouragement helps us find the courage to try something new.",
+    "content": "When Mother Bird returned, she didn’t bring enough food.\n\n“We’re still hungry,” said the baby birds.\n\n“Everyone, follow me,” said the mother. She flew out of the nest to the tree next door.\n\n“Yay,” the baby birds spread their wings and flew to her. But one baby bird didn’t fly.\n\n“Tweet, tweet, tweet,” the other birds said.\n\n“Follow me,” Mother Bird called.\n\nThe baby bird spread his wings and finally flew to his family!",
+    "youtube_url": "https://youtu.be/2b_x2tlVfJA",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100241",
+        "story_id": "00000000-0000-4000-8000-000000010024",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Encouragement helps us find the courage to try something new.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100242",
+        "story_id": "00000000-0000-4000-8000-000000010024",
+        "prompt": "Why are the baby birds still hungry?",
+        "options": [
+          "Mother brings too little food.",
+          "They lose the nest.",
+          "They do not like seeds.",
+          "Father eats everything."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100243",
+        "story_id": "00000000-0000-4000-8000-000000010024",
+        "prompt": "Where does Mother Bird fly?",
+        "options": [
+          "To the tree next door.",
+          "Into the canyon.",
+          "To a pet store.",
+          "To the ground."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100244",
+        "story_id": "00000000-0000-4000-8000-000000010024",
+        "prompt": "What does the last baby bird finally do?",
+        "options": [
+          "Flies to the family.",
+          "Goes to sleep.",
+          "Stays alone forever.",
+          "Falls into the canyon."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Mother Bird returns.",
+        "All baby birds fly immediately.",
+        "The other birds encourage the last baby.",
+        "The family leaves the baby behind."
+      ],
+      "short_answer": [
+        "Why are the baby birds still hungry?",
+        "Where does Mother Bird fly?",
+        "What does the last baby bird finally do?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Mother brings too little food.",
+        "To the tree next door.",
+        "Flies to the family."
+      ],
+      "vocabulary": [
+        {
+          "term": "enough",
+          "meaning": "as much as needed"
+        },
+        {
+          "term": "spread",
+          "meaning": "opened or stretched out"
+        },
+        {
+          "term": "wings",
+          "meaning": "body parts birds use to fly"
+        },
+        {
+          "term": "follow",
+          "meaning": "go after someone"
+        },
+        {
+          "term": "finally",
+          "meaning": "after a long time or effort"
+        }
+      ],
+      "language_notice": "The past simple verbs “spread” and “flew” describe completed actions."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010025",
+    "month": 10,
+    "day": 25,
+    "title": "English and French",
+    "summary": "Languages may differ, but enjoyment can be shared.",
+    "content": "When Nick visited Canada, he bought a candy bar. The label on the bar was, ‘Chocolate’ and ‘Chocolat’.\n\n“What’s this?” Nick was puzzled.\n\nHis dad explained that Canada has two official languages. They are French and English. So, food products are labelled with both languages.\n\nNick ate his candy bar and said, “Chocolate is good in any language.”",
+    "youtube_url": "https://youtu.be/ZNihDrYHh0U",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100251",
+        "story_id": "00000000-0000-4000-8000-000000010025",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Languages may differ, but enjoyment can be shared.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100252",
+        "story_id": "00000000-0000-4000-8000-000000010025",
+        "prompt": "Which country does Nick visit?",
+        "options": [
+          "Canada.",
+          "France.",
+          "England.",
+          "Mexico."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100253",
+        "story_id": "00000000-0000-4000-8000-000000010025",
+        "prompt": "What two words are on the candy label?",
+        "options": [
+          "Chocolate and Chocolat.",
+          "Candy and Sweet.",
+          "Milk and Sugar.",
+          "English and Canada."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100254",
+        "story_id": "00000000-0000-4000-8000-000000010025",
+        "prompt": "Why are two languages printed on food?",
+        "options": [
+          "Canada has two official languages.",
+          "The company made a mistake.",
+          "Nick requested it.",
+          "The candy is from two shops."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Nick buys a candy bar.",
+        "Canada has only one official language.",
+        "French and English appear on food labels.",
+        "Nick dislikes the chocolate."
+      ],
+      "short_answer": [
+        "Which country does Nick visit?",
+        "What two words are on the candy label?",
+        "Why are two languages printed on food?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Canada.",
+        "Chocolate and Chocolat.",
+        "Canada has two official languages."
+      ],
+      "vocabulary": [
+        {
+          "term": "label",
+          "meaning": "printed information on a product"
+        },
+        {
+          "term": "puzzled",
+          "meaning": "confused"
+        },
+        {
+          "term": "official",
+          "meaning": "formally accepted by a government"
+        },
+        {
+          "term": "language",
+          "meaning": "a system people use to communicate"
+        },
+        {
+          "term": "product",
+          "meaning": "something made or grown for sale"
+        }
+      ],
+      "language_notice": "The passive form “are labelled” focuses on the products, not the person labelling them."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010026",
+    "month": 10,
+    "day": 26,
+    "title": "What Is It?",
+    "summary": "Water is essential to life and many daily activities.",
+    "content": "You can see it, but you can’t hold it. It can be hot or cold. You can only live two or three days without it. Can you guess what it is?\n\nIt’s water!\n\nWe all need water. We need water to drink. We need water to cook. We need water to take a shower. We need water to grow trees, plants, and vegetables.\n\nOne person uses almost 135 litres of water every day.\n\nWow!",
+    "youtube_url": "https://youtu.be/-DEV9V3c9qI",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100261",
+        "story_id": "00000000-0000-4000-8000-000000010026",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Water is essential to life and many daily activities.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100262",
+        "story_id": "00000000-0000-4000-8000-000000010026",
+        "prompt": "What is the answer to the riddle?",
+        "options": [
+          "Water.",
+          "Air.",
+          "Fire.",
+          "Sand."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100263",
+        "story_id": "00000000-0000-4000-8000-000000010026",
+        "prompt": "How long can a person live without it according to the story?",
+        "options": [
+          "Two or three days.",
+          "Two or three months.",
+          "One year.",
+          "Ten weeks."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100264",
+        "story_id": "00000000-0000-4000-8000-000000010026",
+        "prompt": "About how much water does one person use daily?",
+        "options": [
+          "135 litres.",
+          "13 litres.",
+          "35 litres.",
+          "1,350 litres."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Water can be hot or cold.",
+        "People do not need water to cook.",
+        "Plants need water to grow.",
+        "One person uses only one litre daily."
+      ],
+      "short_answer": [
+        "What is the answer to the riddle?",
+        "How long can a person live without it according to the story?",
+        "About how much water does one person use daily?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Water.",
+        "Two or three days.",
+        "135 litres."
+      ],
+      "vocabulary": [
+        {
+          "term": "hold",
+          "meaning": "keep something in your hands"
+        },
+        {
+          "term": "guess",
+          "meaning": "give an answer without being certain"
+        },
+        {
+          "term": "shower",
+          "meaning": "a wash under falling water"
+        },
+        {
+          "term": "vegetables",
+          "meaning": "plants or plant parts eaten as food"
+        },
+        {
+          "term": "litre",
+          "meaning": "a metric unit for measuring liquid"
+        }
+      ],
+      "language_notice": "Repeated “We need water to …” clearly lists several purposes."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010027",
+    "month": 10,
+    "day": 27,
+    "title": "What’s That Smell?",
+    "summary": "Animals have different ways to protect themselves from danger.",
+    "content": "One day, Sam the dog came running home. What’s that smell?\n\n“Oh no,” said Mom. “Sam has been sprayed by a skunk.”\n\nSkunks are small black and white animals. They do not fight with anyone. They don’t need to. But when they are scared, they make a strong-smelling liquid and spray it.\n\nThe smell makes everyone run away.",
+    "youtube_url": "https://youtu.be/IRntnosLfxI",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100271",
+        "story_id": "00000000-0000-4000-8000-000000010027",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Animals have different ways to protect themselves from danger.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100272",
+        "story_id": "00000000-0000-4000-8000-000000010027",
+        "prompt": "What animal is Sam?",
+        "options": [
+          "A dog.",
+          "A skunk.",
+          "A cat.",
+          "A bird."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100273",
+        "story_id": "00000000-0000-4000-8000-000000010027",
+        "prompt": "What sprayed Sam?",
+        "options": [
+          "A skunk.",
+          "A hose.",
+          "A plant.",
+          "A child."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100274",
+        "story_id": "00000000-0000-4000-8000-000000010027",
+        "prompt": "When do skunks spray?",
+        "options": [
+          "When they are scared.",
+          "When they are sleeping.",
+          "When they are eating.",
+          "When they are happy."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Sam comes running home.",
+        "Skunks are blue and white.",
+        "Skunks spray a strong-smelling liquid.",
+        "The smell attracts everyone."
+      ],
+      "short_answer": [
+        "What animal is Sam?",
+        "What sprayed Sam?",
+        "When do skunks spray?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "A dog.",
+        "A skunk.",
+        "When they are scared."
+      ],
+      "vocabulary": [
+        {
+          "term": "smell",
+          "meaning": "an odour noticed by the nose"
+        },
+        {
+          "term": "sprayed",
+          "meaning": "sent out liquid in small drops"
+        },
+        {
+          "term": "skunk",
+          "meaning": "a black-and-white animal with a strong spray"
+        },
+        {
+          "term": "scared",
+          "meaning": "afraid"
+        },
+        {
+          "term": "liquid",
+          "meaning": "a substance that flows"
+        }
+      ],
+      "language_notice": "The present perfect passive “has been sprayed” describes what happened to Sam."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010028",
+    "month": 10,
+    "day": 28,
+    "title": "Changing Leaves",
+    "summary": "Seasonal changes explain the beautiful colours of fall leaves.",
+    "content": "In the fall, green leaves change their colour.\n\nThe green in the leaves turns sunlight into food for the tree.\n\nAs the days get shorter and cooler, the leaves stop making food and the green fades away.\n\nThe leaves turn yellow, orange, red, purple, or brown.\n\nLook at the pretty colours. But hurry! Soon the wind will blow the leaves away.",
+    "youtube_url": "https://youtu.be/Q3uaFb66LeE",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100281",
+        "story_id": "00000000-0000-4000-8000-000000010028",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Seasonal changes explain the beautiful colours of fall leaves.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100282",
+        "story_id": "00000000-0000-4000-8000-000000010028",
+        "prompt": "When do leaves change colour?",
+        "options": [
+          "In the fall.",
+          "In early summer only.",
+          "Every night.",
+          "In spring only."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100283",
+        "story_id": "00000000-0000-4000-8000-000000010028",
+        "prompt": "What does the green in leaves help make?",
+        "options": [
+          "Food for the tree.",
+          "Snow.",
+          "Flowers only.",
+          "Wind."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100284",
+        "story_id": "00000000-0000-4000-8000-000000010028",
+        "prompt": "Why does the green fade?",
+        "options": [
+          "Days become shorter and cooler.",
+          "The leaves get more sunlight.",
+          "The tree is painted.",
+          "The wind becomes warm."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Green leaves use sunlight.",
+        "Fall days become longer and hotter.",
+        "Leaves may turn red or purple.",
+        "The wind keeps every leaf on the tree."
+      ],
+      "short_answer": [
+        "When do leaves change colour?",
+        "What does the green in leaves help make?",
+        "Why does the green fade?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "In the fall.",
+        "Food for the tree.",
+        "Days become shorter and cooler."
+      ],
+      "vocabulary": [
+        {
+          "term": "colour",
+          "meaning": "the appearance such as red or green"
+        },
+        {
+          "term": "sunlight",
+          "meaning": "light from the sun"
+        },
+        {
+          "term": "fades",
+          "meaning": "slowly becomes weaker or disappears"
+        },
+        {
+          "term": "cooler",
+          "meaning": "less warm"
+        },
+        {
+          "term": "blow away",
+          "meaning": "be carried away by wind"
+        }
+      ],
+      "language_notice": "“As” links two gradual changes happening together."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010029",
+    "month": 10,
+    "day": 29,
+    "title": "Sleeping Bear",
+    "summary": "Bears prepare in advance to survive a long winter.",
+    "content": "Winter is long and cold in Canada. There is not a lot of food for the animals to eat. Black bears do not worry about that.\n\nAll summer and fall they eat. They get really fat by the time winter comes. Then, the bears go into a cave and go to sleep.\n\nHow long do they sleep? All winter long. Almost five months.\n\nWhen they wake up, it is spring and, of course, they are ready to eat!",
+    "youtube_url": "https://youtu.be/-hdUVw2XLSw",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100291",
+        "story_id": "00000000-0000-4000-8000-000000010029",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Bears prepare in advance to survive a long winter.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100292",
+        "story_id": "00000000-0000-4000-8000-000000010029",
+        "prompt": "Where does the story describe winter?",
+        "options": [
+          "Canada.",
+          "Egypt.",
+          "Australia.",
+          "Brazil."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100293",
+        "story_id": "00000000-0000-4000-8000-000000010029",
+        "prompt": "What do black bears do in summer and fall?",
+        "options": [
+          "They eat a lot.",
+          "They sleep all day.",
+          "They swim south.",
+          "They build houses."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100294",
+        "story_id": "00000000-0000-4000-8000-000000010029",
+        "prompt": "About how long do they sleep?",
+        "options": [
+          "Almost five months.",
+          "Five days.",
+          "Two weeks.",
+          "One year."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Canadian winters are long and cold.",
+        "Food is plentiful for all animals in winter.",
+        "Bears sleep in a cave.",
+        "They wake up in autumn."
+      ],
+      "short_answer": [
+        "Where does the story describe winter?",
+        "What do black bears do in summer and fall?",
+        "About how long do they sleep?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Canada.",
+        "They eat a lot.",
+        "Almost five months."
+      ],
+      "vocabulary": [
+        {
+          "term": "winter",
+          "meaning": "the coldest season"
+        },
+        {
+          "term": "fat",
+          "meaning": "having extra body weight"
+        },
+        {
+          "term": "cave",
+          "meaning": "a natural hollow place in rock or earth"
+        },
+        {
+          "term": "wake up",
+          "meaning": "stop sleeping"
+        },
+        {
+          "term": "spring",
+          "meaning": "the season after winter"
+        }
+      ],
+      "language_notice": "“By the time” shows that the bears become fat before winter arrives."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010030",
+    "month": 10,
+    "day": 30,
+    "title": "Not Me!",
+    "summary": "Healthy daily habits can help prevent illness from spreading.",
+    "content": "Eric is five years old. He is in kindergarten.\n\nIn the middle of December, many children in his class become sick, one after another. They cough. They sneeze and they have a fever.\n\nTheir teacher says, “You’re all caught by the flu.”\n\nBut Eric isn’t one of them. Why? Eric eats well. He sleeps well. He drinks lots of water, and he washes his hands often.\n\nThe teacher says, “If we were all like Eric, the flu would not have spread.”",
+    "youtube_url": "https://youtu.be/9OsxkdSM4TA",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100301",
+        "story_id": "00000000-0000-4000-8000-000000010030",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "Healthy daily habits can help prevent illness from spreading.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100302",
+        "story_id": "00000000-0000-4000-8000-000000010030",
+        "prompt": "How old is Eric?",
+        "options": [
+          "Five.",
+          "Seven.",
+          "Ten.",
+          "Twelve."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100303",
+        "story_id": "00000000-0000-4000-8000-000000010030",
+        "prompt": "What illness spreads in the class?",
+        "options": [
+          "The flu.",
+          "A broken ankle.",
+          "A stomachache.",
+          "Chickenpox."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100304",
+        "story_id": "00000000-0000-4000-8000-000000010030",
+        "prompt": "Which habit does Eric practise?",
+        "options": [
+          "Washing his hands often.",
+          "Skipping sleep.",
+          "Avoiding water.",
+          "Eating only candy."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Eric is in kindergarten.",
+        "No children in his class become sick.",
+        "Eric drinks lots of water.",
+        "The teacher says healthy habits do not matter."
+      ],
+      "short_answer": [
+        "How old is Eric?",
+        "What illness spreads in the class?",
+        "Which habit does Eric practise?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Five.",
+        "The flu.",
+        "Washing his hands often."
+      ],
+      "vocabulary": [
+        {
+          "term": "kindergarten",
+          "meaning": "a class for young children before primary school"
+        },
+        {
+          "term": "cough",
+          "meaning": "push air noisily from the throat"
+        },
+        {
+          "term": "sneeze",
+          "meaning": "suddenly blow air from the nose and mouth"
+        },
+        {
+          "term": "fever",
+          "meaning": "a higher-than-normal body temperature"
+        },
+        {
+          "term": "flu",
+          "meaning": "a contagious illness caused by influenza viruses"
+        }
+      ],
+      "language_notice": "The second conditional “If we were …, … would …” imagines a different situation."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000010031",
+    "month": 10,
+    "day": 31,
+    "title": "The Nile",
+    "summary": "The Nile’s great length makes it an extraordinary natural feature.",
+    "content": "Do you know the longest river in Africa? It’s called the Nile. The Nile is also the longest river in the world. It is 4,184 miles long.\n\nCrocodiles live in the Nile. They enjoy lying in the sun with other crocodiles.\n\nDo you think a crocodile could swim from one end of the Nile to the other? It would take a very long time.",
+    "youtube_url": "https://youtu.be/qiLqTUYp1nQ",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000000100311",
+        "story_id": "00000000-0000-4000-8000-000000010031",
+        "prompt": "What is the main idea of the story?",
+        "options": [
+          "The Nile’s great length makes it an extraordinary natural feature.",
+          "Being careless is always best.",
+          "Nothing ever changes.",
+          "Only adults can learn."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100312",
+        "story_id": "00000000-0000-4000-8000-000000010031",
+        "prompt": "Where is the Nile?",
+        "options": [
+          "Africa.",
+          "Canada.",
+          "Europe.",
+          "Australia."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100313",
+        "story_id": "00000000-0000-4000-8000-000000010031",
+        "prompt": "How long is the Nile according to the story?",
+        "options": [
+          "4,184 miles.",
+          "418 miles.",
+          "1,000 miles.",
+          "184 miles."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000000100314",
+        "story_id": "00000000-0000-4000-8000-000000010031",
+        "prompt": "What animals mentioned live in the Nile?",
+        "options": [
+          "Crocodiles.",
+          "Black bears.",
+          "Goldfish.",
+          "Skunks."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The Nile is in Africa.",
+        "The story says the Nile is a short river.",
+        "Crocodiles enjoy lying in the sun.",
+        "A crocodile could cross the whole river quickly."
+      ],
+      "short_answer": [
+        "Where is the Nile?",
+        "How long is the Nile according to the story?",
+        "What animals mentioned live in the Nile?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Africa.",
+        "4,184 miles.",
+        "Crocodiles."
+      ],
+      "vocabulary": [
+        {
+          "term": "river",
+          "meaning": "a large natural stream of water"
+        },
+        {
+          "term": "Africa",
+          "meaning": "the continent where the Nile is found"
+        },
+        {
+          "term": "longest",
+          "meaning": "having the greatest length"
+        },
+        {
+          "term": "crocodile",
+          "meaning": "a large reptile that lives near water"
+        },
+        {
+          "term": "one end to the other",
+          "meaning": "from the start to the finish"
+        }
+      ],
+      "language_notice": "The superlative “the longest” compares one thing with all others in a group."
+    }
+  }
+]
