@@ -209,11 +209,11 @@ export async function getStudentReadCounts(): Promise<Record<string, number>> {
   return counts;
 }
 
-export async function createStudentAccount(displayName: string, email: string, password: string): Promise<void> {
+async function invokeStudentAccountAction(body: Record<string, string>): Promise<void> {
   const db = supabase();
-  if (!db) throw new Error("Cần kết nối Supabase để cấp tài khoản.");
+  if (!db) throw new Error("Cần kết nối Supabase để quản lý tài khoản.");
   const { data, error } = await db.functions.invoke("create-student", {
-    body: { display_name: displayName, email, password },
+    body,
   });
   if (error) {
     const response = "context" in error ? error.context as Response | undefined : undefined;
@@ -221,6 +221,14 @@ export async function createStudentAccount(displayName: string, email: string, p
     throw new Error(detail?.error || error.message);
   }
   if (data?.error) throw new Error(data.error);
+}
+
+export async function createStudentAccount(displayName: string, email: string, password: string): Promise<void> {
+  await invokeStudentAccountAction({ action: "create", display_name: displayName, email, password });
+}
+
+export async function resetStudentPassword(userId: string, password: string): Promise<void> {
+  await invokeStudentAccountAction({ action: "reset-password", user_id: userId, password });
 }
 
 export async function saveAttempt(attempt: Attempt): Promise<void> {
@@ -248,6 +256,25 @@ export async function signIn(email: string, password: string): Promise<void> {
   if (!db) return;
   const { error } = await db.auth.signInWithPassword({ email, password });
   if (error) throw error;
+}
+
+export async function changePassword(currentPassword: string, newPassword: string): Promise<void> {
+  const db = supabase();
+  if (!db) throw new Error("Cần kết nối Supabase để đổi mật khẩu.");
+  const { data: auth, error: userError } = await db.auth.getUser();
+  if (userError || !auth.user?.email) throw new Error("Hãy đăng nhập lại trước khi đổi mật khẩu.");
+
+  const { error: verifyError } = await db.auth.signInWithPassword({
+    email: auth.user.email,
+    password: currentPassword,
+  });
+  if (verifyError) throw new Error("Mật khẩu hiện tại không đúng.");
+
+  const { error: updateError } = await db.auth.updateUser({
+    current_password: currentPassword,
+    password: newPassword,
+  });
+  if (updateError) throw updateError;
 }
 
 export async function signUp(email: string, password: string): Promise<boolean> {

@@ -17,12 +17,27 @@ const authorized = withSupabase({ auth: "user" }, async (req, ctx) => {
 
     const { data: caller, error: callerError } = await ctx.supabase.auth.getUser();
     if (callerError || caller.user?.app_metadata?.role !== "admin") {
-      return json({ error: "Chỉ quản trị viên được cấp tài khoản học sinh." }, 403);
+      return json({ error: "Chỉ quản trị viên được quản lý tài khoản học sinh." }, 403);
     }
 
-    let input: { email?: unknown; password?: unknown; display_name?: unknown };
+    let input: { action?: unknown; email?: unknown; password?: unknown; display_name?: unknown; user_id?: unknown };
     try { input = await req.json(); }
     catch { return json({ error: "Dữ liệu không hợp lệ." }, 400); }
+
+    const action = input.action === "reset-password" ? "reset-password" : "create";
+    if (action === "reset-password") {
+      const userId = typeof input.user_id === "string" ? input.user_id : "";
+      const password = typeof input.password === "string" ? input.password : "";
+      if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(userId) || password.length < 8) {
+        return json({ error: "Chọn học sinh và nhập mật khẩu mới ít nhất 8 ký tự." }, 400);
+      }
+      const { data: profile, error: profileError } = await ctx.supabaseAdmin
+        .from("student_profiles").select("id").eq("id", userId).maybeSingle();
+      if (profileError || !profile) return json({ error: "Không tìm thấy tài khoản học sinh." }, 404);
+      const { error } = await ctx.supabaseAdmin.auth.admin.updateUserById(userId, { password });
+      if (error) return json({ error: error.message }, 400);
+      return json({ success: true });
+    }
 
     const email = typeof input.email === "string" ? input.email.trim().toLowerCase() : "";
     const password = typeof input.password === "string" ? input.password : "";

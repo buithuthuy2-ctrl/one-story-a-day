@@ -33,6 +33,8 @@ Trong `/admin` → **Tài khoản học sinh**, nhập họ tên, email và mậ
 
 Học sinh đăng nhập ở `/login`, mở truyện và bấm **Đánh dấu đã đọc**. Mỗi truyện chỉ được tính một lần cho từng tài khoản. Trang `/progress` hiển thị tổng số truyện, tiến độ theo tháng, truyện vừa đọc và số lượt làm bài. Tiến độ được lưu trong `story_reads` và chỉ học sinh đó hoặc quản trị viên xem được.
 
+Quản trị viên và học sinh đã đăng nhập có thể tự đổi mật khẩu tại `/change-password` bằng cách nhập mật khẩu hiện tại và mật khẩu mới. Nếu học sinh quên mật khẩu, quản trị viên vào **Tài khoản học sinh** → **Đặt lại mật khẩu** cạnh tên em đó, rồi gửi riêng mật khẩu mới cho em.
+
 ## Nhập nội dung
 
 Vào `/admin`, chọn **Nhập JSON**. Tải [tệp mẫu](public/sample-import.json) để xem cấu trúc. Mỗi mục cần `month`, `day`, `title`, `content`; có thể thêm `summary`, `youtube_url`, `level`, `duration_minutes`, `questions`. Mỗi câu hỏi có bốn `options`, `answer_index` từ 0 đến 3, và `explanation`. Nội dung nhập hàng loạt luôn là bản nháp; mở từng truyện để kiểm tra rồi xuất bản. Mỗi tháng/ngày chỉ có một truyện.

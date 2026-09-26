@@ -4,10 +4,10 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { DAYS_IN_MONTH, MONTH_COLORS, MONTHS, youtubeId } from "@/lib/catalog";
-import { blankStory, createStudentAccount, deleteStory, getAccess, getAttempts, getMonthCovers, getStories, getStoryReads, getStudentProfiles, getStudentReadCounts, isDemo, markStoryRead, saveAttempt, saveMonthCover, saveStory, saveStoryWithCover, signIn, signOut, validateCoverFile } from "@/lib/data";
+import { blankStory, changePassword, createStudentAccount, deleteStory, getAccess, getAttempts, getMonthCovers, getStories, getStoryReads, getStudentProfiles, getStudentReadCounts, isDemo, markStoryRead, resetStudentPassword, saveAttempt, saveMonthCover, saveStory, saveStoryWithCover, signIn, signOut, validateCoverFile } from "@/lib/data";
 import type { Attempt, MonthCover, Question, Story, StoryActivities, StoryRead, StudentProfile } from "@/lib/types";
 
-type View = "home" | "month" | "story" | "admin" | "login" | "progress";
+type View = "home" | "month" | "story" | "admin" | "login" | "progress" | "password";
 type Props = { view: View; month?: number; storyId?: string };
 
 function totalQuestions(story: Story): number {
@@ -84,6 +84,7 @@ export function StoryApp({ view, month = 1, storyId }: Props) {
         <Link href="/months/1" className={view === "month" ? "active" : ""}>Thư viện truyện</Link>
         {(!access.email || access.admin) && <Link href="/admin" className={view === "admin" ? "active" : ""}>Quản lý nội dung</Link>}
         {access.email && !access.admin && <Link href="/progress" className={view === "progress" ? "active" : ""}>Tiến độ của em</Link>}
+        {access.email && <Link href="/change-password" className={view === "password" ? "active" : ""}>Đổi mật khẩu</Link>}
         {!isDemo && !access.email && <Link href="/login" className="mobile-login">Đăng nhập</Link>}
         {access.email && <button className="mobile-login mobile-signout" onClick={async () => { await signOut(); await reload(); }}>Đăng xuất</button>}
       </nav>
@@ -96,6 +97,7 @@ export function StoryApp({ view, month = 1, storyId }: Props) {
       {view === "month" && <Month month={month} stories={published} completedIds={completedIds} coverUrl={monthCovers.find(item => item.month === month)?.image_url || ""} />}
       {view === "story" && (selectedStory ? <StoryReader story={selectedStory} attempts={attempts.filter(a => a.story_id === selectedStory.id)} isRead={completedIds.has(selectedStory.id)} onMarkRead={async () => { await markStoryRead(selectedStory.id); setReads(await getStoryReads()); }} onDone={async attempt => { await saveAttempt(attempt); setAttempts(await getAttempts()); }} /> : <main className="page empty-state"><h1>Không tìm thấy câu chuyện</h1><p>Truyện này có thể chưa được xuất bản.</p><Link href="/" className="button primary">Về trang chủ</Link></main>)}
       {view === "progress" && (access.email ? <Progress stories={published} reads={reads} attempts={attempts} email={access.email} /> : <StudentLogin onLogin={reload} />)}
+      {view === "password" && (access.email ? <PasswordChange email={access.email} admin={access.admin} /> : <main className="page empty-state"><h1>Đăng nhập để đổi mật khẩu</h1><p>Sau khi đăng nhập, mở mục Đổi mật khẩu trong thanh điều hướng.</p><Link href="/login" className="button primary">Đến trang đăng nhập →</Link></main>)}
       {view === "admin" && (access.admin ? <Admin stories={stories} monthCovers={monthCovers} editor={editor} setEditor={setEditor} onSave={handleSave} onSaveMonthCover={handleSaveMonthCover} onDelete={handleDelete} onReload={reload} email={access.email} /> : <Login onLogin={reload} />)}
       {view === "login" && <StudentLogin onLogin={reload} />}
     </>}
@@ -187,6 +189,44 @@ function ActivityPanel({ activities }: { activities?: StoryActivities }) {
   </section>;
 }
 
+function PasswordChange({ email, admin }: { email: string; admin: boolean }) {
+  const [currentPassword, setCurrentPassword] = useState("");
+  const [newPassword, setNewPassword] = useState("");
+  const [confirmation, setConfirmation] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState("");
+  const [message, setMessage] = useState("");
+
+  async function submit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setError(""); setMessage("");
+    if (newPassword.length < 8) { setError("Mật khẩu mới cần ít nhất 8 ký tự."); return; }
+    if (newPassword === currentPassword) { setError("Mật khẩu mới cần khác mật khẩu hiện tại."); return; }
+    if (newPassword !== confirmation) { setError("Hai lần nhập mật khẩu mới chưa khớp."); return; }
+    setBusy(true);
+    try {
+      await changePassword(currentPassword, newPassword);
+      setCurrentPassword(""); setNewPassword(""); setConfirmation("");
+      setMessage("Đã đổi mật khẩu thành công. Hãy dùng mật khẩu mới trong lần đăng nhập tiếp theo.");
+    } catch (cause) { setError(cause instanceof Error ? cause.message : "Không đổi được mật khẩu."); }
+    finally { setBusy(false); }
+  }
+
+  return <main className="page login-page"><div className="login-card password-card">
+    <span className="login-icon">✦</span><span className="kicker">TÀI KHOẢN CỦA BẠN</span>
+    <h1>Đổi mật khẩu</h1><p>Đang đăng nhập: <strong>{email}</strong></p>
+    <form onSubmit={submit}>
+      <label>Mật khẩu hiện tại<input type="password" required autoComplete="current-password" value={currentPassword} onChange={event => setCurrentPassword(event.target.value)} /></label>
+      <label>Mật khẩu mới<input type="password" required minLength={8} autoComplete="new-password" value={newPassword} onChange={event => setNewPassword(event.target.value)} placeholder="Ít nhất 8 ký tự" /></label>
+      <label>Nhập lại mật khẩu mới<input type="password" required minLength={8} autoComplete="new-password" value={confirmation} onChange={event => setConfirmation(event.target.value)} /></label>
+      {error && <p className="form-error" role="alert">{error}</p>}
+      {message && <p className="success-message" role="status">{message}</p>}
+      <button className="button primary full" disabled={busy}>{busy ? "Đang cập nhật..." : "Lưu mật khẩu mới →"}</button>
+    </form>
+    <Link href={admin ? "/admin" : "/progress"}>← Quay lại {admin ? "trang quản trị" : "tiến độ của em"}</Link>
+  </div></main>;
+}
+
 function Login({ onLogin }: { onLogin: () => Promise<void> }) {
   const [email, setEmail] = useState(""); const [password, setPassword] = useState(""); const [error, setError] = useState(""); const [busy, setBusy] = useState(false);
   return <main className="page login-page"><div className="login-card"><span className="login-icon">✦</span><span className="kicker">DÀNH CHO QUẢN TRỊ VIÊN</span><h1>Chào mừng trở lại</h1><p>Đăng nhập bằng tài khoản quản trị để quản lý bộ truyện.</p><form onSubmit={async event => { event.preventDefault(); setBusy(true); setError(""); try { await signIn(email, password); await onLogin(); } catch (cause) { setError(cause instanceof Error ? cause.message : "Đăng nhập thất bại."); } finally { setBusy(false); } }}><label>Email<input type="email" value={email} onChange={e => setEmail(e.target.value)} required placeholder="admin@example.com" /></label><label>Mật khẩu<input type="password" value={password} onChange={e => setPassword(e.target.value)} required placeholder="••••••••" /></label>{error && <p className="form-error">{error}</p>}<button className="button primary full" disabled={busy}>{busy ? "Đang đăng nhập..." : "Đăng nhập →"}</button></form><Link href="/">← Quay về trang chủ</Link></div></main>;
@@ -249,6 +289,8 @@ function StudentAccountManager() {
   const [displayName, setDisplayName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [resetTarget, setResetTarget] = useState<StudentProfile | null>(null);
+  const [replacement, setReplacement] = useState("");
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
@@ -279,10 +321,23 @@ function StudentAccountManager() {
     finally { setBusy(false); }
   }
 
+  async function resetPassword(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (!resetTarget) return;
+    setBusy(true); setError(""); setMessage("");
+    try {
+      await resetStudentPassword(resetTarget.id, replacement);
+      setMessage(`Đã đặt lại mật khẩu cho ${resetTarget.display_name}. Hãy gửi riêng mật khẩu mới cho học sinh.`);
+      setResetTarget(null); setReplacement("");
+    } catch (cause) { setError(cause instanceof Error ? cause.message : "Không đặt lại được mật khẩu."); }
+    finally { setBusy(false); }
+  }
+
   return <section className="admin-panel student-panel"><div className="panel-heading"><div><h2>Tài khoản học sinh</h2><p>Cấp tài khoản riêng và theo dõi số truyện mỗi em đã đánh dấu đã đọc.</p></div></div>
     <form className="student-create-form" onSubmit={create}><label>Họ tên học sinh<input required maxLength={100} value={displayName} onChange={e => setDisplayName(e.target.value)} placeholder="Nguyễn An" /></label><label>Email đăng nhập<input required type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="an@example.com" /></label><label>Mật khẩu ban đầu<input required type="password" minLength={8} value={password} onChange={e => setPassword(e.target.value)} placeholder="Ít nhất 8 ký tự" autoComplete="new-password" /></label><button className="button primary" disabled={busy}>{busy ? "Đang tạo..." : "＋ Cấp tài khoản"}</button></form>
     {error && <p className="form-error" role="alert">{error}</p>}{message && <p className="success-message" role="status">{message}</p>}
-    <div className="table-wrap"><table><thead><tr><th>HỌC SINH</th><th>EMAIL ĐĂNG NHẬP</th><th>TRUYỆN ĐÃ ĐỌC</th></tr></thead><tbody>{profiles.map(profile => <tr key={profile.id}><td><strong>{profile.display_name}</strong></td><td>{profile.email}</td><td>{counts[profile.id] || 0}</td></tr>)}</tbody></table>{profiles.length === 0 && <div className="table-empty">Chưa có tài khoản học sinh nào.</div>}</div>
+    <div className="table-wrap"><table><thead><tr><th>HỌC SINH</th><th>EMAIL ĐĂNG NHẬP</th><th>TRUYỆN ĐÃ ĐỌC</th><th></th></tr></thead><tbody>{profiles.map(profile => <tr key={profile.id}><td><strong>{profile.display_name}</strong></td><td>{profile.email}</td><td>{counts[profile.id] || 0}</td><td><button type="button" className="edit-link" onClick={() => { setResetTarget(profile); setReplacement(""); setError(""); setMessage(""); }}>Đặt lại mật khẩu →</button></td></tr>)}</tbody></table>{profiles.length === 0 && <div className="table-empty">Chưa có tài khoản học sinh nào.</div>}</div>
+    {resetTarget && <form className="student-reset-form" onSubmit={resetPassword}><div><strong>Đặt lại mật khẩu: {resetTarget.display_name}</strong><p>Nhập mật khẩu mới rồi gửi riêng cho học sinh.</p></div><label>Mật khẩu mới<input type="password" required minLength={8} autoComplete="new-password" value={replacement} onChange={event => setReplacement(event.target.value)} placeholder="Ít nhất 8 ký tự" /></label><button className="button primary" disabled={busy}>{busy ? "Đang lưu..." : "Lưu mật khẩu"}</button><button className="button soft" type="button" onClick={() => { setResetTarget(null); setReplacement(""); }}>Hủy</button></form>}
   </section>;
 }
 
