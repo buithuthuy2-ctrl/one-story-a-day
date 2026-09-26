@@ -2,10 +2,11 @@
 
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { DEMO_STORIES } from "./catalog";
-import type { Attempt, MonthCover, Question, Story } from "./types";
+import type { Attempt, MonthCover, Question, Story, StoryRead, StudentProfile } from "./types";
 
 const STORY_KEY = "storyday:stories:v1";
 const ATTEMPT_KEY = "storyday:attempts:v1";
+const READ_KEY = "storyday:reads:v1";
 const DELETED_KEY = "storyday:deleted:v1";
 const MONTH_COVER_KEY = "storyday:month-covers:v1";
 const COVER_BUCKET = "story-covers";
@@ -155,6 +156,71 @@ export async function getAttempts(): Promise<Attempt[]> {
   const { data, error } = await db.from("attempts").select("story_id, score, total, answers, created_at").eq("user_id", auth.user.id).order("created_at", { ascending: false });
   if (error) throw error;
   return data as Attempt[];
+}
+
+export async function getStoryReads(): Promise<StoryRead[]> {
+  const db = supabase();
+  if (!db) {
+    try { return JSON.parse(localStorage.getItem(READ_KEY) || "[]") as StoryRead[]; }
+    catch { return []; }
+  }
+  const { data: auth } = await db.auth.getUser();
+  if (!auth.user) return [];
+  const { data, error } = await db.from("story_reads").select("user_id, story_id, read_at").eq("user_id", auth.user.id).order("read_at", { ascending: false });
+  if (error) throw error;
+  return data as StoryRead[];
+}
+
+export async function markStoryRead(storyId: string): Promise<void> {
+  const db = supabase();
+  if (!db) {
+    const reads = await getStoryReads();
+    if (!reads.some(item => item.story_id === storyId)) {
+      localStorage.setItem(READ_KEY, JSON.stringify([{ user_id: "demo", story_id: storyId, read_at: new Date().toISOString() }, ...reads]));
+    }
+    return;
+  }
+  const { data: auth } = await db.auth.getUser();
+  if (!auth.user) throw new Error("Hãy đăng nhập tài khoản học sinh để lưu truyện đã đọc.");
+  const { error } = await db.from("story_reads").upsert({ user_id: auth.user.id, story_id: storyId }, { onConflict: "user_id,story_id", ignoreDuplicates: true });
+  if (error) throw error;
+}
+
+export async function getStudentProfiles(): Promise<StudentProfile[]> {
+  const db = supabase();
+  if (!db) return [];
+  const { data, error } = await db.from("student_profiles").select("id, email, display_name, created_at").order("created_at", { ascending: false });
+  if (error) throw error;
+  return data as StudentProfile[];
+}
+
+export async function getStudentReadCounts(): Promise<Record<string, number>> {
+  const db = supabase();
+  if (!db) return {};
+  const counts: Record<string, number> = {};
+  for (let offset = 0; ; offset += 1000) {
+    const { data, error } = await db.from("story_reads").select("user_id").range(offset, offset + 999);
+    if (error) throw error;
+    for (const row of data as Pick<StoryRead, "user_id">[]) {
+      counts[row.user_id] = (counts[row.user_id] || 0) + 1;
+    }
+    if (data.length < 1000) break;
+  }
+  return counts;
+}
+
+export async function createStudentAccount(displayName: string, email: string, password: string): Promise<void> {
+  const db = supabase();
+  if (!db) throw new Error("Cần kết nối Supabase để cấp tài khoản.");
+  const { data, error } = await db.functions.invoke("create-student", {
+    body: { display_name: displayName, email, password },
+  });
+  if (error) {
+    const response = "context" in error ? error.context as Response | undefined : undefined;
+    const detail = response ? await response.json().catch(() => null) as { error?: string } | null : null;
+    throw new Error(detail?.error || error.message);
+  }
+  if (data?.error) throw new Error(data.error);
 }
 
 export async function saveAttempt(attempt: Attempt): Promise<void> {

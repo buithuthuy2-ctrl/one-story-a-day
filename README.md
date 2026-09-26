@@ -9,15 +9,15 @@ pnpm install
 pnpm dev
 ```
 
-Mở `http://localhost:3000`. Khi chưa khai báo Supabase, ứng dụng chạy ở **chế độ xem trước**: có ba truyện minh họa tự viết và 29 truyện tháng 9 từ nguồn Drive do người dùng cung cấp. Dữ liệu chỉnh sửa và bài làm lưu trong `localStorage` của trình duyệt. Trang `/admin` mở trực tiếp để thử giao diện.
+Mở `http://localhost:3000`. Khi chưa khai báo Supabase, ứng dụng chạy ở **chế độ xem trước** với ba truyện minh họa, 29 truyện tháng 9 và 31 truyện tháng 10. Dữ liệu chỉnh sửa và tiến độ lưu trong `localStorage` của trình duyệt. Trang `/admin` mở trực tiếp để thử giao diện.
 
 ## Kết nối Supabase
 
-Project Supabase của ứng dụng là `yzpckbwyoaonnheunmfe` tại Singapore. Schema và 29 truyện tháng 9 cùng 116 câu hỏi đã được nạp. Truyện tháng 9 đang ở trạng thái xuất bản. Tệp `.env.local` trên máy phát triển đã được cấu hình và được Git bỏ qua.
+Project Supabase của ứng dụng là `yzpckbwyoaonnheunmfe` tại Singapore. Truyện tháng 9 và tháng 10 đang ở trạng thái xuất bản. Tệp `.env.local` trên máy phát triển đã được cấu hình và được Git bỏ qua.
 
 1. Trên máy khác hoặc môi trường triển khai, sao chép `.env.example` thành `.env.local` và điền Project URL cùng publishable key trong Supabase Dashboard → Settings → API Keys. Với môi trường triển khai, khai báo hai biến này trong phần cấu hình của nhà cung cấp dịch vụ.
-2. Nếu tạo project Supabase mới, chạy [schema.sql](supabase/schema.sql) rồi [cover_images.sql](supabase/cover_images.sql) trong SQL Editor và nhập dữ liệu qua `/admin`.
-3. Đăng ký tài khoản quản trị tại `/login`, xác nhận email, rồi đặt `app_metadata.role` của người dùng thành `admin` bằng công cụ quản trị tin cậy (Dashboard hoặc Admin API dùng secret key ở môi trường riêng). Không đặt quyền qua `user_metadata`.
+2. Nếu tạo project Supabase mới, chạy [schema.sql](supabase/schema.sql), [cover_images.sql](supabase/cover_images.sql) và [student_progress.sql](supabase/student_progress.sql) trong SQL Editor; triển khai Edge Function [create-student](supabase/functions/create-student/index.ts) với `verify_jwt = true`; rồi nhập dữ liệu qua `/admin`.
+3. Tạo tài khoản quản trị trong Supabase Auth, rồi đặt `app_metadata.role` của người dùng thành `admin` bằng công cụ quản trị tin cậy (Dashboard hoặc Admin API dùng secret key ở môi trường riêng). Không đặt quyền qua `user_metadata`.
 4. Khởi động lại Next.js sau khi thay đổi biến môi trường. Trang `/admin` sẽ yêu cầu đăng nhập quản trị. Dữ liệu học sinh chỉ hiển thị sau khi truyện được xuất bản.
 
 ```env
@@ -25,7 +25,13 @@ NEXT_PUBLIC_SUPABASE_URL=https://YOUR_PROJECT.supabase.co
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY
 ```
 
-**Lưu ý:** Không đưa secret key/service role key vào biến `NEXT_PUBLIC_`. SQL bật RLS cho mọi bảng. Học sinh đăng ký/đăng nhập tại `/login` để lưu tiến độ trong Supabase. Khi chưa đăng nhập, bài làm được lưu trong trình duyệt hiện tại.
+**Lưu ý:** Không đưa secret key/service role key vào biến `NEXT_PUBLIC_`. SQL bật RLS cho mọi bảng. Quản trị viên cấp tài khoản học sinh tại `/admin`; học sinh đăng nhập tại `/login` và xem số truyện đã đọc tại `/progress`.
+
+## Tài khoản và tiến độ học sinh
+
+Trong `/admin` → **Tài khoản học sinh**, nhập họ tên, email và mật khẩu ban đầu (ít nhất 8 ký tự), rồi bấm **Cấp tài khoản**. Gửi riêng email và mật khẩu cho học sinh. Danh sách quản trị cho thấy số truyện mỗi em đã đọc.
+
+Học sinh đăng nhập ở `/login`, mở truyện và bấm **Đánh dấu đã đọc**. Mỗi truyện chỉ được tính một lần cho từng tài khoản. Trang `/progress` hiển thị tổng số truyện, tiến độ theo tháng, truyện vừa đọc và số lượt làm bài. Tiến độ được lưu trong `story_reads` và chỉ học sinh đó hoặc quản trị viên xem được.
 
 ## Nhập nội dung
 
@@ -45,6 +51,8 @@ Trong `/admin`, mục **Ảnh bìa 12 tháng** cho phép tải, thay hoặc xóa
 - `month_covers`: ảnh bìa của từng tháng.
 - `questions`: câu hỏi, bốn lựa chọn, đáp án đúng, giải thích.
 - `attempts`: bài làm và điểm số theo tài khoản học sinh.
+- `student_profiles`: tên và email tài khoản học sinh do quản trị viên cấp.
+- `story_reads`: một bản ghi cho mỗi truyện học sinh đã đánh dấu đọc.
 
 Các dạng bài bổ sung (`cloze_text`, `true_false`, `short_answer`, `discussion`) nằm trong `stories.activities`; hiện chỉ phần trắc nghiệm được chấm điểm tự động.
 

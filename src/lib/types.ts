@@ -46,3 +46,16 @@ export type Attempt = {
   answers: number[];
   created_at: string;
 };
+
+export type StoryRead = {
+  user_id: string;
+  story_id: string;
+  read_at: string;
+};
+
+export type StudentProfile = {
+  id: string;
+  email: string;
+  display_name: string;
+  created_at: string;
+};

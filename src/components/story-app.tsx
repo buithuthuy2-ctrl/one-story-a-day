@@ -4,10 +4,10 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { DAYS_IN_MONTH, MONTH_COLORS, MONTHS, youtubeId } from "@/lib/catalog";
-import { blankStory, deleteStory, getAccess, getAttempts, getMonthCovers, getStories, isDemo, saveAttempt, saveMonthCover, saveStory, saveStoryWithCover, signIn, signOut, signUp, validateCoverFile } from "@/lib/data";
-import type { Attempt, MonthCover, Question, Story, StoryActivities } from "@/lib/types";
+import { blankStory, createStudentAccount, deleteStory, getAccess, getAttempts, getMonthCovers, getStories, getStoryReads, getStudentProfiles, getStudentReadCounts, isDemo, markStoryRead, saveAttempt, saveMonthCover, saveStory, saveStoryWithCover, signIn, signOut, validateCoverFile } from "@/lib/data";
+import type { Attempt, MonthCover, Question, Story, StoryActivities, StoryRead, StudentProfile } from "@/lib/types";
 
-type View = "home" | "month" | "story" | "admin" | "login";
+type View = "home" | "month" | "story" | "admin" | "login" | "progress";
 type Props = { view: View; month?: number; storyId?: string };
 
 function totalQuestions(story: Story): number {
@@ -21,6 +21,7 @@ export function StoryApp({ view, month = 1, storyId }: Props) {
   const [stories, setStories] = useState<Story[]>([]);
   const [monthCovers, setMonthCovers] = useState<MonthCover[]>([]);
   const [attempts, setAttempts] = useState<Attempt[]>([]);
+  const [reads, setReads] = useState<StoryRead[]>([]);
   const [access, setAccess] = useState<{ email: string | null; admin: boolean }>({ email: null, admin: isDemo });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -32,14 +33,16 @@ export function StoryApp({ view, month = 1, storyId }: Props) {
     try {
       const currentAccess = await getAccess();
       setAccess(currentAccess);
-      const [allStories, allAttempts, allMonthCovers] = await Promise.all([
+      const [allStories, allAttempts, allMonthCovers, allReads] = await Promise.all([
         getStories(view === "admin" && currentAccess.admin),
         getAttempts(),
         getMonthCovers(),
+        getStoryReads(),
       ]);
       setStories(allStories);
       setAttempts(allAttempts);
       setMonthCovers(allMonthCovers);
+      setReads(allReads);
     } catch (cause) { setError(cause instanceof Error ? cause.message : "Không thể tải dữ liệu."); }
     finally { setLoading(false); }
   }, [view]);
@@ -51,7 +54,7 @@ export function StoryApp({ view, month = 1, storyId }: Props) {
 
   const published = stories.filter(story => story.status === "published");
   const selectedStory = stories.find(story => story.id === storyId);
-  const completedIds = new Set(attempts.map(attempt => attempt.story_id));
+  const completedIds = new Set(reads.map(read => read.story_id));
 
   async function handleSave(story: Story, coverFile: File | null) {
     const previousUrl = stories.find(item => item.id === story.id)?.image_url || "";
@@ -79,7 +82,8 @@ export function StoryApp({ view, month = 1, storyId }: Props) {
       <nav className="topnav" aria-label="Điều hướng chính">
         <Link href="/" className={view === "home" ? "active" : ""}>Trang chủ</Link>
         <Link href="/months/1" className={view === "month" ? "active" : ""}>Thư viện truyện</Link>
-        <Link href="/admin" className={view === "admin" ? "active" : ""}>Quản lý nội dung</Link>
+        {(!access.email || access.admin) && <Link href="/admin" className={view === "admin" ? "active" : ""}>Quản lý nội dung</Link>}
+        {access.email && !access.admin && <Link href="/progress" className={view === "progress" ? "active" : ""}>Tiến độ của em</Link>}
         {!isDemo && !access.email && <Link href="/login" className="mobile-login">Đăng nhập</Link>}
         {access.email && <button className="mobile-login mobile-signout" onClick={async () => { await signOut(); await reload(); }}>Đăng xuất</button>}
       </nav>
@@ -88,9 +92,10 @@ export function StoryApp({ view, month = 1, storyId }: Props) {
 
     {error && <div className="notice error" role="alert">{error}</div>}
     {loading ? <main className="page loading"><div className="spinner"/><p>Đang mở thư viện truyện...</p></main> : <>
-      {view === "home" && <Home stories={published} attempts={attempts} monthCovers={monthCovers} />}
+      {view === "home" && <Home stories={published} reads={reads} monthCovers={monthCovers} />}
       {view === "month" && <Month month={month} stories={published} completedIds={completedIds} coverUrl={monthCovers.find(item => item.month === month)?.image_url || ""} />}
-      {view === "story" && (selectedStory ? <StoryReader story={selectedStory} attempts={attempts.filter(a => a.story_id === selectedStory.id)} onDone={async attempt => { await saveAttempt(attempt); setAttempts(await getAttempts()); }} /> : <main className="page empty-state"><h1>Không tìm thấy câu chuyện</h1><p>Truyện này có thể chưa được xuất bản.</p><Link href="/" className="button primary">Về trang chủ</Link></main>)}
+      {view === "story" && (selectedStory ? <StoryReader story={selectedStory} attempts={attempts.filter(a => a.story_id === selectedStory.id)} isRead={completedIds.has(selectedStory.id)} onMarkRead={async () => { await markStoryRead(selectedStory.id); setReads(await getStoryReads()); }} onDone={async attempt => { await saveAttempt(attempt); setAttempts(await getAttempts()); }} /> : <main className="page empty-state"><h1>Không tìm thấy câu chuyện</h1><p>Truyện này có thể chưa được xuất bản.</p><Link href="/" className="button primary">Về trang chủ</Link></main>)}
+      {view === "progress" && (access.email ? <Progress stories={published} reads={reads} attempts={attempts} email={access.email} /> : <StudentLogin onLogin={reload} />)}
       {view === "admin" && (access.admin ? <Admin stories={stories} monthCovers={monthCovers} editor={editor} setEditor={setEditor} onSave={handleSave} onSaveMonthCover={handleSaveMonthCover} onDelete={handleDelete} onReload={reload} email={access.email} /> : <Login onLogin={reload} />)}
       {view === "login" && <StudentLogin onLogin={reload} />}
     </>}
@@ -98,8 +103,8 @@ export function StoryApp({ view, month = 1, storyId }: Props) {
   </div>;
 }
 
-function Home({ stories, attempts, monthCovers }: { stories: Story[]; attempts: Attempt[]; monthCovers: MonthCover[] }) {
-  const completed = new Set(attempts.map(a => a.story_id));
+function Home({ stories, reads, monthCovers }: { stories: Story[]; reads: StoryRead[]; monthCovers: MonthCover[] }) {
+  const completed = new Set(reads.map(a => a.story_id));
   const first = stories[0];
   return <main className="page">
     <section className="hero">
@@ -124,12 +129,26 @@ function Month({ month, stories, completedIds, coverUrl }: { month: number; stor
   </main>;
 }
 
-function StoryReader({ story, attempts, onDone }: { story: Story; attempts: Attempt[]; onDone: (attempt: Attempt) => Promise<void> }) {
+function Progress({ stories, reads, attempts, email }: { stories: Story[]; reads: StoryRead[]; attempts: Attempt[]; email: string }) {
+  const byId = new Map(stories.map(story => [story.id, story]));
+  const readIds = new Set(reads.map(read => read.story_id));
+  const recent = reads.map(read => ({ read, story: byId.get(read.story_id) })).filter(item => item.story);
+  return <main className="page subpage progress-page">
+    <div className="breadcrumb"><Link href="/">Trang chủ</Link><span>›</span><span>Tiến độ của em</span></div>
+    <div className="admin-heading"><div><span className="kicker">HÀNH TRÌNH ĐỌC SÁCH</span><h1>Tiến độ của em</h1><p>{email}</p></div><Link href="/months/10" className="button primary">Đọc truyện tiếp →</Link></div>
+    <div className="admin-stats"><div><span className="stat-icon green">✓</span><div><strong>{readIds.size}</strong><p>Truyện đã đọc</p></div></div><div><span className="stat-icon violet">▣</span><div><strong>{stories.length}</strong><p>Truyện hiện có</p></div></div><div><span className="stat-icon orange">✎</span><div><strong>{attempts.length}</strong><p>Lượt làm bài</p></div></div></div>
+    <section className="admin-panel"><div className="panel-heading"><div><h2>Tiến độ theo tháng</h2><p>Mỗi truyện chỉ được tính một lần khi em bấm “Đánh dấu đã đọc”.</p></div></div><div className="progress-month-grid">{MONTHS.map((label, index) => { const monthStories = stories.filter(story => story.month === index + 1); const count = monthStories.filter(story => readIds.has(story.id)).length; return <Link key={label} href={`/months/${index + 1}`} className="progress-month"><strong>{label}</strong><span>{count}/{monthStories.length} truyện</span><div className="progress-track"><div style={{ width: monthStories.length ? `${count / monthStories.length * 100}%` : "0%" }} /></div></Link>; })}</div></section>
+    <section className="admin-panel"><div className="panel-heading"><div><h2>Truyện vừa đọc</h2><p>Danh sách được lưu riêng cho tài khoản của em.</p></div></div>{recent.length ? <div className="recent-reads">{recent.slice(0, 12).map(({ read, story }) => <Link href={`/stories/${story!.id}`} key={read.story_id}><strong>{story!.title}</strong><span>{MONTHS[story!.month - 1]} · Ngày {story!.day}</span></Link>)}</div> : <p className="empty-quiz">Em chưa đánh dấu truyện nào đã đọc.</p>}</section>
+  </main>;
+}
+
+function StoryReader({ story, attempts, isRead, onMarkRead, onDone }: { story: Story; attempts: Attempt[]; isRead: boolean; onMarkRead: () => Promise<void>; onDone: (attempt: Attempt) => Promise<void> }) {
   const [tab, setTab] = useState<"read" | "quiz">("read");
   const [answers, setAnswers] = useState<number[]>([]);
   const [submitted, setSubmitted] = useState(false);
   const [saving, setSaving] = useState(false);
   const [notice, setNotice] = useState("");
+  const [readBusy, setReadBusy] = useState(false);
   const questions = story.questions || [];
   const score = questions.reduce((sum, question, index) => sum + (answers[index] === question.answer_index ? 1 : 0), 0);
   const video = youtubeId(story.youtube_url);
@@ -147,7 +166,7 @@ function StoryReader({ story, attempts, onDone }: { story: Story; attempts: Atte
   return <main className="page subpage"><div className="breadcrumb"><Link href="/">Trang chủ</Link><span>›</span><Link href={`/months/${story.month}`}>{MONTHS[story.month - 1]}</Link><span>›</span><span>Ngày {story.day}</span></div><div className="reader-heading"><div><div className="eyebrow"><span className="eyebrow-dot"/> {MONTHS[story.month - 1].toUpperCase()} · NGÀY {String(story.day).padStart(2,"0")}</div><h1>{story.title}</h1><p>{story.summary}</p><div className="chips"><span>◷ {story.duration_minutes} phút đọc</span><span>◈ {story.level}</span><span>✎ {totalQuestions(story)} câu hỏi</span></div></div><Link href={`/months/${story.month}`} className="button soft">← Về danh sách</Link></div>
     {story.image_url && <div className="reader-cover" style={{ backgroundImage: `url(${JSON.stringify(story.image_url)})` }} role="img" aria-label={`Ảnh bìa truyện ${story.title}`} />}
     <div className="reader-layout"><div className="reader-main"><div className="reader-tabs"><button className={tab === "read" ? "active" : ""} onClick={() => setTab("read")}>◧ &nbsp;Nghe & đọc truyện</button><button className={tab === "quiz" ? "active" : ""} onClick={() => setTab("quiz")}>✎ &nbsp;Câu hỏi đọc hiểu</button></div>
-      {tab === "read" ? <div className="reader-card"><div className="video-wrap">{video ? <iframe src={`https://www.youtube-nocookie.com/embed/${video}`} title={`Video ${story.title}`} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen /> : <div className="video-placeholder"><div className="play-icon">▶</div><strong>Video câu chuyện</strong><span>Quản trị viên sẽ thêm video YouTube tại đây</span></div>}</div><div className="story-text"><div className="story-text-header"><span className="kicker">CÙNG ĐỌC TRUYỆN</span><span>✦ &nbsp;Đọc chậm, hiểu sâu</span></div>{story.content.split(/\n\s*\n/).map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div><div className="reader-next"><div><strong>Em đã đọc xong rồi chứ?</strong><p>Thử trả lời vài câu hỏi để xem em nhớ được những gì nhé!</p></div><button className="button primary" onClick={() => setTab("quiz")}>Làm câu hỏi →</button></div></div> : <div className="quiz-card"><div className="quiz-intro"><span className="kicker">LUYỆN ĐỌC HIỂU</span><h2>Em hiểu câu chuyện đến đâu?</h2><p>Chọn một đáp án đúng cho mỗi câu hỏi. Em có thể làm lại bất cứ lúc nào.</p></div>{questions.length === 0 ? <div className="empty-quiz">Chưa có câu hỏi cho truyện này.</div> : <><div className="questions">{questions.map((question, index) => <div className="question" key={question.id}><div className="question-title"><span>{String(index + 1).padStart(2,"0")}</span><h3>{question.prompt}</h3></div><div className="options">{question.options.map((option, optionIndex) => <button key={optionIndex} disabled={submitted} onClick={() => { const next = [...answers]; next[index] = optionIndex; setAnswers(next); setNotice(""); }} className={`option ${answers[index] === optionIndex ? "chosen" : ""} ${submitted && optionIndex === question.answer_index ? "correct" : ""} ${submitted && answers[index] === optionIndex && optionIndex !== question.answer_index ? "incorrect" : ""}`}><span>{String.fromCharCode(65 + optionIndex)}</span>{option}</button>)}</div>{submitted && question.explanation && <p className="explanation">💡 {question.explanation}</p>}</div>)}</div>{notice && <p className="form-error" role="alert">{notice}</p>}{submitted ? <div className="result-box"><div><span className="kicker">KẾT QUẢ CỦA EM</span><h3>{score}/{questions.length} câu đúng {score === questions.length ? "🎉" : "🌱"}</h3><p>{score === questions.length ? "Xuất sắc! Em đã hiểu rất rõ câu chuyện." : "Rất tốt! Hãy xem lại lời giải và thử thêm lần nữa."}</p></div><button className="button primary" onClick={() => { setSubmitted(false); setAnswers([]); }}>Làm lại ↻</button></div> : <button className="button primary submit-button" onClick={submitQuiz} disabled={saving}>{saving ? "Đang lưu..." : "Nộp bài →"}</button>}</>}<ActivityPanel activities={story.activities} /></div>}
+      {tab === "read" ? <div className="reader-card"><div className="video-wrap">{video ? <iframe src={`https://www.youtube-nocookie.com/embed/${video}`} title={`Video ${story.title}`} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen /> : <div className="video-placeholder"><div className="play-icon">▶</div><strong>Video câu chuyện</strong><span>Quản trị viên sẽ thêm video YouTube tại đây</span></div>}</div><div className="story-text"><div className="story-text-header"><span className="kicker">CÙNG ĐỌC TRUYỆN</span><span>✦ &nbsp;Đọc chậm, hiểu sâu</span></div>{story.content.split(/\n\s*\n/).map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div><div className="reader-next"><div><strong>Em đã đọc xong rồi chứ?</strong><p>{isRead ? "Truyện này đã có trong tiến độ của em." : "Đánh dấu đã đọc để lưu vào tiến độ của em."}</p></div><div className="reader-next-actions"><button className="button soft" disabled={isRead || readBusy} onClick={async () => { setReadBusy(true); setNotice(""); try { await onMarkRead(); } catch (cause) { setNotice(cause instanceof Error ? cause.message : "Không lưu được tiến độ."); } finally { setReadBusy(false); } }}>{isRead ? "✓ Đã đọc" : readBusy ? "Đang lưu..." : "✓ Đánh dấu đã đọc"}</button><button className="button primary" onClick={() => setTab("quiz")}>Làm câu hỏi →</button></div></div>{notice && <p className="form-error" role="alert">{notice}</p>}</div> : <div className="quiz-card"><div className="quiz-intro"><span className="kicker">LUYỆN ĐỌC HIỂU</span><h2>Em hiểu câu chuyện đến đâu?</h2><p>Chọn một đáp án đúng cho mỗi câu hỏi. Em có thể làm lại bất cứ lúc nào.</p></div>{questions.length === 0 ? <div className="empty-quiz">Chưa có câu hỏi cho truyện này.</div> : <><div className="questions">{questions.map((question, index) => <div className="question" key={question.id}><div className="question-title"><span>{String(index + 1).padStart(2,"0")}</span><h3>{question.prompt}</h3></div><div className="options">{question.options.map((option, optionIndex) => <button key={optionIndex} disabled={submitted} onClick={() => { const next = [...answers]; next[index] = optionIndex; setAnswers(next); setNotice(""); }} className={`option ${answers[index] === optionIndex ? "chosen" : ""} ${submitted && optionIndex === question.answer_index ? "correct" : ""} ${submitted && answers[index] === optionIndex && optionIndex !== question.answer_index ? "incorrect" : ""}`}><span>{String.fromCharCode(65 + optionIndex)}</span>{option}</button>)}</div>{submitted && question.explanation && <p className="explanation">💡 {question.explanation}</p>}</div>)}</div>{notice && <p className="form-error" role="alert">{notice}</p>}{submitted ? <div className="result-box"><div><span className="kicker">KẾT QUẢ CỦA EM</span><h3>{score}/{questions.length} câu đúng {score === questions.length ? "🎉" : "🌱"}</h3><p>{score === questions.length ? "Xuất sắc! Em đã hiểu rất rõ câu chuyện." : "Rất tốt! Hãy xem lại lời giải và thử thêm lần nữa."}</p></div><button className="button primary" onClick={() => { setSubmitted(false); setAnswers([]); }}>Làm lại ↻</button></div> : <button className="button primary submit-button" onClick={submitQuiz} disabled={saving}>{saving ? "Đang lưu..." : "Nộp bài →"}</button>}</>}<ActivityPanel activities={story.activities} /></div>}
     </div><aside className="reader-side"><div className="side-card"><div className="side-icon">📚</div><span className="kicker">HÀNH TRÌNH CỦA EM</span><h3>Mỗi trang là một bước tiến</h3><p>Nghe, đọc và luyện tập theo nhịp độ riêng. Không cần vội vàng!</p><div className="side-steps"><div><span>1</span> Nghe câu chuyện</div><div><span>2</span> Đọc lại nội dung</div><div><span>3</span> Trả lời câu hỏi</div></div></div>{attempts.length > 0 && <div className="side-card attempt-card"><span className="kicker">BÀI LÀM GẦN NHẤT</span><strong>{attempts[0].score}/{attempts[0].total}</strong><p>câu trả lời đúng</p></div>}</aside></div>
   </main>;
 }
@@ -175,9 +194,8 @@ function Login({ onLogin }: { onLogin: () => Promise<void> }) {
 
 function StudentLogin({ onLogin }: { onLogin: () => Promise<void> }) {
   const router = useRouter();
-  const [mode, setMode] = useState<"login" | "signup">("login");
-  const [email, setEmail] = useState(""); const [password, setPassword] = useState(""); const [error, setError] = useState(""); const [message, setMessage] = useState(""); const [busy, setBusy] = useState(false);
-  return <main className="page login-page"><div className="login-card"><span className="login-icon">✦</span><span className="kicker">GÓC ĐỌC CỦA EM</span><h1>{mode === "login" ? "Cùng đọc tiếp nhé!" : "Tạo tài khoản học tập"}</h1><p>{isDemo ? "Bản xem trước không cần tài khoản. Em có thể đọc truyện và làm bài ngay." : "Đăng nhập để lưu hành trình đọc và kết quả luyện tập trên nhiều thiết bị."}</p>{!isDemo && <form onSubmit={async event => { event.preventDefault(); setBusy(true); setError(""); setMessage(""); try { if (mode === "login") { await signIn(email,password); await onLogin(); router.push("/"); } else { const hasSession = await signUp(email,password); if (hasSession) { await onLogin(); router.push("/"); } else setMessage("Hãy kiểm tra email để xác nhận tài khoản, sau đó đăng nhập."); } } catch (cause) { setError(cause instanceof Error ? cause.message : "Không thực hiện được."); } finally { setBusy(false); } }}><label>Email<input type="email" required value={email} onChange={e => setEmail(e.target.value)} placeholder="em@example.com" /></label><label>Mật khẩu<input type="password" required minLength={6} value={password} onChange={e => setPassword(e.target.value)} placeholder="Ít nhất 6 ký tự" /></label>{error && <p className="form-error">{error}</p>}{message && <p className="success-message">{message}</p>}<button className="button primary full" disabled={busy}>{busy ? "Đang xử lý..." : mode === "login" ? "Đăng nhập →" : "Tạo tài khoản →"}</button><button type="button" className="switch-auth" onClick={() => { setMode(mode === "login" ? "signup" : "login"); setError(""); setMessage(""); }}>{mode === "login" ? "Chưa có tài khoản? Đăng ký" : "Đã có tài khoản? Đăng nhập"}</button></form>}<Link href="/">← Quay về trang chủ</Link></div></main>;
+  const [email, setEmail] = useState(""); const [password, setPassword] = useState(""); const [error, setError] = useState(""); const [busy, setBusy] = useState(false);
+  return <main className="page login-page"><div className="login-card"><span className="login-icon">✦</span><span className="kicker">GÓC ĐỌC CỦA EM</span><h1>Cùng đọc tiếp nhé!</h1><p>{isDemo ? "Bản xem trước không cần tài khoản." : "Dùng tài khoản do quản trị viên cấp để lưu tiến độ đọc của em."}</p>{!isDemo && <form onSubmit={async event => { event.preventDefault(); setBusy(true); setError(""); try { await signIn(email,password); await onLogin(); router.push("/progress"); } catch (cause) { setError(cause instanceof Error ? cause.message : "Đăng nhập thất bại."); } finally { setBusy(false); } }}><label>Email<input type="email" required value={email} onChange={e => setEmail(e.target.value)} placeholder="em@example.com" /></label><label>Mật khẩu<input type="password" required value={password} onChange={e => setPassword(e.target.value)} placeholder="Mật khẩu được cấp" /></label>{error && <p className="form-error">{error}</p>}<button className="button primary full" disabled={busy}>{busy ? "Đang đăng nhập..." : "Đăng nhập →"}</button></form>}<Link href="/">← Quay về trang chủ</Link></div></main>;
 }
 
 function Admin({ stories, monthCovers, editor, setEditor, onSave, onSaveMonthCover, onDelete, onReload, email }: { stories: Story[]; monthCovers: MonthCover[]; editor: Story | null; setEditor: (story: Story | null) => void; onSave: (story: Story, coverFile: File | null) => Promise<void>; onSaveMonthCover: (month: number, file: File | null) => Promise<void>; onDelete: (story: Story) => Promise<void>; onReload: () => Promise<void>; email: string | null }) {
@@ -217,11 +235,55 @@ function Admin({ stories, monthCovers, editor, setEditor, onSave, onSaveMonthCov
   return <main className="page subpage admin-page"><div className="breadcrumb"><Link href="/">Trang chủ</Link><span>›</span><span>Quản lý nội dung</span></div><div className="admin-heading"><div><span className="kicker">KHÔNG GIAN BIÊN TẬP</span><h1>Quản lý bộ truyện</h1><p>Chuẩn bị nội dung cho từng ngày học, từ câu chuyện đến câu hỏi đọc hiểu.</p></div><button className="button primary" onClick={() => setEditor(blankStory(1, 1))}>＋ Thêm câu chuyện</button></div>
     <div className="admin-stats"><div><span className="stat-icon violet">▣</span><div><strong>{stories.length}</strong><p>Tổng số truyện</p></div></div><div><span className="stat-icon green">✓</span><div><strong>{stories.filter(s => s.status === "published").length}</strong><p>Đã xuất bản</p></div></div><div><span className="stat-icon orange">✎</span><div><strong>{stories.filter(s => s.status === "draft").length}</strong><p>Bản nháp</p></div></div><div><span className="stat-icon blue">☷</span><div><strong>{stories.reduce((n,s) => n + totalQuestions(s),0)}</strong><p>Câu hỏi đọc hiểu</p></div></div></div>
     <MonthCoverManager covers={monthCovers} onSave={onSaveMonthCover} />
+    <StudentAccountManager />
     <div className="admin-panel"><div className="panel-heading"><div><h2>Danh sách nội dung</h2><p>Quản lý truyện theo tháng và ngày.</p></div><div className="panel-actions"><label className="button soft import-button">↑ Nhập JSON<input type="file" accept=".json,application/json" onChange={e => { const file = e.target.files?.[0]; if (file) void importJson(file); e.target.value = ""; }} /></label><a className="button soft" href="/sample-import.json" download>↓ Tệp mẫu</a></div></div>{message && <div className="notice">{message}</div>}<div className="filters"><input placeholder="⌕  Tìm theo tên truyện..." value={query} onChange={e => setQuery(e.target.value)} /><select value={month} onChange={e => setMonth(Number(e.target.value))}><option value={0}>Tất cả các tháng</option>{MONTHS.map((m,i) => <option key={m} value={i+1}>{m}</option>)}</select></div><div className="table-wrap"><table><thead><tr><th>CÂU CHUYỆN</th><th>THỜI GIAN</th><th>CÂU HỎI</th><th>TRẠNG THÁI</th><th></th></tr></thead><tbody>{filtered.map(story => <tr key={story.id}><td><div className="table-story">{story.image_url ? <span className="table-cover" style={{ backgroundImage: `url(${JSON.stringify(story.image_url)})` }} aria-hidden="true" /> : <span>📖</span>}<div><strong>{story.title || "Chưa đặt tên"}</strong><small>{story.summary || "Chưa có mô tả"}</small></div></div></td><td>{MONTHS[story.month - 1]} · Ngày {story.day}</td><td>{totalQuestions(story)} câu</td><td><span className={`status ${story.status}`}>{story.status === "published" ? "Đã xuất bản" : "Bản nháp"}</span></td><td><button className="edit-link" onClick={() => setEditor(story)}>Chỉnh sửa →</button></td></tr>)}</tbody></table>{filtered.length === 0 && <div className="table-empty">Chưa có truyện phù hợp. Hãy thêm một câu chuyện mới.</div>}</div></div>
     <div className="admin-hint"><span>💡</span><p><strong>Mẹo nhập dữ liệu:</strong> Tải tệp mẫu, thay nội dung truyện và câu hỏi rồi nhập JSON. Nội dung mới luôn ở trạng thái bản nháp để bạn kiểm tra trước khi xuất bản.</p></div>
     {email && <button className="signout" onClick={async () => { await signOut(); router.refresh(); await onReload(); }}>Đăng xuất {email}</button>}
     {editor && <StoryEditor key={editor.id} story={editor} stories={stories} onClose={() => setEditor(null)} onSave={onSave} onDelete={onDelete} />}
   </main>;
+}
+
+function StudentAccountManager() {
+  const [profiles, setProfiles] = useState<StudentProfile[]>([]);
+  const [counts, setCounts] = useState<Record<string, number>>({});
+  const [displayName, setDisplayName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
+
+  async function refresh() {
+    const [nextProfiles, nextCounts] = await Promise.all([getStudentProfiles(), getStudentReadCounts()]);
+    setProfiles(nextProfiles);
+    setCounts(nextCounts);
+  }
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      void Promise.all([getStudentProfiles(), getStudentReadCounts()])
+        .then(([nextProfiles, nextCounts]) => { setProfiles(nextProfiles); setCounts(nextCounts); })
+        .catch(cause => setError(cause instanceof Error ? cause.message : "Không tải được danh sách học sinh."));
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, []);
+
+  async function create(event: React.FormEvent) {
+    event.preventDefault(); setBusy(true); setError(""); setMessage("");
+    try {
+      await createStudentAccount(displayName.trim(), email.trim(), password);
+      setMessage(`Đã cấp tài khoản cho ${displayName.trim()} (${email.trim()}). Hãy gửi riêng mật khẩu cho học sinh.`);
+      setDisplayName(""); setEmail(""); setPassword("");
+      await refresh();
+    } catch (cause) { setError(cause instanceof Error ? cause.message : "Không tạo được tài khoản."); }
+    finally { setBusy(false); }
+  }
+
+  return <section className="admin-panel student-panel"><div className="panel-heading"><div><h2>Tài khoản học sinh</h2><p>Cấp tài khoản riêng và theo dõi số truyện mỗi em đã đánh dấu đã đọc.</p></div></div>
+    <form className="student-create-form" onSubmit={create}><label>Họ tên học sinh<input required maxLength={100} value={displayName} onChange={e => setDisplayName(e.target.value)} placeholder="Nguyễn An" /></label><label>Email đăng nhập<input required type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="an@example.com" /></label><label>Mật khẩu ban đầu<input required type="password" minLength={8} value={password} onChange={e => setPassword(e.target.value)} placeholder="Ít nhất 8 ký tự" autoComplete="new-password" /></label><button className="button primary" disabled={busy}>{busy ? "Đang tạo..." : "＋ Cấp tài khoản"}</button></form>
+    {error && <p className="form-error" role="alert">{error}</p>}{message && <p className="success-message" role="status">{message}</p>}
+    <div className="table-wrap"><table><thead><tr><th>HỌC SINH</th><th>EMAIL ĐĂNG NHẬP</th><th>TRUYỆN ĐÃ ĐỌC</th></tr></thead><tbody>{profiles.map(profile => <tr key={profile.id}><td><strong>{profile.display_name}</strong></td><td>{profile.email}</td><td>{counts[profile.id] || 0}</td></tr>)}</tbody></table>{profiles.length === 0 && <div className="table-empty">Chưa có tài khoản học sinh nào.</div>}</div>
+  </section>;
 }
 
 function MonthCoverManager({ covers, onSave }: { covers: MonthCover[]; onSave: (month: number, file: File | null) => Promise<void> }) {
