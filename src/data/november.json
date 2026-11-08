@@ -1,0 +1,3482 @@
+[
+  {
+    "id": "00000000-0000-4000-8000-000000011002",
+    "month": 11,
+    "day": 2,
+    "title": "Eric Rides a Backhoe",
+    "summary": "We can learn about machines by watching and trying them with someone experienced.",
+    "content": "Eric loves big trucks and machines. When he grows up, he will learn how to drive a backhoe, like his uncle.\n\nA backhoe has an arm and bucket on the back and a front loader on the front. These powerful machines easily move heavy soil and rock to make way for roads and homes and many other things.\n\nToday, Eric's uncle is taking him to ride on a backhoe. What fun!",
+    "youtube_url": "https://youtu.be/Zj6fvZ_u2tw?si=snPMNmD5Tx7ojJtV",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011000201",
+        "story_id": "00000000-0000-4000-8000-000000011002",
+        "prompt": "What does Eric love?",
+        "options": [
+          "Fish and boats",
+          "Big trucks and machines",
+          "Snowflakes and stars",
+          "Houses and gardens"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000202",
+        "story_id": "00000000-0000-4000-8000-000000011002",
+        "prompt": "What will Eric learn to drive when he grows up?",
+        "options": [
+          "A backhoe",
+          "An electric bike",
+          "A train",
+          "A car"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000203",
+        "story_id": "00000000-0000-4000-8000-000000011002",
+        "prompt": "What is on the back of a backhoe?",
+        "options": [
+          "A flat tire",
+          "A small house",
+          "A snow shovel",
+          "An arm and bucket"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000204",
+        "story_id": "00000000-0000-4000-8000-000000011002",
+        "prompt": "What does a backhoe move?",
+        "options": [
+          "Letters and books",
+          "Water bottles and ice",
+          "Heavy soil and rock",
+          "Snowflakes and wool"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Eric loves big trucks and machines.",
+        "A backhoe has its arm and bucket on the front.",
+        "Backhoes can help make roads and homes.",
+        "Eric's uncle takes him to ride on a train."
+      ],
+      "short_answer": [
+        "What does Eric love?",
+        "What can a backhoe move?",
+        "Who takes Eric to ride on a backhoe?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "He loves big trucks and machines.",
+        "It can move heavy soil and rock.",
+        "His uncle does."
+      ],
+      "vocabulary": [
+        {
+          "term": "backhoe",
+          "meaning": "a machine used for digging and moving soil"
+        },
+        {
+          "term": "bucket",
+          "meaning": "a container attached to a machine"
+        },
+        {
+          "term": "powerful",
+          "meaning": "strong and able to do a lot"
+        },
+        {
+          "term": "soil",
+          "meaning": "the top layer of earth where plants grow"
+        },
+        {
+          "term": "machine",
+          "meaning": "a tool with parts that helps do work"
+        }
+      ],
+      "language_notice": "“When he grows up” uses the present simple after when to talk about the future. “Will learn” describes a future action."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011003",
+    "month": 11,
+    "day": 3,
+    "title": "A Messy Room–1",
+    "summary": "We should notice the mess we make and take responsibility for it.",
+    "content": "Timmy was playing with his friends in his room. They jumped on the bed. They played with trucks and his old toys.\n\nThey had so much fun. They didn’t notice how messy his room had become.\n\nAfter his friends left, Timmy looked at his room and thought, “Mom will not be happy if she sees this mess.”",
+    "youtube_url": "https://youtu.be/_ZFH0TnKzuM?si=k5geAPivDLh2H08X",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011000301",
+        "story_id": "00000000-0000-4000-8000-000000011003",
+        "prompt": "Who was playing with friends?",
+        "options": [
+          "Timmy",
+          "Leo",
+          "Eric",
+          "Julie"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000302",
+        "story_id": "00000000-0000-4000-8000-000000011003",
+        "prompt": "Where were they playing?",
+        "options": [
+          "At a bike shop",
+          "On a farm",
+          "At the dentist's office",
+          "In Timmy's room"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000303",
+        "story_id": "00000000-0000-4000-8000-000000011003",
+        "prompt": "What did they play with?",
+        "options": [
+          "A backhoe and a shovel",
+          "A bike and a bottle",
+          "Trucks and old toys",
+          "Snowflakes and letters"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000304",
+        "story_id": "00000000-0000-4000-8000-000000011003",
+        "prompt": "How did Timmy feel about the mess?",
+        "options": [
+          "He thought the toys were broken",
+          "He thought Mom would not be happy",
+          "He thought Mom would build a house",
+          "He wanted the room to get messier"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Timmy played with his friends in his room.",
+        "The friends were careful to keep the room tidy.",
+        "They played with trucks and old toys.",
+        "Timmy thought his mom would like the mess."
+      ],
+      "short_answer": [
+        "Who played with Timmy?",
+        "What toys did they play with?",
+        "What did Timmy think after his friends left?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "His friends played with him.",
+        "They played with trucks and his old toys.",
+        "He thought his mom would not be happy if she saw the mess."
+      ],
+      "vocabulary": [
+        {
+          "term": "messy",
+          "meaning": "untidy; not clean or in order"
+        },
+        {
+          "term": "notice",
+          "meaning": "to see or become aware of something"
+        },
+        {
+          "term": "toy",
+          "meaning": "something children play with"
+        },
+        {
+          "term": "friend",
+          "meaning": "a person you like and know well"
+        },
+        {
+          "term": "left",
+          "meaning": "went away from a place"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011004",
+    "month": 11,
+    "day": 4,
+    "title": "A Messy Room–2",
+    "summary": "It is easier to clean up when everyone helps.",
+    "content": "Timmy started to clean his room. He put the trucks in his toy box, the sheets back on his bed, and the old toys back on the shelf.\n\nJust as he finished, his mother got home. She said, “Your room is so clean!”\n\nTimmy smiled. “Next time, I'll ask my friends to help me clean the room when we are done playing,” thought Timmy.",
+    "youtube_url": "https://youtu.be/XchMJvSd-Qo?si=cGaxa6u7qsf4vvvM",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011000401",
+        "story_id": "00000000-0000-4000-8000-000000011004",
+        "prompt": "What did Timmy do?",
+        "options": [
+          "He went to a dentist",
+          "He rode a backhoe",
+          "He learned to fish",
+          "He cleaned his room"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000402",
+        "story_id": "00000000-0000-4000-8000-000000011004",
+        "prompt": "Where did he put the trucks?",
+        "options": [
+          "On the shelf",
+          "In the kitchen",
+          "In his toy box",
+          "On the bed"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000403",
+        "story_id": "00000000-0000-4000-8000-000000011004",
+        "prompt": "What did his mother say?",
+        "options": [
+          "The bike was broken",
+          "The room was clean",
+          "The room was too small",
+          "The toys were new"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000404",
+        "story_id": "00000000-0000-4000-8000-000000011004",
+        "prompt": "What will Timmy ask his friends to do next time?",
+        "options": [
+          "Help clean up",
+          "Bring more toys",
+          "Ride to work",
+          "Build a house"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Timmy put the trucks in his toy box.",
+        "He put the old toys under the bed.",
+        "His mother came home as he finished.",
+        "Timmy decided never to play again."
+      ],
+      "short_answer": [
+        "Where did Timmy put the trucks?",
+        "Where did he put the old toys?",
+        "What will he ask his friends next time?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "He put them in his toy box.",
+        "He put them back on the shelf.",
+        "He will ask them to help clean the room."
+      ],
+      "vocabulary": [
+        {
+          "term": "shelf",
+          "meaning": "a flat board used for holding things"
+        },
+        {
+          "term": "sheet",
+          "meaning": "a piece of cloth used on a bed"
+        },
+        {
+          "term": "clean",
+          "meaning": "not dirty or messy"
+        },
+        {
+          "term": "finished",
+          "meaning": "completed; done"
+        },
+        {
+          "term": "help",
+          "meaning": "to make a task easier for someone"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011005",
+    "month": 11,
+    "day": 5,
+    "title": "Mom’s Favourite Sweater–1",
+    "summary": "When something goes wrong, take a closer look to find out why.",
+    "content": "Mom had a blue sweater. It was her favourite of all her clothes. It was made of wool.\n\nOne day, she wanted to wear it to a meeting. When she took out her sweater, something was wrong.\n\nIt had many small holes!\n\n“Oh, no! There are holes in my sweater. What happened?” said my mom. “My sweater is not that old.”",
+    "youtube_url": "https://youtu.be/srsZ5wMljCU?si=A1FDzlqWBwN9Gftk",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011000501",
+        "story_id": "00000000-0000-4000-8000-000000011005",
+        "prompt": "What colour was Mom's sweater?",
+        "options": [
+          "Red",
+          "Yellow",
+          "Blue",
+          "Green"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000502",
+        "story_id": "00000000-0000-4000-8000-000000011005",
+        "prompt": "What was the sweater made of?",
+        "options": [
+          "Plastic",
+          "Wool",
+          "Cotton",
+          "Paper"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000503",
+        "story_id": "00000000-0000-4000-8000-000000011005",
+        "prompt": "Where did Mom want to wear it?",
+        "options": [
+          "To a meeting",
+          "To a farm",
+          "To a bike shop",
+          "To the beach"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000504",
+        "story_id": "00000000-0000-4000-8000-000000011005",
+        "prompt": "What was wrong with the sweater?",
+        "options": [
+          "It was too big",
+          "It was wet",
+          "It had six points",
+          "It had many small holes"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Mom's favourite sweater was blue.",
+        "The sweater was made of paper.",
+        "Mom wanted to wear it to a meeting.",
+        "The sweater had no holes."
+      ],
+      "short_answer": [
+        "What colour was Mom's sweater?",
+        "What was the sweater made of?",
+        "What did Mom find when she took it out?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "It was blue.",
+        "It was made of wool.",
+        "She found many small holes in it."
+      ],
+      "vocabulary": [
+        {
+          "term": "sweater",
+          "meaning": "a warm knitted piece of clothing"
+        },
+        {
+          "term": "wool",
+          "meaning": "soft hair from a sheep"
+        },
+        {
+          "term": "meeting",
+          "meaning": "a time when people come together to talk"
+        },
+        {
+          "term": "hole",
+          "meaning": "an open space in something"
+        },
+        {
+          "term": "favourite",
+          "meaning": "the one liked best"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011006",
+    "month": 11,
+    "day": 6,
+    "title": "Mom’s Favourite Sweater–2",
+    "summary": "Looking carefully can help us discover the cause of a problem.",
+    "content": "Mom looked at her sweater carefully. Then she called out, “Look, there are worms! There are worms on my sweater!”\n\nWe all ran over to see her sweater.\n\n“Here!” When she slowly opened a tiny ball of wool, there were worms inside.\n\nMom told us, “I have heard people saying that worms like wool. Now we see it with our own eyes!”",
+    "youtube_url": "https://youtu.be/cbh2u6QKZ7k?si=NGdy4EhyDVY6v0S1",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011000601",
+        "story_id": "00000000-0000-4000-8000-000000011006",
+        "prompt": "What did Mom see on her sweater?",
+        "options": [
+          "Ants",
+          "Worms",
+          "Snowflakes",
+          "Piglets"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000602",
+        "story_id": "00000000-0000-4000-8000-000000011006",
+        "prompt": "What did Mom open?",
+        "options": [
+          "A tiny ball of wool",
+          "A toy box",
+          "A bottle of water",
+          "A book"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000603",
+        "story_id": "00000000-0000-4000-8000-000000011006",
+        "prompt": "Where were the worms?",
+        "options": [
+          "Under the bed",
+          "On the bike",
+          "In the snow",
+          "Inside the wool"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000604",
+        "story_id": "00000000-0000-4000-8000-000000011006",
+        "prompt": "How did the family find out?",
+        "options": [
+          "They asked a dentist",
+          "They read the alphabet",
+          "They looked with their own eyes",
+          "They used a backhoe"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Mom looked at her sweater carefully.",
+        "The worms were inside a toy box.",
+        "The family ran over to see the sweater.",
+        "Mom said worms like electric bikes."
+      ],
+      "short_answer": [
+        "What did Mom find on the sweater?",
+        "What was inside the tiny ball of wool?",
+        "How did the family see the worms?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "She found worms on it.",
+        "There were worms inside.",
+        "They looked with their own eyes."
+      ],
+      "vocabulary": [
+        {
+          "term": "carefully",
+          "meaning": "with attention and care"
+        },
+        {
+          "term": "worm",
+          "meaning": "a small, long animal with a soft body"
+        },
+        {
+          "term": "slowly",
+          "meaning": "not quickly"
+        },
+        {
+          "term": "inside",
+          "meaning": "in the inner part of something"
+        },
+        {
+          "term": "wool",
+          "meaning": "soft hair from a sheep"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011007",
+    "month": 11,
+    "day": 7,
+    "title": "The Power of Ice",
+    "summary": "Curiosity helps us learn how changes in nature affect the world around us.",
+    "content": "Last night, Jane left a bottle of water on the doorstep. It was cold in the night. Really cold!\n\nWhen Jane went out in the morning, the glass bottle was broken. It had broken into many pieces.\n\n“What happened?” asked Jane.\n\nHer dad said, “When water becomes ice, the ice gets bigger, and it breaks the bottle.”\n\nWow! Ice can be a very powerful thing.",
+    "youtube_url": "https://youtu.be/IKeTUmxanuE?si=Q8_ZeeQuIm9i8OU5",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011000701",
+        "story_id": "00000000-0000-4000-8000-000000011007",
+        "prompt": "What did Jane leave outside?",
+        "options": [
+          "A bottle of water",
+          "A blue sweater",
+          "A bike",
+          "A shovel"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000702",
+        "story_id": "00000000-0000-4000-8000-000000011007",
+        "prompt": "What was the weather like at night?",
+        "options": [
+          "Very hot",
+          "Windy and warm",
+          "Rainy and sunny",
+          "Very cold"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000703",
+        "story_id": "00000000-0000-4000-8000-000000011007",
+        "prompt": "What happened to the glass bottle?",
+        "options": [
+          "It turned into snow",
+          "It got bigger but stayed whole",
+          "It broke into many pieces",
+          "It became a bike"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000704",
+        "story_id": "00000000-0000-4000-8000-000000011007",
+        "prompt": "Why did the bottle break?",
+        "options": [
+          "The sun melted it",
+          "The water became ice and expanded",
+          "The bottle fell off a shelf",
+          "Jane hit it with a shovel"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Jane left a bottle of water on the doorstep.",
+        "The night was very hot.",
+        "The bottle broke into many pieces.",
+        "Ice gets smaller than water and breaks the bottle."
+      ],
+      "short_answer": [
+        "What did Jane leave on the doorstep?",
+        "What happened to the bottle?",
+        "Why did the bottle break?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "She left a bottle of water.",
+        "It broke into many pieces.",
+        "The water became ice, got bigger, and broke the bottle."
+      ],
+      "vocabulary": [
+        {
+          "term": "doorstep",
+          "meaning": "the step outside a door"
+        },
+        {
+          "term": "glass",
+          "meaning": "a hard, clear material used to make windows and bottles"
+        },
+        {
+          "term": "piece",
+          "meaning": "a part of something"
+        },
+        {
+          "term": "ice",
+          "meaning": "frozen water"
+        },
+        {
+          "term": "powerful",
+          "meaning": "strong; able to cause a big effect"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011008",
+    "month": 11,
+    "day": 8,
+    "title": "Electric Bike",
+    "summary": "The right tool can make a difficult task easier and more enjoyable.",
+    "content": "Leo bought an electric bike. He was very happy. The bike does everything he needs.\n\nWhen going downhill or on a flat road, he rides it like a normal bike. He doesn’t need to pedal much.\n\nWhen he goes uphill, he uses the electric power to help him.\n\nUp or downhill, bike riding is now easy and fun for Leo. The electric bike is the best tool he has.",
+    "youtube_url": "https://youtu.be/MturLAn_AJA?si=F5Sb-5_WNZF1hWqK",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011000801",
+        "story_id": "00000000-0000-4000-8000-000000011008",
+        "prompt": "What did Leo buy?",
+        "options": [
+          "A backhoe",
+          "A train",
+          "A blue sweater",
+          "An electric bike"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000802",
+        "story_id": "00000000-0000-4000-8000-000000011008",
+        "prompt": "What does Leo do on a flat road?",
+        "options": [
+          "He uses a shovel",
+          "He gets off and pushes it",
+          "He rides like on a normal bike",
+          "He walks beside the bike"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000803",
+        "story_id": "00000000-0000-4000-8000-000000011008",
+        "prompt": "When does he use electric power?",
+        "options": [
+          "When he repairs a tire",
+          "When he goes uphill",
+          "When he is sleeping",
+          "When he goes downhill only"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000804",
+        "story_id": "00000000-0000-4000-8000-000000011008",
+        "prompt": "How does Leo feel about riding now?",
+        "options": [
+          "It is easy and fun",
+          "It is messy and hard",
+          "It is cold and scary",
+          "It is slow and boring"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Leo bought an electric bike.",
+        "Leo must pedal hard on every road.",
+        "He uses electric power to help uphill.",
+        "The bike makes riding difficult and boring."
+      ],
+      "short_answer": [
+        "What did Leo buy?",
+        "When does he use the electric power?",
+        "How does the bike make riding for Leo?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "He bought an electric bike.",
+        "He uses it when he goes uphill.",
+        "It makes riding easy and fun."
+      ],
+      "vocabulary": [
+        {
+          "term": "electric",
+          "meaning": "using electricity for power"
+        },
+        {
+          "term": "downhill",
+          "meaning": "going down a hill"
+        },
+        {
+          "term": "uphill",
+          "meaning": "going up a hill"
+        },
+        {
+          "term": "pedal",
+          "meaning": "to push the parts of a bike with your feet"
+        },
+        {
+          "term": "normal",
+          "meaning": "usual or ordinary"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011009",
+    "month": 11,
+    "day": 9,
+    "title": "Houses",
+    "summary": "A home matters because of the people we share it with.",
+    "content": "Julie’s dad sells houses. That's his job. “Houses can be big or small,” he says.\n\nOn Saturday, Julie's dad takes her to see a small house. It is very small. It only has one bedroom.\n\nThen, he shows her a big house. It is very big. It has seven bedrooms.\n\nHer dad asks, “Would you like to live in a big house?”\n\n“Yes,” says Julie, “but not by myself.”",
+    "youtube_url": "https://youtu.be/DMDMKrNw3Z4?si=kCc_6JST284M4ikq",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011000901",
+        "story_id": "00000000-0000-4000-8000-000000011009",
+        "prompt": "What is Julie's dad's job?",
+        "options": [
+          "He teaches fish",
+          "He drives trains",
+          "He sells houses",
+          "He repairs bikes"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000902",
+        "story_id": "00000000-0000-4000-8000-000000011009",
+        "prompt": "How many bedrooms does the small house have?",
+        "options": [
+          "Seven",
+          "One",
+          "Two",
+          "Four"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000903",
+        "story_id": "00000000-0000-4000-8000-000000011009",
+        "prompt": "How many bedrooms does the big house have?",
+        "options": [
+          "Seven",
+          "One",
+          "Three",
+          "Six"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000904",
+        "story_id": "00000000-0000-4000-8000-000000011009",
+        "prompt": "Why does Julie not want to live in the big house by herself?",
+        "options": [
+          "She dislikes bedrooms",
+          "She wants to sell it",
+          "She wants to live at the dentist's office",
+          "She does not want to be alone"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Julie’s dad sells houses.",
+        "The small house has seven bedrooms.",
+        "The big house has seven bedrooms.",
+        "Julie wants to live in the big house by herself."
+      ],
+      "short_answer": [
+        "What does Julie's dad do?",
+        "How many bedrooms are in the small house?",
+        "What does Julie say about living in the big house?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "He sells houses.",
+        "It has one bedroom.",
+        "She would like to, but not by herself."
+      ],
+      "vocabulary": [
+        {
+          "term": "sell",
+          "meaning": "to give something to someone for money"
+        },
+        {
+          "term": "bedroom",
+          "meaning": "a room where someone sleeps"
+        },
+        {
+          "term": "Saturday",
+          "meaning": "the day after Friday"
+        },
+        {
+          "term": "small",
+          "meaning": "little in size"
+        },
+        {
+          "term": "by myself",
+          "meaning": "alone; without another person"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011010",
+    "month": 11,
+    "day": 10,
+    "title": "Dentist Visit–1",
+    "summary": "When communication is difficult, stay calm and look for another way to understand each other.",
+    "content": "Leo visited a dentist while he was in China.\n\nLeo didn’t want other people to go with him because seeing a dentist could take a lot of time. He went to the dentist's office by himself.\n\nBut the dentist didn’t speak English. And Leo didn’t speak Chinese. How could they get the work done without talking to each other?\n\n“I will have to find a way to talk to the dentist,” thought Leo.",
+    "youtube_url": "https://youtu.be/bWAvOxFtjzQ?si=7GnGBZaqLkbYGu-m",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011001001",
+        "story_id": "00000000-0000-4000-8000-000000011010",
+        "prompt": "Where was Leo when he visited the dentist?",
+        "options": [
+          "In the Philippines",
+          "In China",
+          "In Canada",
+          "In Africa"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001002",
+        "story_id": "00000000-0000-4000-8000-000000011010",
+        "prompt": "Who went with Leo?",
+        "options": [
+          "No one; he went by himself",
+          "His mother",
+          "His brother",
+          "His uncle"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001003",
+        "story_id": "00000000-0000-4000-8000-000000011010",
+        "prompt": "Which language did the dentist not speak?",
+        "options": [
+          "Chinese",
+          "French",
+          "Spanish",
+          "English"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001004",
+        "story_id": "00000000-0000-4000-8000-000000011010",
+        "prompt": "What did Leo need to find?",
+        "options": [
+          "A place to sleep",
+          "A way to build a house",
+          "A way to talk to the dentist",
+          "A new bike"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Leo visited a dentist in China.",
+        "Leo went with many people.",
+        "The dentist and Leo did not speak the same language.",
+        "Leo decided not to talk to the dentist."
+      ],
+      "short_answer": [
+        "Where did Leo visit the dentist?",
+        "Why did Leo go by himself?",
+        "What problem did Leo have?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "He visited a dentist in China.",
+        "He thought the visit could take a lot of time.",
+        "The dentist did not speak English, and Leo did not speak Chinese."
+      ],
+      "vocabulary": [
+        {
+          "term": "dentist",
+          "meaning": "a person who cares for people's teeth"
+        },
+        {
+          "term": "office",
+          "meaning": "a room or building where someone works"
+        },
+        {
+          "term": "language",
+          "meaning": "the words people use to speak and write"
+        },
+        {
+          "term": "by himself",
+          "meaning": "alone; without another person"
+        },
+        {
+          "term": "communicate",
+          "meaning": "to share information with someone"
+        }
+      ],
+      "language_notice": "“Didn’t” is the past negative of do. “By himself” means alone."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011011",
+    "month": 11,
+    "day": 11,
+    "title": "Dentist Visit–2",
+    "summary": "Asking questions and sharing information helps people decide what to do.",
+    "content": "Leo sat in the dentist's chair. He opened his mouth to let the dentist see his teeth.\n\nA few of his teeth had problems. Some needed to be pulled out. Some had to be fixed. There were many ways to do the work.\n\nThe dentist had to talk to Leo to decide how to work on the teeth. But they couldn’t understand each other.\n\nHow would they make it work?",
+    "youtube_url": "https://youtu.be/t_2M0YOHbtI?si=QvEVhaYoJh5UDn5Y",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011001101",
+        "story_id": "00000000-0000-4000-8000-000000011011",
+        "prompt": "Where did Leo sit?",
+        "options": [
+          "In the dentist's chair",
+          "On a bike",
+          "On a shovel",
+          "In a train"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001102",
+        "story_id": "00000000-0000-4000-8000-000000011011",
+        "prompt": "What did Leo open?",
+        "options": [
+          "A door",
+          "A book",
+          "A toy box",
+          "His mouth"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001103",
+        "story_id": "00000000-0000-4000-8000-000000011011",
+        "prompt": "What did some of Leo's teeth need?",
+        "options": [
+          "To be washed in snow",
+          "To be put on a shelf",
+          "To be pulled out or fixed",
+          "To be painted"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001104",
+        "story_id": "00000000-0000-4000-8000-000000011011",
+        "prompt": "Why did the dentist need to talk to Leo?",
+        "options": [
+          "To ask about a hamster",
+          "To decide how to work on his teeth",
+          "To sell him a house",
+          "To teach him to ride"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Leo sat in the dentist's chair.",
+        "All of Leo's teeth were perfectly fine.",
+        "The dentist needed to discuss the work with Leo.",
+        "They understood every word each other said."
+      ],
+      "short_answer": [
+        "What did Leo do when he sat in the chair?",
+        "What was wrong with some teeth?",
+        "Why did they have trouble deciding what to do?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "He opened his mouth so the dentist could see his teeth.",
+        "Some needed to be pulled out, and some needed to be fixed.",
+        "They could not understand each other."
+      ],
+      "vocabulary": [
+        {
+          "term": "chair",
+          "meaning": "a seat for one person"
+        },
+        {
+          "term": "tooth/teeth",
+          "meaning": "a hard white part in the mouth"
+        },
+        {
+          "term": "pull out",
+          "meaning": "to take something out"
+        },
+        {
+          "term": "decide",
+          "meaning": "to choose what to do"
+        },
+        {
+          "term": "understand",
+          "meaning": "to know what someone means"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011012",
+    "month": 11,
+    "day": 12,
+    "title": "Dentist Visit–3",
+    "summary": "Technology can help people communicate when they speak different languages.",
+    "content": "The dentist looked at Leo’s teeth and talked to him in Chinese. Leo didn’t understand. They both shook their heads and smiled.\n\nThen, the dentist found an online translator. She put the questions in Chinese. The computer changed them to English.\n\nThen, Leo answered the questions in English. The computer gave his answers in Chinese.\n\nThe two managed to talk to each other that way. By the end of the visit, Leo got his teeth fixed.",
+    "youtube_url": "https://youtu.be/-1UsyBl3_K0?si=qsN2tJ4ovZQbI17T",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011001201",
+        "story_id": "00000000-0000-4000-8000-000000011012",
+        "prompt": "What did the dentist find?",
+        "options": [
+          "A snowflake",
+          "A bike shop",
+          "A toy box",
+          "An online translator"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001202",
+        "story_id": "00000000-0000-4000-8000-000000011012",
+        "prompt": "What language did the dentist use for the questions?",
+        "options": [
+          "French",
+          "Spanish",
+          "Chinese",
+          "English"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001203",
+        "story_id": "00000000-0000-4000-8000-000000011012",
+        "prompt": "What language did Leo use for his answers?",
+        "options": [
+          "Spanish",
+          "English",
+          "Chinese",
+          "French"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001204",
+        "story_id": "00000000-0000-4000-8000-000000011012",
+        "prompt": "What happened by the end of the visit?",
+        "options": [
+          "Leo got his teeth fixed",
+          "Leo bought a house",
+          "Leo learned to fish",
+          "Leo rode a backhoe"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The dentist used an online translator.",
+        "Leo answered the questions in Chinese.",
+        "The computer changed the dentist's questions to English.",
+        "Leo left without getting his teeth fixed."
+      ],
+      "short_answer": [
+        "What tool helped Leo and the dentist talk?",
+        "What language did Leo answer in?",
+        "What happened to Leo's teeth?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "An online translator helped them.",
+        "He answered in English.",
+        "He got them fixed."
+      ],
+      "vocabulary": [
+        {
+          "term": "translator",
+          "meaning": "a tool or person that changes words into another language"
+        },
+        {
+          "term": "online",
+          "meaning": "connected to the internet"
+        },
+        {
+          "term": "question",
+          "meaning": "something you ask to get information"
+        },
+        {
+          "term": "answer",
+          "meaning": "something you say or write in reply"
+        },
+        {
+          "term": "managed",
+          "meaning": "succeeded in doing something"
+        }
+      ],
+      "language_notice": "“Didn’t understand” is past simple negative. “Managed to” means succeeded in doing something."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011013",
+    "month": 11,
+    "day": 13,
+    "title": "Sneeze",
+    "summary": "Cover your nose and mouth when you sneeze to help keep others well.",
+    "content": "Today, Jack's uncle came for a visit. Jack asked his uncle to tell him something fun.\n\nHis uncle told him that no one can sneeze and keep their eyes open at the same time.\n\n“Pay attention the next time you sneeze,” said his uncle. “You'll see what I mean.” Jack is amazed.\n\n“Oh, one more thing, you should cover up your nose and mouth when you sneeze,” Jack's uncle said with a smile.\n\nIllustration text: “Aaaa...CHOO!”",
+    "youtube_url": "https://youtu.be/BoStT7xrAM4?si=7Q5Ub_lbNfOOw5sR",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011001301",
+        "story_id": "00000000-0000-4000-8000-000000011013",
+        "prompt": "Who came to visit Jack?",
+        "options": [
+          "His teacher",
+          "His neighbour",
+          "His uncle",
+          "His dentist"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001302",
+        "story_id": "00000000-0000-4000-8000-000000011013",
+        "prompt": "What did Jack ask his uncle to tell him?",
+        "options": [
+          "A recipe",
+          "Something fun",
+          "A sad story",
+          "A math answer"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001303",
+        "story_id": "00000000-0000-4000-8000-000000011013",
+        "prompt": "What happens to a person's eyes when they sneeze?",
+        "options": [
+          "They close",
+          "They turn blue",
+          "They stay wide open",
+          "They disappear"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001304",
+        "story_id": "00000000-0000-4000-8000-000000011013",
+        "prompt": "What should Jack cover when he sneezes?",
+        "options": [
+          "His ears and eyes",
+          "His hands and feet",
+          "His hair and neck",
+          "His nose and mouth"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Jack's uncle came to visit.",
+        "Jack asked for something boring.",
+        "Jack's uncle said to cover the nose and mouth.",
+        "The uncle told Jack to keep his mouth open when he sneezes."
+      ],
+      "short_answer": [
+        "Who visited Jack?",
+        "What did the uncle say about sneezing?",
+        "What should you cover when you sneeze?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "His uncle visited him.",
+        "He said no one can sneeze and keep their eyes open at the same time.",
+        "You should cover your nose and mouth."
+      ],
+      "vocabulary": [
+        {
+          "term": "sneeze",
+          "meaning": "to push air suddenly out of your nose and mouth"
+        },
+        {
+          "term": "visit",
+          "meaning": "to go and spend time with someone"
+        },
+        {
+          "term": "pay attention",
+          "meaning": "to listen or look carefully"
+        },
+        {
+          "term": "amazed",
+          "meaning": "very surprised"
+        },
+        {
+          "term": "cover up",
+          "meaning": "to put something over another thing"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011014",
+    "month": 11,
+    "day": 14,
+    "title": "Snowflakes",
+    "summary": "Looking closely at nature can help us discover surprising facts.",
+    "content": "One day, it was snowing hard.\n\nMy father said to me and my brother, “Do you know that all snowflakes have six points?”\n\n“No. It can’t be true,” my brother said. We just couldn't believe it. We ran outside to watch the snow.\n\nThere were millions of snowflakes coming down from the sky. Some were big, some small. And yet, my father was right.\n\nEach snowflake has six points. Think about that!",
+    "youtube_url": "https://www.youtube.com/watch?v=OUBAwCKDg1Y",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011001401",
+        "story_id": "00000000-0000-4000-8000-000000011014",
+        "prompt": "What did the father say about snowflakes?",
+        "options": [
+          "They live in houses",
+          "They have six points",
+          "They have seven wheels",
+          "They are made of wool"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001402",
+        "story_id": "00000000-0000-4000-8000-000000011014",
+        "prompt": "Who went outside to watch the snow?",
+        "options": [
+          "The narrator and brother",
+          "The dentist and Leo",
+          "Julie and her dad",
+          "Jack and his uncle"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001403",
+        "story_id": "00000000-0000-4000-8000-000000011014",
+        "prompt": "How many snowflakes were coming down?",
+        "options": [
+          "Six",
+          "Seven",
+          "Twenty-six",
+          "Millions"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001404",
+        "story_id": "00000000-0000-4000-8000-000000011014",
+        "prompt": "Was the father right?",
+        "options": [
+          "The story does not say",
+          "Only in summer",
+          "Yes",
+          "No, he was wrong"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "It was snowing hard.",
+        "The father said snowflakes have eight points.",
+        "The children ran outside to watch the snow.",
+        "The father was wrong."
+      ],
+      "short_answer": [
+        "How many points does each snowflake have?",
+        "What did the children do?",
+        "What did they see falling from the sky?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Each snowflake has six points.",
+        "They ran outside to watch the snow.",
+        "They saw millions of snowflakes."
+      ],
+      "vocabulary": [
+        {
+          "term": "snowflake",
+          "meaning": "a small piece of snow with a special shape"
+        },
+        {
+          "term": "point",
+          "meaning": "a sharp end or tip"
+        },
+        {
+          "term": "believe",
+          "meaning": "to think something is true"
+        },
+        {
+          "term": "million",
+          "meaning": "one thousand thousand"
+        },
+        {
+          "term": "sky",
+          "meaning": "the space above the earth"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011015",
+    "month": 11,
+    "day": 15,
+    "title": "A Little Friend",
+    "summary": "Caring for a pet includes looking after it and spending time together.",
+    "content": "Hammy is a small hamster. She is just the size of an egg. She lives with a family of two girls and their mother.\n\nThe two sisters, ages 4 and 6, take turns cleaning the nest and feeding Hammy.\n\nWhat does Hammy eat? She eats seeds, nuts and vegetables.\n\nEvery day, Hammy doesn’t just eat and sleep. She has an important job to do. What is it?\n\nThe little hamster plays with the girls when they come back from school!\n\nIllustration text: “Hammy is our little friend.”",
+    "youtube_url": "https://www.youtube.com/watch?v=HTVg_nGHTXY",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011001501",
+        "story_id": "00000000-0000-4000-8000-000000011015",
+        "prompt": "What kind of animal is Hammy?",
+        "options": [
+          "A hamster",
+          "A rabbit",
+          "A zebra",
+          "A piglet"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001502",
+        "story_id": "00000000-0000-4000-8000-000000011015",
+        "prompt": "How big is Hammy?",
+        "options": [
+          "The size of a house",
+          "The size of a bike",
+          "The size of a snowflake",
+          "About the size of an egg"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001503",
+        "story_id": "00000000-0000-4000-8000-000000011015",
+        "prompt": "What do the sisters do for Hammy?",
+        "options": [
+          "Take her to a dentist",
+          "Build her a house",
+          "Clean the nest and feed her",
+          "Teach her to ride a bike"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001504",
+        "story_id": "00000000-0000-4000-8000-000000011015",
+        "prompt": "What does Hammy do when the girls return from school?",
+        "options": [
+          "She goes to sleep all day",
+          "She plays with them",
+          "She drives a backhoe",
+          "She digs a big hole"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Hammy is a small hamster.",
+        "Hammy lives with two boys and their father.",
+        "The girls take turns caring for Hammy.",
+        "Hammy only eats fish."
+      ],
+      "short_answer": [
+        "What does Hammy eat?",
+        "Who takes care of Hammy?",
+        "What is Hammy's important job?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "She eats seeds, nuts, and vegetables.",
+        "Two sisters and their mother live with her; the girls take turns caring for her.",
+        "She plays with the girls when they come home from school."
+      ],
+      "vocabulary": [
+        {
+          "term": "hamster",
+          "meaning": "a small furry animal often kept as a pet"
+        },
+        {
+          "term": "nest",
+          "meaning": "a small place where an animal rests"
+        },
+        {
+          "term": "take turns",
+          "meaning": "to do something one after another"
+        },
+        {
+          "term": "seed",
+          "meaning": "a small part of a plant that can grow into a new plant"
+        },
+        {
+          "term": "vegetable",
+          "meaning": "a plant or part of a plant that people eat"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011016",
+    "month": 11,
+    "day": 16,
+    "title": "Mom Learned to Ride",
+    "summary": "Learning a new skill takes practice, confidence, and encouragement.",
+    "content": "My mom could drive a car, but she couldn't ride a bike. She said, “I want to ride a bike to work.”\n\n“You have to learn first,” said my dad.\n\nSo Mom tried to ride a bike. Dad told her to stay calm and to keep pedalling.\n\n“If you go too slowly, you could fall over,” my father said. “Go fast! I’m just behind you to help.”\n\nShe started pedalling. The bike moved slowly at first, then faster. Soon, she was biking to the end of our street.",
+    "youtube_url": "https://www.youtube.com/watch?v=rI_39yKHS6E",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011001601",
+        "story_id": "00000000-0000-4000-8000-000000011016",
+        "prompt": "What could Mom already drive?",
+        "options": [
+          "A train",
+          "A backhoe",
+          "A bus",
+          "A car"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001602",
+        "story_id": "00000000-0000-4000-8000-000000011016",
+        "prompt": "Where did Mom want to ride her bike?",
+        "options": [
+          "To a dentist",
+          "To a farm",
+          "To work",
+          "To the moon"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001603",
+        "story_id": "00000000-0000-4000-8000-000000011016",
+        "prompt": "What did Dad tell Mom to do?",
+        "options": [
+          "Drop the bike",
+          "Stay calm and keep pedalling",
+          "Stop and sit down",
+          "Go to sleep"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001604",
+        "story_id": "00000000-0000-4000-8000-000000011016",
+        "prompt": "Where did Mom ride to?",
+        "options": [
+          "The end of the street",
+          "The top of a mountain",
+          "A bike shop in China",
+          "The other side of the moon"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Mom could drive a car.",
+        "Mom already knew how to ride a bike.",
+        "Dad stayed behind her to help.",
+        "Mom stopped before she started pedalling."
+      ],
+      "short_answer": [
+        "What did Mom want to do?",
+        "What advice did Dad give her?",
+        "Where did Mom ride?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "She wanted to ride a bike to work.",
+        "He told her to stay calm, keep pedalling, and go fast enough not to fall.",
+        "She rode to the end of their street."
+      ],
+      "vocabulary": [
+        {
+          "term": "pedal",
+          "meaning": "to push a bike's pedals with your feet"
+        },
+        {
+          "term": "calm",
+          "meaning": "quiet and not worried"
+        },
+        {
+          "term": "slowly",
+          "meaning": "at a low speed"
+        },
+        {
+          "term": "fall over",
+          "meaning": "to lose balance and drop down"
+        },
+        {
+          "term": "street",
+          "meaning": "a road in a town or city"
+        }
+      ],
+      "language_notice": "“Could” and “couldn’t” describe ability in the past. “Keep pedalling” uses keep + verb-ing."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011017",
+    "month": 11,
+    "day": 17,
+    "title": "See You Later!",
+    "summary": "A temporary goodbye does not have to end a friendship.",
+    "content": "Rabbit and Bear are best friends. In the summer, they sit by the river and enjoy the sun. In the fall, they play in the leaves.\n\nThen, winter comes. Bear says, “I have to go away now.”\n\n“I know. Bears sleep all winter. Time to say goodbye!” Rabbit says sadly.\n\n“Don't be sad. When I wake up in the spring, we will play again! Let's say see you later,” says Bear.\n\nRabbit smiles and says, “See you later!”",
+    "youtube_url": "https://www.youtube.com/watch?v=d90xoXQmNjM",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011001701",
+        "story_id": "00000000-0000-4000-8000-000000011017",
+        "prompt": "Who are best friends?",
+        "options": [
+          "Leo and the dentist",
+          "Jack and Hammy",
+          "Rabbit and Bear",
+          "Ant and Fly"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001702",
+        "story_id": "00000000-0000-4000-8000-000000011017",
+        "prompt": "Where do they sit in summer?",
+        "options": [
+          "In a toy box",
+          "By the river",
+          "In a dentist's chair",
+          "On a rooftop"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001703",
+        "story_id": "00000000-0000-4000-8000-000000011017",
+        "prompt": "What do bears do in winter?",
+        "options": [
+          "They sleep",
+          "They ride bikes",
+          "They sell houses",
+          "They go fishing every day"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001704",
+        "story_id": "00000000-0000-4000-8000-000000011017",
+        "prompt": "When will Bear and Rabbit play again?",
+        "options": [
+          "Tomorrow morning",
+          "In the fall",
+          "Next winter",
+          "In the spring"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Rabbit and Bear are best friends.",
+        "They play in the leaves in winter.",
+        "Bear sleeps all winter.",
+        "Bear says they will never see each other again."
+      ],
+      "short_answer": [
+        "What do Rabbit and Bear do in summer?",
+        "Why does Bear go away?",
+        "What does Bear say they can do in spring?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "They sit by the river and enjoy the sun.",
+        "Bears sleep all winter.",
+        "They can play again."
+      ],
+      "vocabulary": [
+        {
+          "term": "river",
+          "meaning": "a large natural stream of water"
+        },
+        {
+          "term": "fall",
+          "meaning": "the season after summer"
+        },
+        {
+          "term": "leaves",
+          "meaning": "the flat green parts of a plant or tree"
+        },
+        {
+          "term": "sadly",
+          "meaning": "in a way that shows sadness"
+        },
+        {
+          "term": "wake up",
+          "meaning": "to stop sleeping"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011018",
+    "month": 11,
+    "day": 18,
+    "title": "Zebra Stripes",
+    "summary": "Each individual has qualities that make them unique.",
+    "content": "Zebras live in Africa. They look a lot like horses, but there is one big difference.\n\nHorses come in many colours. Horses can be white, black or brown. But zebras all look the same—white with black stripes.\n\nIf you look at a herd of zebras, it’s hard to see any differences between them. But look closer. There is something really special about those zebras.\n\nThe stripes on every zebra are different. No two zebras have the same stripes. Isn't that cool?",
+    "youtube_url": "https://www.youtube.com/watch?v=gx1apDNWK94",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011001801",
+        "story_id": "00000000-0000-4000-8000-000000011018",
+        "prompt": "Where do zebras live?",
+        "options": [
+          "The moon",
+          "Africa",
+          "China",
+          "Canada"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001802",
+        "story_id": "00000000-0000-4000-8000-000000011018",
+        "prompt": "What colours are zebra stripes?",
+        "options": [
+          "Black stripes on white",
+          "Blue stripes on green",
+          "Red stripes on yellow",
+          "Brown stripes on pink"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001803",
+        "story_id": "00000000-0000-4000-8000-000000011018",
+        "prompt": "What is special about each zebra?",
+        "options": [
+          "It has seven bedrooms",
+          "It can ride a bike",
+          "It has six wheels",
+          "Its stripes are different"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001804",
+        "story_id": "00000000-0000-4000-8000-000000011018",
+        "prompt": "Do two zebras have the same stripes?",
+        "options": [
+          "Only in winter",
+          "Only baby zebras",
+          "No",
+          "Yes, always"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Zebras live in Africa.",
+        "All horses have black and white stripes.",
+        "Every zebra has different stripes.",
+        "Two zebras always have the same stripes."
+      ],
+      "short_answer": [
+        "Where do zebras live?",
+        "What do zebras look like?",
+        "What is different about every zebra?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "They live in Africa.",
+        "They look like horses, with white bodies and black stripes.",
+        "Every zebra has a different pattern of stripes."
+      ],
+      "vocabulary": [
+        {
+          "term": "herd",
+          "meaning": "a group of animals that live or move together"
+        },
+        {
+          "term": "stripe",
+          "meaning": "a long narrow line"
+        },
+        {
+          "term": "difference",
+          "meaning": "a way in which things are not the same"
+        },
+        {
+          "term": "closer",
+          "meaning": "at a shorter distance"
+        },
+        {
+          "term": "special",
+          "meaning": "different in a good or interesting way"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011019",
+    "month": 11,
+    "day": 19,
+    "title": "Learning to Fish",
+    "summary": "Teaching someone a useful skill can help them for a long time.",
+    "content": "There was a young mother bear who would bring a fish to her baby bear every day.\n\nOne day, a wise old bear said to the young mother, “If you bring your baby a fish, he won't be hungry for the rest of the day. But if you teach him how to fish, he won't be hungry for the rest of his life.”\n\nThe young mother bear thought about it. She knew what she would do.",
+    "youtube_url": "https://www.youtube.com/watch?v=Xm97ptcM6Ds",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011001901",
+        "story_id": "00000000-0000-4000-8000-000000011019",
+        "prompt": "What did the young mother bear bring her baby?",
+        "options": [
+          "A fish",
+          "A sweater",
+          "A book",
+          "A bike"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001902",
+        "story_id": "00000000-0000-4000-8000-000000011019",
+        "prompt": "Who gave the mother advice?",
+        "options": [
+          "A dentist",
+          "A young rabbit",
+          "A zebra",
+          "A wise old bear"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001903",
+        "story_id": "00000000-0000-4000-8000-000000011019",
+        "prompt": "What did the old bear suggest?",
+        "options": [
+          "Build him a house",
+          "Take him to school",
+          "Teach the baby how to fish",
+          "Teach him to ride a bike"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011001904",
+        "story_id": "00000000-0000-4000-8000-000000011019",
+        "prompt": "How long would learning to fish help the baby?",
+        "options": [
+          "For one winter",
+          "For the rest of his life",
+          "For one hour",
+          "For one day only"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The mother bear brought her baby a fish every day.",
+        "The old bear told her to stop feeding the baby forever.",
+        "The old bear suggested teaching the baby to fish.",
+        "The baby bear was a zebra."
+      ],
+      "short_answer": [
+        "What did the mother bear bring the baby?",
+        "What did the old bear advise her to do?",
+        "Why is teaching the baby to fish helpful?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "She brought him a fish every day.",
+        "He advised her to teach the baby how to fish.",
+        "It can keep him from being hungry for the rest of his life."
+      ],
+      "vocabulary": [
+        {
+          "term": "wise",
+          "meaning": "having good sense and knowledge"
+        },
+        {
+          "term": "young",
+          "meaning": "not old; having lived for a short time"
+        },
+        {
+          "term": "hungry",
+          "meaning": "needing or wanting food"
+        },
+        {
+          "term": "teach",
+          "meaning": "to help someone learn"
+        },
+        {
+          "term": "advice",
+          "meaning": "an idea about what someone should do"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011020",
+    "month": 11,
+    "day": 20,
+    "title": "Remember to Remember",
+    "summary": "Planning your day can help you remember tasks and feel good about what you finish.",
+    "content": "Sometimes I forget things. I forget where I left my keys or books. Sometimes I forget what I am supposed to do.\n\nMy mother told me a little trick.\n\nEvery morning, before I get up, I think about what I need to get done that day. Then I start my day. It worked!\n\nWhen I go to bed at night, it makes me feel good that I did everything I needed to do. Try it!\n\nIllustration text: “What do I need to get done today?”",
+    "youtube_url": "https://www.youtube.com/watch?v=oXdAF8B2ncQ",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011002001",
+        "story_id": "00000000-0000-4000-8000-000000011020",
+        "prompt": "What does the narrator sometimes forget?",
+        "options": [
+          "How to ride a bike",
+          "The colour of the moon",
+          "How to sell houses",
+          "Keys, books, or tasks"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002002",
+        "story_id": "00000000-0000-4000-8000-000000011020",
+        "prompt": "Who shared a trick?",
+        "options": [
+          "A bear",
+          "A backhoe driver",
+          "The narrator's mother",
+          "A dentist"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002003",
+        "story_id": "00000000-0000-4000-8000-000000011020",
+        "prompt": "When does the narrator think about the day's tasks?",
+        "options": [
+          "After winter ends",
+          "Every morning",
+          "At lunchtime only",
+          "Once a year"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002004",
+        "story_id": "00000000-0000-4000-8000-000000011020",
+        "prompt": "How does the narrator feel at bedtime after finishing tasks?",
+        "options": [
+          "Good",
+          "Angry",
+          "Hungry",
+          "Cold"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The narrator sometimes forgets things.",
+        "The narrator's father gave the trick.",
+        "The narrator thinks about tasks in the morning.",
+        "The trick is to avoid doing any tasks."
+      ],
+      "short_answer": [
+        "What does the narrator forget?",
+        "What is the mother's trick?",
+        "How does the narrator feel at night?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "Sometimes the narrator forgets keys, books, or what to do.",
+        "Think about what needs to get done each morning.",
+        "The narrator feels good after doing everything needed."
+      ],
+      "vocabulary": [
+        {
+          "term": "forget",
+          "meaning": "to fail to remember"
+        },
+        {
+          "term": "supposed to",
+          "meaning": "expected or meant to"
+        },
+        {
+          "term": "trick",
+          "meaning": "a simple way to do something"
+        },
+        {
+          "term": "task",
+          "meaning": "a piece of work to do"
+        },
+        {
+          "term": "worked",
+          "meaning": "was successful"
+        }
+      ],
+      "language_notice": "“I forget” describes a repeated situation. “I did everything” uses the past simple for completed actions."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011021",
+    "month": 11,
+    "day": 21,
+    "title": "Sun and Moon",
+    "summary": "People may see things differently, and arguments can have consequences.",
+    "content": "One day, the sun and the moon have a fight.\n\nThe sun thinks he is the best. “You have no light of your own,” says the sun. “It is I, the sun, who gives you light.”\n\nThe moon answers. “You are too hot. People run away from you. When I come out at night, people are happy. They come out to dance in my light.”\n\nThe sun is very mad. He throws sand in the moon's face. And that is why there are many holes on the face of the moon.",
+    "youtube_url": "https://www.youtube.com/watch?v=0fHwvYikJHI",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011002101",
+        "story_id": "00000000-0000-4000-8000-000000011021",
+        "prompt": "Who has a fight?",
+        "options": [
+          "Rabbit and Bear",
+          "Leo and his dentist",
+          "The sun and the moon",
+          "The ant and the fly"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002102",
+        "story_id": "00000000-0000-4000-8000-000000011021",
+        "prompt": "What does the sun say he gives the moon?",
+        "options": [
+          "A house",
+          "Light",
+          "Water",
+          "Snow"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002103",
+        "story_id": "00000000-0000-4000-8000-000000011021",
+        "prompt": "When does the moon come out?",
+        "options": [
+          "At night",
+          "At noon",
+          "In the morning only",
+          "In winter only"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002104",
+        "story_id": "00000000-0000-4000-8000-000000011021",
+        "prompt": "What does the story say caused holes on the moon?",
+        "options": [
+          "A bike broke it",
+          "A bear dug it",
+          "The moon fell into water",
+          "The sun threw sand at it"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The sun and moon have a fight.",
+        "The sun says the moon makes its own light.",
+        "The moon says people dance in its light at night.",
+        "The sun throws snow at the moon."
+      ],
+      "short_answer": [
+        "What does the sun say about the moon's light?",
+        "What does the moon say about the sun?",
+        "According to the story, why are there holes on the moon?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "He says the moon has no light of its own.",
+        "The moon says the sun is too hot.",
+        "The sun threw sand in the moon's face."
+      ],
+      "vocabulary": [
+        {
+          "term": "fight",
+          "meaning": "a time when people or characters argue or try to hurt one another"
+        },
+        {
+          "term": "light",
+          "meaning": "brightness that lets us see"
+        },
+        {
+          "term": "own",
+          "meaning": "belonging to a person or thing"
+        },
+        {
+          "term": "throw",
+          "meaning": "to send something through the air with your hand"
+        },
+        {
+          "term": "hole",
+          "meaning": "an open space in a surface"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011022",
+    "month": 11,
+    "day": 22,
+    "title": "One Shovel at a Time",
+    "summary": "Small, steady efforts can add up to a big result.",
+    "content": "One morning, I saw an old man starting to dig a hole with a shovel.\n\nWhen I came home from school in the afternoon, he had dug a big hole!\n\nI asked him how he did it. He said, “One shovel at a time!”\n\nHe said, “Your shovel may be small, but if you work hard, and keep doing it, you can move a mountain!”",
+    "youtube_url": "https://www.youtube.com/watch?v=IdTRKVU1f_o",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011002201",
+        "story_id": "00000000-0000-4000-8000-000000011022",
+        "prompt": "What was the old man doing?",
+        "options": [
+          "Counting snowflakes",
+          "Digging a hole",
+          "Riding a bike",
+          "Selling a house"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002202",
+        "story_id": "00000000-0000-4000-8000-000000011022",
+        "prompt": "What tool did he use?",
+        "options": [
+          "A shovel",
+          "A backhoe",
+          "A translator",
+          "A bicycle"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002203",
+        "story_id": "00000000-0000-4000-8000-000000011022",
+        "prompt": "What did he do by afternoon?",
+        "options": [
+          "He built a train",
+          "He moved to Africa",
+          "He fixed a sweater",
+          "He dug a big hole"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002204",
+        "story_id": "00000000-0000-4000-8000-000000011022",
+        "prompt": "What does “one shovel at a time” teach?",
+        "options": [
+          "Wait for someone else",
+          "Work only in winter",
+          "Keep working steadily",
+          "Stop after one try"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The old man used a shovel to dig.",
+        "He dug the big hole in one second.",
+        "He said to work hard and keep doing it.",
+        "He said a small shovel can never do anything."
+      ],
+      "short_answer": [
+        "What was the old man doing?",
+        "What did the narrator see after school?",
+        "What did the old man mean by “one shovel at a time”?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "He was digging a hole with a shovel.",
+        "A big hole had been dug.",
+        "Keep working, and small efforts can lead to a big result."
+      ],
+      "vocabulary": [
+        {
+          "term": "shovel",
+          "meaning": "a tool with a wide blade used for digging"
+        },
+        {
+          "term": "dig",
+          "meaning": "to make a hole in the ground"
+        },
+        {
+          "term": "afternoon",
+          "meaning": "the part of the day after midday"
+        },
+        {
+          "term": "keep doing",
+          "meaning": "to continue an action"
+        },
+        {
+          "term": "mountain",
+          "meaning": "a very high area of land"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011023",
+    "month": 11,
+    "day": 23,
+    "title": "Twenty-Six Letters",
+    "summary": "Letters combine to make words, and words help us communicate.",
+    "content": "Do you know that there are 26 letters in the English alphabet? Sure you do.\n\nLetters are important. Why? They make words.\n\nSome words are as small as one letter. Some words sound very funny. Some words are hard to say. Some are very long.\n\nThere are some words that have more than 26 letters in them!\n\nDo you know a one-letter word?\n\nIllustration text: “There are 26 letters.”",
+    "youtube_url": "https://www.youtube.com/watch?v=ubQlF80aWrk",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011002301",
+        "story_id": "00000000-0000-4000-8000-000000011023",
+        "prompt": "How many letters are in the English alphabet?",
+        "options": [
+          "26",
+          "16",
+          "20",
+          "30"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002302",
+        "story_id": "00000000-0000-4000-8000-000000011023",
+        "prompt": "What do letters make?",
+        "options": [
+          "Houses",
+          "Snowflakes",
+          "Bikes",
+          "Words"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002303",
+        "story_id": "00000000-0000-4000-8000-000000011023",
+        "prompt": "How long can some words be?",
+        "options": [
+          "Exactly six letters",
+          "No letters at all",
+          "More than 26 letters",
+          "Only two letters"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002304",
+        "story_id": "00000000-0000-4000-8000-000000011023",
+        "prompt": "What does the story ask at the end?",
+        "options": [
+          "If you have a hamster",
+          "If you know a one-letter word",
+          "If you can ride a bike",
+          "If you like snow"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "There are 26 letters in the English alphabet.",
+        "Letters make houses.",
+        "Some words are hard to say.",
+        "No words have more than 26 letters."
+      ],
+      "short_answer": [
+        "How many letters are in the English alphabet?",
+        "What do letters make?",
+        "What does the story ask at the end?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "There are 26 letters.",
+        "They make words.",
+        "It asks whether you know a one-letter word."
+      ],
+      "vocabulary": [
+        {
+          "term": "alphabet",
+          "meaning": "the set of letters used in a language"
+        },
+        {
+          "term": "letter",
+          "meaning": "a written sign used to make words"
+        },
+        {
+          "term": "word",
+          "meaning": "a group of letters with meaning"
+        },
+        {
+          "term": "funny",
+          "meaning": "making you laugh or smile"
+        },
+        {
+          "term": "long",
+          "meaning": "having great length"
+        }
+      ],
+      "language_notice": "“There are” is used with plural nouns. “There is” is used with a singular noun."
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011024",
+    "month": 11,
+    "day": 24,
+    "title": "Snowed In",
+    "summary": "Weather can affect daily life, and people need to work together to stay safe.",
+    "content": "It snows every winter in my city. One winter, we got four metres of snow!\n\nNot all at once, of course.\n\nImagine if the sun didn’t melt the snow and we didn’t move snow off the streets. That’s how much snow we would see.\n\nCan you imagine what four metres of snow would look like? No one would be able to leave their home. Everyone would be snowed in!",
+    "youtube_url": "https://www.youtube.com/watch?v=Hbh0aKrRWxg",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011002401",
+        "story_id": "00000000-0000-4000-8000-000000011024",
+        "prompt": "How much snow did the city get one winter?",
+        "options": [
+          "Four centimetres",
+          "Six metres",
+          "Twenty-six metres",
+          "Four metres"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002402",
+        "story_id": "00000000-0000-4000-8000-000000011024",
+        "prompt": "What normally melts the snow?",
+        "options": [
+          "A bike",
+          "A house",
+          "The sun",
+          "A shovel"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002403",
+        "story_id": "00000000-0000-4000-8000-000000011024",
+        "prompt": "Where do people move snow from?",
+        "options": [
+          "The alphabet",
+          "The streets",
+          "The moon",
+          "The river"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002404",
+        "story_id": "00000000-0000-4000-8000-000000011024",
+        "prompt": "What does “snowed in” mean here?",
+        "options": [
+          "Unable to leave home because of snow",
+          "Going skiing",
+          "Building a snowman",
+          "Riding a bike in summer"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "It snows every winter in the narrator's city.",
+        "The city got four metres of snow all at once.",
+        "The sun melts snow.",
+        "Everyone could easily leave their homes in four metres of snow."
+      ],
+      "short_answer": [
+        "How much snow did the city get?",
+        "What would happen if snow were not moved from streets?",
+        "What does “snowed in” mean?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "It got four metres of snow one winter.",
+        "People might not be able to leave their homes.",
+        "It means people cannot leave because of the snow."
+      ],
+      "vocabulary": [
+        {
+          "term": "metre",
+          "meaning": "a unit used to measure length"
+        },
+        {
+          "term": "melt",
+          "meaning": "to change from solid to liquid because of heat"
+        },
+        {
+          "term": "street",
+          "meaning": "a road in a town or city"
+        },
+        {
+          "term": "imagine",
+          "meaning": "to make a picture in your mind"
+        },
+        {
+          "term": "snowed in",
+          "meaning": "unable to leave because of heavy snow"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011025",
+    "month": 11,
+    "day": 25,
+    "title": "Two Little Piglets",
+    "summary": "A funny mistake can become a happy memory when we laugh together.",
+    "content": "My sister and I visited my uncle's farm. As we were walking, we slipped and fell into the pigpen. Our faces and bodies were covered in mud.\n\nThen, my uncle saw us, and he started to laugh. He said, “Hello little piglets. Have you seen my two nieces?”\n\nI looked at my sister and she looked at me. We really looked like piglets all covered in mud! All we could say was, “Oink Oink!”\n\nWe all laughed.",
+    "youtube_url": "https://www.youtube.com/watch?v=N83zgpqJiSA",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011002501",
+        "story_id": "00000000-0000-4000-8000-000000011025",
+        "prompt": "Where did the narrator and sister visit?",
+        "options": [
+          "A bike shop",
+          "A train station",
+          "Their uncle's farm",
+          "A dentist's office"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002502",
+        "story_id": "00000000-0000-4000-8000-000000011025",
+        "prompt": "Where did they fall?",
+        "options": [
+          "Into a snowbank",
+          "Into the pigpen",
+          "Into a river",
+          "Into a toy box"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002503",
+        "story_id": "00000000-0000-4000-8000-000000011025",
+        "prompt": "What covered their faces and bodies?",
+        "options": [
+          "Mud",
+          "Wool",
+          "Snowflakes",
+          "Paint"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002504",
+        "story_id": "00000000-0000-4000-8000-000000011025",
+        "prompt": "What did the children say?",
+        "options": [
+          "“See you later!”",
+          "“Ni hao!”",
+          "“One shovel at a time!”",
+          "“Oink Oink!”"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The children visited their uncle's farm.",
+        "They fell into a clean swimming pool.",
+        "Their bodies were covered in mud.",
+        "Their uncle was angry and did not laugh."
+      ],
+      "short_answer": [
+        "Where did the children go?",
+        "What happened to them?",
+        "Why did their uncle call them piglets?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "They visited their uncle's farm.",
+        "They slipped and fell into the pigpen, getting covered in mud.",
+        "They were covered in mud and looked like little pigs."
+      ],
+      "vocabulary": [
+        {
+          "term": "farm",
+          "meaning": "land where people grow food or keep animals"
+        },
+        {
+          "term": "slip",
+          "meaning": "to slide accidentally and lose balance"
+        },
+        {
+          "term": "pigpen",
+          "meaning": "an area where pigs are kept"
+        },
+        {
+          "term": "mud",
+          "meaning": "wet, soft earth"
+        },
+        {
+          "term": "niece",
+          "meaning": "the daughter of someone's brother or sister"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011026",
+    "month": 11,
+    "day": 26,
+    "title": "Who You Are",
+    "summary": "Be yourself and appreciate what makes you different.",
+    "content": "An ant and a fly were arguing about whether it was better to be an ant or a fly.\n\nThe ant said proudly, “I live with a big family!” The fly said, “I like being alone!”\n\nSuddenly, the ground shook as an old elephant walked up.\n\nThe elephant said, “A fly would not be happy as an ant, and an ant would not be happy as a fly. Be happy being who you are!”",
+    "youtube_url": "https://www.youtube.com/watch?v=Q8yqwJO4m2A",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011002601",
+        "story_id": "00000000-0000-4000-8000-000000011026",
+        "prompt": "What were the ant and fly arguing about?",
+        "options": [
+          "How to catch a fish",
+          "Whether it was better to be an ant or a fly",
+          "Who could ride a bike",
+          "Where to build a house"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002602",
+        "story_id": "00000000-0000-4000-8000-000000011026",
+        "prompt": "What did the ant like?",
+        "options": [
+          "Living with a big family",
+          "Being alone",
+          "Sleeping all winter",
+          "Eating snow"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002603",
+        "story_id": "00000000-0000-4000-8000-000000011026",
+        "prompt": "What did the fly like?",
+        "options": [
+          "Living with a big family",
+          "Digging a hole",
+          "Selling houses",
+          "Being alone"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002604",
+        "story_id": "00000000-0000-4000-8000-000000011026",
+        "prompt": "What advice did the elephant give?",
+        "options": [
+          "Never talk to a friend",
+          "Move to another country",
+          "Be happy being who you are",
+          "Be exactly like everyone else"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The ant and fly were arguing.",
+        "The ant said it liked being alone.",
+        "An old elephant walked up.",
+        "The elephant told them to change into each other."
+      ],
+      "short_answer": [
+        "What did the ant say about itself?",
+        "What did the fly say it liked?",
+        "What advice did the elephant give?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "It said it lived with a big family.",
+        "It liked being alone.",
+        "It said to be happy being who you are."
+      ],
+      "vocabulary": [
+        {
+          "term": "argue",
+          "meaning": "to disagree in words"
+        },
+        {
+          "term": "proudly",
+          "meaning": "in a way that shows you feel good about something"
+        },
+        {
+          "term": "alone",
+          "meaning": "without other people"
+        },
+        {
+          "term": "suddenly",
+          "meaning": "quickly and unexpectedly"
+        },
+        {
+          "term": "appreciate",
+          "meaning": "to understand the value of something"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011027",
+    "month": 11,
+    "day": 27,
+    "title": "The Other Side",
+    "summary": "Listening to another person's point of view can help repair a friendship.",
+    "content": "One time, I had a fight with a friend. It made me sad for days.\n\nMy mother said, “You have to work out your problem with your friend.”\n\n“How?” I asked.\n\nShe said, “It’s very simple, but it isn't easy to do. Try to see things from your friend's side.”\n\nSo I called my friend. We had a good talk. Now, we are friends again.",
+    "youtube_url": "https://www.youtube.com/watch?v=8s4Hm7mjD58",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011002701",
+        "story_id": "00000000-0000-4000-8000-000000011027",
+        "prompt": "What happened between the narrator and a friend?",
+        "options": [
+          "They had a fight",
+          "They rode a bike",
+          "They built a house",
+          "They went fishing"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002702",
+        "story_id": "00000000-0000-4000-8000-000000011027",
+        "prompt": "How did the narrator feel?",
+        "options": [
+          "Happy all winter",
+          "Hungry all day",
+          "Excited to see snow",
+          "Sad for days"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002703",
+        "story_id": "00000000-0000-4000-8000-000000011027",
+        "prompt": "What did the mother suggest?",
+        "options": [
+          "Buy a new bike",
+          "Move to another country",
+          "See things from the friend's side",
+          "Ignore the friend forever"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002704",
+        "story_id": "00000000-0000-4000-8000-000000011027",
+        "prompt": "What happened after the phone call?",
+        "options": [
+          "They forgot how to talk",
+          "They became friends again",
+          "They argued more",
+          "They got lost"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The narrator had a fight with a friend.",
+        "The narrator felt happy about the fight.",
+        "The mother suggested thinking about the friend's point of view.",
+        "The narrator never spoke to the friend again."
+      ],
+      "short_answer": [
+        "Why was the narrator sad?",
+        "What advice did the mother give?",
+        "How did the story end?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "The narrator had a fight with a friend.",
+        "Try to see things from the friend's side.",
+        "The narrator called the friend, they talked, and became friends again."
+      ],
+      "vocabulary": [
+        {
+          "term": "fight",
+          "meaning": "an argument or disagreement"
+        },
+        {
+          "term": "work out",
+          "meaning": "to find a way to solve a problem"
+        },
+        {
+          "term": "simple",
+          "meaning": "easy to understand"
+        },
+        {
+          "term": "side",
+          "meaning": "a person's point of view"
+        },
+        {
+          "term": "again",
+          "meaning": "one more time"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011028",
+    "month": 11,
+    "day": 28,
+    "title": "Two Heads Are Better Than One",
+    "summary": "Working together can help us solve a problem that is difficult alone.",
+    "content": "Yasmine is having trouble with math. She works really hard on a math problem, but still, she cannot understand.\n\nThen, her friend Ethan stops over. “I’m having trouble with this problem too. Let us solve this problem together.”\n\nSoon, the two know how to do it. Yasmine smiles and says, “Sometimes, two heads are better than one.”\n\nIllustration text: “2 + 2 = 4. I don’t know either.”",
+    "youtube_url": "https://www.youtube.com/watch?v=WFUDnPiTekk",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011002801",
+        "story_id": "00000000-0000-4000-8000-000000011028",
+        "prompt": "What subject is Yasmine having trouble with?",
+        "options": [
+          "English",
+          "Science",
+          "Art",
+          "Math"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002802",
+        "story_id": "00000000-0000-4000-8000-000000011028",
+        "prompt": "Who visits Yasmine?",
+        "options": [
+          "Timmy",
+          "Eric",
+          "Ethan",
+          "Leo"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002803",
+        "story_id": "00000000-0000-4000-8000-000000011028",
+        "prompt": "What does Ethan suggest?",
+        "options": [
+          "Go to sleep",
+          "Solve the problem together",
+          "Stop studying",
+          "Build a house"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002804",
+        "story_id": "00000000-0000-4000-8000-000000011028",
+        "prompt": "What do the two friends learn?",
+        "options": [
+          "They can solve it together",
+          "They should never ask for help",
+          "Math has no answers",
+          "They need a backhoe"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Yasmine is having trouble with math.",
+        "Ethan refuses to help her.",
+        "The two solve the problem together.",
+        "Yasmine says two heads are worse than one."
+      ],
+      "short_answer": [
+        "What problem is Yasmine having?",
+        "What does Ethan offer to do?",
+        "What does “two heads are better than one” mean here?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "She cannot understand a math problem.",
+        "He offers to solve the problem together.",
+        "Working together can make solving a problem easier."
+      ],
+      "vocabulary": [
+        {
+          "term": "trouble",
+          "meaning": "a problem or difficulty"
+        },
+        {
+          "term": "solve",
+          "meaning": "to find the answer to a problem"
+        },
+        {
+          "term": "together",
+          "meaning": "with another person or people"
+        },
+        {
+          "term": "math",
+          "meaning": "the study of numbers and calculations"
+        },
+        {
+          "term": "sometimes",
+          "meaning": "at certain times, but not always"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011029",
+    "month": 11,
+    "day": 29,
+    "title": "Big Brother",
+    "summary": "A caring older sibling can help welcome and look after a new baby.",
+    "content": "One day, Jami’s mother said, “You will have a baby sister soon. Are you happy?”\n\n“Yes! I'm going to be a big brother!” said Jami.\n\n“Being a big brother is an important job. You must help me look after your little sister,” said his mother.\n\n“Yes! After school, I will take care of my sister so you can rest,” said Jami.\n\nJami’s mother smiled. She said, “You will be the best big brother in the world!”\n\nIllustration text: “Being a big brother is not easy.”",
+    "youtube_url": "https://www.youtube.com/watch?v=9kGm4lqkM3M",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011002901",
+        "story_id": "00000000-0000-4000-8000-000000011029",
+        "prompt": "What will Jami have soon?",
+        "options": [
+          "A new bike",
+          "A pet zebra",
+          "A baby sister",
+          "A baby brother"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002902",
+        "story_id": "00000000-0000-4000-8000-000000011029",
+        "prompt": "How does Jami feel about becoming a big brother?",
+        "options": [
+          "He is bored",
+          "He is happy",
+          "He is angry",
+          "He is afraid of school"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002903",
+        "story_id": "00000000-0000-4000-8000-000000011029",
+        "prompt": "What does his mother ask him to do?",
+        "options": [
+          "Help look after his sister",
+          "Sell a house",
+          "Repair a backhoe",
+          "Teach her to fish today"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011002904",
+        "story_id": "00000000-0000-4000-8000-000000011029",
+        "prompt": "When does Jami say he will help?",
+        "options": [
+          "Before sunrise every day",
+          "Only in winter",
+          "During the dentist visit",
+          "After school"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Jami will have a baby sister soon.",
+        "Jami is unhappy about becoming a big brother.",
+        "His mother says looking after the baby is important.",
+        "Jami says he will never help his mother."
+      ],
+      "short_answer": [
+        "What news does Jami's mother share?",
+        "What does Jami promise to do?",
+        "How does his mother respond?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "He will have a baby sister soon.",
+        "He promises to take care of his sister after school so his mother can rest.",
+        "She smiles and says he will be the best big brother in the world."
+      ],
+      "vocabulary": [
+        {
+          "term": "soon",
+          "meaning": "in a short time"
+        },
+        {
+          "term": "important",
+          "meaning": "having great value or meaning"
+        },
+        {
+          "term": "look after",
+          "meaning": "to care for someone"
+        },
+        {
+          "term": "take care of",
+          "meaning": "to help and protect someone"
+        },
+        {
+          "term": "rest",
+          "meaning": "to stop working for a while"
+        }
+      ],
+      "language_notice": ""
+    }
+  },
+  {
+    "id": "00000000-0000-4000-8000-000000011030",
+    "month": 11,
+    "day": 30,
+    "title": "Trains Go Under the Water",
+    "summary": "Asking questions helps us understand how things work.",
+    "content": "Ben wants to know why trains can go under the water. He asks his uncle, “Is the train travelling in the water?”\n\n“Not really,” says Uncle Jim. “People build a tunnel to keep the water away from the track. And trains travel on the track in the tunnel.”\n\nThen Ben asks, “Can you take me on an underwater train ride one day?”\n\nUncle Jim says, “I would love to!”",
+    "youtube_url": "https://www.youtube.com/watch?v=JBml4wr4X-c",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011003001",
+        "story_id": "00000000-0000-4000-8000-000000011030",
+        "prompt": "What does Ben want to know?",
+        "options": [
+          "Why snowflakes melt",
+          "Why trains can go under the water",
+          "Why zebras have stripes",
+          "How to repair a sweater"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011003002",
+        "story_id": "00000000-0000-4000-8000-000000011030",
+        "prompt": "Who answers Ben's question?",
+        "options": [
+          "Uncle Jim",
+          "His father",
+          "His dentist",
+          "His teacher"
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011003003",
+        "story_id": "00000000-0000-4000-8000-000000011030",
+        "prompt": "What keeps the water away from the track?",
+        "options": [
+          "A shovel",
+          "A bottle",
+          "A toy box",
+          "A tunnel"
+        ],
+        "answer_index": 3,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011003004",
+        "story_id": "00000000-0000-4000-8000-000000011030",
+        "prompt": "What does Ben ask to do one day?",
+        "options": [
+          "Visit a pigpen",
+          "Learn to sell houses",
+          "Take an underwater train ride",
+          "Drive a backhoe"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "Ben asks why trains can go under the water.",
+        "The train travels directly through the water.",
+        "Trains use a track inside a tunnel.",
+        "Uncle Jim says he will never take Ben."
+      ],
+      "short_answer": [
+        "What does Ben ask his uncle?",
+        "How does the tunnel help?",
+        "What does Ben want to do one day?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "short_answer_keys": [
+        "He asks why trains can go under the water.",
+        "It keeps the water away from the track.",
+        "He wants to go on an underwater train ride."
+      ],
+      "vocabulary": [
+        {
+          "term": "tunnel",
+          "meaning": "a passage built under or through the ground"
+        },
+        {
+          "term": "track",
+          "meaning": "the rails that a train travels on"
+        },
+        {
+          "term": "travel",
+          "meaning": "to go from one place to another"
+        },
+        {
+          "term": "underwater",
+          "meaning": "under the surface of water"
+        },
+        {
+          "term": "one day",
+          "meaning": "at some time in the future"
+        }
+      ],
+      "language_notice": "“Can” describes ability or possibility. “Would love to” is a polite way to say you want to do something."
+    }
+  }
+]

@@ -1,6 +1,7 @@
 import type { Question, Story } from "./types";
 import septemberStories from "@/data/september.json";
 import octoberStories from "@/data/october.json";
+import novemberStories from "@/data/november.json";
 
 export const MONTHS = [
   "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6",
@@ -52,6 +53,7 @@ export const DEMO_STORIES: Story[] = [
   },
   ...(septemberStories as Story[]),
   ...(octoberStories as Story[]),
+  ...(novemberStories as Story[]),
 ];
 
 export function youtubeId(url: string): string | null {

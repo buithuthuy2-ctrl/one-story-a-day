@@ -9,7 +9,7 @@ pnpm install
 pnpm dev
 ```
 
-Mở `http://localhost:3000`. Khi chưa khai báo Supabase, ứng dụng chạy ở **chế độ xem trước** với ba truyện minh họa, 29 truyện tháng 9 và 31 truyện tháng 10. Dữ liệu chỉnh sửa và tiến độ lưu trong `localStorage` của trình duyệt. Trang `/admin` mở trực tiếp để thử giao diện.
+Mở `http://localhost:3000`. Khi chưa khai báo Supabase, ứng dụng chạy ở **chế độ xem trước** với ba truyện minh họa, 29 truyện tháng 9, 31 truyện tháng 10 và 29 truyện tháng 11 (ngày 2–30). Dữ liệu chỉnh sửa và tiến độ lưu trong `localStorage` của trình duyệt. Trang `/admin` mở trực tiếp để thử giao diện.
 
 ## Kết nối Supabase
 
@@ -46,6 +46,10 @@ Trong `/admin`, mục **Ảnh bìa 12 tháng** cho phép tải, thay hoặc xóa
 [Tệp JSON tháng 9](src/data/september.json) có 29 truyện, 116 câu trắc nghiệm, 116 câu đúng/sai, 145 câu trả lời ngắn và 87 câu thảo luận. Mỗi truyện còn có bài điền từ từ PowerPoint câu hỏi. Có thể chọn trực tiếp tệp này trong mục **Nhập JSON** ở trang quản trị; bản nhập sẽ là bản nháp. Nội dung được đối chiếu theo số truyện và tiêu đề giữa [PowerPoint truyện](https://drive.google.com/file/d/1S-TOezTgZv8HV3YycLIwGIo2cICVCJvX), [PowerPoint câu hỏi](https://drive.google.com/file/d/1sVBZ-LmLh4JEFXPhrr6FqBSQGy0ZqZa0) và [PDF sách gốc](https://drive.google.com/file/d/17N3OuPzEwQjK4jVuj2-DtSWPt7klqK0E).
 
 **Ngày 22 thiếu trong cả ba nguồn**: không tạo truyện hoặc câu hỏi giả cho ngày này. Các nguồn chưa cung cấp URL YouTube, nên trường video để trống. File câu hỏi không đánh dấu đáp án trắc nghiệm; đáp án trong JSON được xác định bằng cách đối chiếu nội dung truyện, cần người quản trị rà soát trước khi xuất bản trên Supabase.
+
+### Dữ liệu tháng 11
+
+[Tệp JSON tháng 11](src/data/november.json) chứa 29 truyện cho ngày 2–30, 116 câu trắc nghiệm kèm đáp án, câu đúng/sai, câu trả lời ngắn và link YouTube tương ứng. Nguồn là [tài liệu truyện và câu hỏi](https://docs.google.com/document/d/1Udu7U5NOqjbgV1Fe3v9RBg6o-csPxq4Ga7-ssEWJX2c/edit) cùng [bảng link video](https://docs.google.com/spreadsheets/d/1RlISSX83dGvuAYC5MZqt2p57VFGdcrlQQ4nONoaTqGQ/edit). Tài liệu không có nội dung và câu hỏi của ngày 1 (*The Bike Shop*), nên ngày 1 chưa được thêm vào dữ liệu.
 
 ## Cấu trúc dữ liệu
 
