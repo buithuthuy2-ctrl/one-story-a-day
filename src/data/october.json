@@ -17,12 +17,12 @@
         "story_id": "00000000-0000-4000-8000-000000010001",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Making a practical choice can lead to a happy reward.",
-          "Being careless is always best.",
           "Nothing ever changes.",
+          "Being careless is always best.",
+          "Making a practical choice can lead to a happy reward.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 1
       },
@@ -31,12 +31,12 @@
         "story_id": "00000000-0000-4000-8000-000000010001",
         "prompt": "Why did Ben need new shoes?",
         "options": [
-          "His shoes had holes.",
           "They were too green.",
+          "His shoes had holes.",
           "He lost them at the beach.",
           "They were wet."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 2
       },
@@ -59,12 +59,12 @@
         "story_id": "00000000-0000-4000-8000-000000010001",
         "prompt": "Where did Mom suggest going afterward?",
         "options": [
-          "The beach.",
+          "The library.",
           "The park.",
           "School.",
-          "The library."
+          "The beach."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 4
       }
@@ -137,12 +137,12 @@
         "story_id": "00000000-0000-4000-8000-000000010002",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Small beginnings can grow into something big.",
-          "Being careless is always best.",
           "Nothing ever changes.",
+          "Being careless is always best.",
+          "Small beginnings can grow into something big.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 1
       },
@@ -151,12 +151,12 @@
         "story_id": "00000000-0000-4000-8000-000000010002",
         "prompt": "What fruit does Kate like?",
         "options": [
-          "Apples.",
           "Oranges.",
+          "Apples.",
           "Bananas.",
           "Grapes."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 2
       },
@@ -179,12 +179,12 @@
         "story_id": "00000000-0000-4000-8000-000000010002",
         "prompt": "What can each apple seed become?",
         "options": [
-          "An apple tree.",
+          "A vegetable.",
           "A flower only.",
           "A grapevine.",
-          "A vegetable."
+          "An apple tree."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 4
       }
@@ -257,12 +257,12 @@
         "story_id": "00000000-0000-4000-8000-000000010003",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Unexpected accidents can become funny family memories.",
+          "Only adults can learn.",
           "Being careless is always best.",
           "Nothing ever changes.",
-          "Only adults can learn."
+          "Unexpected accidents can become funny family memories."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 1
       },
@@ -271,12 +271,12 @@
         "story_id": "00000000-0000-4000-8000-000000010003",
         "prompt": "What jumped into the bowl?",
         "options": [
-          "Grandma’s cat.",
           "Grandma’s dog.",
+          "Grandma’s cat.",
           "A bird.",
           "A mouse."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 2
       },
@@ -285,12 +285,12 @@
         "story_id": "00000000-0000-4000-8000-000000010003",
         "prompt": "What happened to the mixture?",
         "options": [
-          "It spilled all over them.",
-          "It froze.",
           "It burned.",
+          "It froze.",
+          "It spilled all over them.",
           "It disappeared."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 3
       },
@@ -391,12 +391,12 @@
         "story_id": "00000000-0000-4000-8000-000000010004",
         "prompt": "When do first teeth begin to grow?",
         "options": [
-          "Around eight months.",
+          "At birth for everyone.",
           "At seven years.",
           "At twelve years.",
-          "At birth for everyone."
+          "Around eight months."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 2
       },
@@ -405,12 +405,12 @@
         "story_id": "00000000-0000-4000-8000-000000010004",
         "prompt": "Which teeth usually come first?",
         "options": [
-          "The middle front teeth.",
-          "The back teeth.",
           "The side teeth.",
+          "The back teeth.",
+          "The middle front teeth.",
           "Adult teeth."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 3
       },
@@ -419,12 +419,12 @@
         "story_id": "00000000-0000-4000-8000-000000010004",
         "prompt": "How many baby teeth are there in total?",
         "options": [
-          "20.",
           "32.",
+          "20.",
           "8.",
           "12."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 4
       }
@@ -497,12 +497,12 @@
         "story_id": "00000000-0000-4000-8000-000000010005",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Adult teeth must be cared for because they are meant to last a lifetime.",
-          "Being careless is always best.",
           "Nothing ever changes.",
+          "Being careless is always best.",
+          "Adult teeth must be cared for because they are meant to last a lifetime.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 1
       },
@@ -525,12 +525,12 @@
         "story_id": "00000000-0000-4000-8000-000000010005",
         "prompt": "What replaces baby teeth?",
         "options": [
-          "Adult teeth.",
           "More baby teeth.",
+          "Adult teeth.",
           "No teeth.",
           "Toy teeth."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 3
       },
@@ -539,12 +539,12 @@
         "story_id": "00000000-0000-4000-8000-000000010005",
         "prompt": "How many adult teeth do we have by our late teens?",
         "options": [
-          "32.",
+          "40.",
           "20.",
           "12.",
-          "40."
+          "32."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 4
       }
@@ -617,12 +617,12 @@
         "story_id": "00000000-0000-4000-8000-000000010006",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Curiosity encourages us to look more closely and learn.",
           "Being careless is always best.",
+          "Curiosity encourages us to look more closely and learn.",
           "Nothing ever changes.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 1
       },
@@ -631,12 +631,12 @@
         "story_id": "00000000-0000-4000-8000-000000010006",
         "prompt": "Where does Josh’s family live?",
         "options": [
-          "Near the mountains.",
-          "Beside the ocean.",
           "In a desert.",
+          "Beside the ocean.",
+          "Near the mountains.",
           "In a city centre."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 2
       },
@@ -659,12 +659,12 @@
         "story_id": "00000000-0000-4000-8000-000000010006",
         "prompt": "Why is Josh puzzled?",
         "options": [
-          "The mountains look purple but are not really purple.",
+          "The car is broken.",
           "He cannot find his dad.",
           "It is snowing.",
-          "The car is broken."
+          "The mountains look purple but are not really purple."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 4
       }
@@ -751,12 +751,12 @@
         "story_id": "00000000-0000-4000-8000-000000010007",
         "prompt": "How do Josh and Dad travel?",
         "options": [
-          "By car.",
           "By boat.",
+          "By car.",
           "By train.",
           "On foot."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 2
       },
@@ -765,12 +765,12 @@
         "story_id": "00000000-0000-4000-8000-000000010007",
         "prompt": "What happens as they get closer?",
         "options": [
-          "The mountains no longer look purple.",
+          "The road turns purple.",
           "The mountains disappear.",
           "It begins to rain.",
-          "The road turns purple."
+          "The mountains no longer look purple."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 3
       },
@@ -779,12 +779,12 @@
         "story_id": "00000000-0000-4000-8000-000000010007",
         "prompt": "What makes distant mountains look purple?",
         "options": [
-          "Scattered light.",
-          "Purple paint.",
           "Flowers.",
+          "Purple paint.",
+          "Scattered light.",
           "Smoke."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 4
       }
@@ -857,12 +857,12 @@
         "story_id": "00000000-0000-4000-8000-000000010008",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Honesty allows people in a community to trust one another.",
           "Being careless is always best.",
+          "Honesty allows people in a community to trust one another.",
           "Nothing ever changes.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 1
       },
@@ -871,12 +871,12 @@
         "story_id": "00000000-0000-4000-8000-000000010008",
         "prompt": "What holiday date was coming soon?",
         "options": [
-          "October 31st.",
-          "December 25th.",
           "January 1st.",
+          "December 25th.",
+          "October 31st.",
           "July 1st."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 2
       },
@@ -899,12 +899,12 @@
         "story_id": "00000000-0000-4000-8000-000000010008",
         "prompt": "How many large pumpkins did Mom take?",
         "options": [
-          "Two.",
+          "Five.",
           "One.",
           "Three.",
-          "Five."
+          "Two."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 4
       }
@@ -977,12 +977,12 @@
         "story_id": "00000000-0000-4000-8000-000000010009",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Patient, consistent care can bring about change.",
+          "Only adults can learn.",
           "Being careless is always best.",
           "Nothing ever changes.",
-          "Only adults can learn."
+          "Patient, consistent care can bring about change."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 1
       },
@@ -1005,12 +1005,12 @@
         "story_id": "00000000-0000-4000-8000-000000010009",
         "prompt": "Where did they put the plant during the day?",
         "options": [
-          "In sunlight.",
-          "In a cupboard.",
           "Under a bed.",
+          "In a cupboard.",
+          "In sunlight.",
           "In water."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 3
       },
@@ -1019,12 +1019,12 @@
         "story_id": "00000000-0000-4000-8000-000000010009",
         "prompt": "How long did they follow the routine?",
         "options": [
-          "Two months.",
           "Two days.",
+          "Two months.",
           "One week.",
           "One year."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 4
       }
@@ -1097,12 +1097,12 @@
         "story_id": "00000000-0000-4000-8000-000000010010",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Practice helps us perform confidently even when we feel nervous.",
           "Being careless is always best.",
+          "Practice helps us perform confidently even when we feel nervous.",
           "Nothing ever changes.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 1
       },
@@ -1125,12 +1125,12 @@
         "story_id": "00000000-0000-4000-8000-000000010010",
         "prompt": "Whose birthday is being celebrated?",
         "options": [
-          "Cora’s grandma’s.",
+          "Her friend’s.",
           "Miss Martha’s.",
           "Cora’s brother’s.",
-          "Her friend’s."
+          "Cora’s grandma’s."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 3
       },
@@ -1139,12 +1139,12 @@
         "story_id": "00000000-0000-4000-8000-000000010010",
         "prompt": "How old is Grandma turning?",
         "options": [
-          "100.",
-          "10.",
           "50.",
+          "10.",
+          "100.",
           "80."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 4
       }
@@ -1217,12 +1217,12 @@
         "story_id": "00000000-0000-4000-8000-000000010011",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Names may come from history rather than a literal appearance.",
-          "Being careless is always best.",
           "Nothing ever changes.",
+          "Being careless is always best.",
+          "Names may come from history rather than a literal appearance.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 1
       },
@@ -1231,12 +1231,12 @@
         "story_id": "00000000-0000-4000-8000-000000010011",
         "prompt": "What pet did Melissa buy?",
         "options": [
-          "A fish.",
+          "A turtle.",
           "A puppy.",
           "A bird.",
-          "A turtle."
+          "A fish."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 2
       },
@@ -1245,12 +1245,12 @@
         "story_id": "00000000-0000-4000-8000-000000010011",
         "prompt": "What does Jimmy call the fish?",
         "options": [
-          "A goldfish.",
           "A silver carp.",
+          "A goldfish.",
           "An orange bird.",
           "A red fish."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 3
       },
@@ -1337,12 +1337,12 @@
         "story_id": "00000000-0000-4000-8000-000000010012",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Thoughtful creativity can make a celebration special.",
+          "Only adults can learn.",
           "Being careless is always best.",
           "Nothing ever changes.",
-          "Only adults can learn."
+          "Thoughtful creativity can make a celebration special."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 1
       },
@@ -1351,12 +1351,12 @@
         "story_id": "00000000-0000-4000-8000-000000010012",
         "prompt": "Who suggests throwing a party?",
         "options": [
-          "Sara.",
           "Mom.",
+          "Sara.",
           "Dad.",
           "Grandma."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 2
       },
@@ -1365,12 +1365,12 @@
         "story_id": "00000000-0000-4000-8000-000000010012",
         "prompt": "Why do the children draw a cake?",
         "options": [
-          "Their parents are in the kitchen.",
-          "They do not like cake.",
           "There is no paper.",
+          "They do not like cake.",
+          "Their parents are in the kitchen.",
           "Grandma asks them to."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 3
       },
@@ -1471,12 +1471,12 @@
         "story_id": "00000000-0000-4000-8000-000000010013",
         "prompt": "Where does Henry live?",
         "options": [
-          "Near a National Park.",
-          "In a pet store.",
           "On a farm.",
+          "In a pet store.",
+          "Near a National Park.",
           "Beside a shoe store."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 2
       },
@@ -1485,12 +1485,12 @@
         "story_id": "00000000-0000-4000-8000-000000010013",
         "prompt": "Why is National Park land chosen?",
         "options": [
-          "To protect nature.",
           "To build factories.",
+          "To protect nature.",
           "To sell houses.",
           "To grow only food."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 3
       },
@@ -1499,12 +1499,12 @@
         "story_id": "00000000-0000-4000-8000-000000010013",
         "prompt": "What does Henry hope to do?",
         "options": [
-          "Work in a National Park.",
+          "Open a shop.",
           "Become a chef.",
           "Drive a train.",
-          "Open a shop."
+          "Work in a National Park."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 4
       }
@@ -1577,12 +1577,12 @@
         "story_id": "00000000-0000-4000-8000-000000010014",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Excitement can grow quickly when an activity speeds up.",
           "Being careless is always best.",
+          "Excitement can grow quickly when an activity speeds up.",
           "Nothing ever changes.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 1
       },
@@ -1591,12 +1591,12 @@
         "story_id": "00000000-0000-4000-8000-000000010014",
         "prompt": "What is the weather like?",
         "options": [
-          "Cold and snowy.",
+          "Windless and sunny.",
           "Hot and dry.",
           "Warm and rainy.",
-          "Windless and sunny."
+          "Cold and snowy."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 2
       },
@@ -1619,12 +1619,12 @@
         "story_id": "00000000-0000-4000-8000-000000010014",
         "prompt": "How does the ride change?",
         "options": [
-          "It becomes faster and faster.",
-          "It stops immediately.",
           "It moves uphill.",
+          "It stops immediately.",
+          "It becomes faster and faster.",
           "It becomes slower and slower."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 4
       }
@@ -1711,12 +1711,12 @@
         "story_id": "00000000-0000-4000-8000-000000010015",
         "prompt": "What does Father try to do?",
         "options": [
-          "Slow the board down.",
           "Make it faster.",
+          "Slow the board down.",
           "Turn it purple.",
           "Carry it home."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 2
       },
@@ -1725,12 +1725,12 @@
         "story_id": "00000000-0000-4000-8000-000000010015",
         "prompt": "What do they hit?",
         "options": [
-          "A tree.",
-          "A house.",
           "A car.",
+          "A house.",
+          "A tree.",
           "A fence."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 3
       },
@@ -1739,12 +1739,12 @@
         "story_id": "00000000-0000-4000-8000-000000010015",
         "prompt": "Where do they decide to go?",
         "options": [
-          "The hospital.",
+          "School.",
           "The beach.",
           "A restaurant.",
-          "School."
+          "The hospital."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 4
       }
@@ -1817,12 +1817,12 @@
         "story_id": "00000000-0000-4000-8000-000000010016",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Cleaning and persistence can help us find what seems lost.",
           "Being careless is always best.",
+          "Cleaning and persistence can help us find what seems lost.",
           "Nothing ever changes.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 1
       },
@@ -1831,12 +1831,12 @@
         "story_id": "00000000-0000-4000-8000-000000010016",
         "prompt": "What is Abe looking for?",
         "options": [
-          "His favourite toy car.",
+          "His ball.",
           "His book.",
           "His shoe.",
-          "His ball."
+          "His favourite toy car."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 2
       },
@@ -1859,12 +1859,12 @@
         "story_id": "00000000-0000-4000-8000-000000010016",
         "prompt": "Where is the toy car?",
         "options": [
-          "Under the bed.",
-          "In the kitchen.",
           "In a box outside.",
+          "In the kitchen.",
+          "Under the bed.",
           "At school."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 4
       }
@@ -1937,12 +1937,12 @@
         "story_id": "00000000-0000-4000-8000-000000010017",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "It is good to express your own creative ideas.",
+          "Only adults can learn.",
           "Being careless is always best.",
           "Nothing ever changes.",
-          "Only adults can learn."
+          "It is good to express your own creative ideas."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 1
       },
@@ -1965,12 +1965,12 @@
         "story_id": "00000000-0000-4000-8000-000000010017",
         "prompt": "What kind of pumpkins do the brothers want?",
         "options": [
-          "Scary pumpkins.",
           "Happy pumpkins.",
+          "Scary pumpkins.",
           "Tiny pumpkins.",
           "Uncarved pumpkins."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 3
       },
@@ -1979,12 +1979,12 @@
         "story_id": "00000000-0000-4000-8000-000000010017",
         "prompt": "What expression does the narrator carve?",
         "options": [
-          "A friendly, laughing smile.",
-          "Angry eyes only.",
           "Sharp teeth only.",
+          "Angry eyes only.",
+          "A friendly, laughing smile.",
           "A sad face."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 4
       }
@@ -2071,12 +2071,12 @@
         "story_id": "00000000-0000-4000-8000-000000010018",
         "prompt": "Where does Coco live at first?",
         "options": [
-          "In a pet store.",
+          "At a school.",
           "On a ship.",
           "In a forest.",
-          "At a school."
+          "In a pet store."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 2
       },
@@ -2085,12 +2085,12 @@
         "story_id": "00000000-0000-4000-8000-000000010018",
         "prompt": "What does Coco dream of doing?",
         "options": [
-          "Sailing on a pirate’s ship.",
-          "Flying to the moon.",
           "Becoming a dog.",
+          "Flying to the moon.",
+          "Sailing on a pirate’s ship.",
           "Living in a tree."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 3
       },
@@ -2099,12 +2099,12 @@
         "story_id": "00000000-0000-4000-8000-000000010018",
         "prompt": "Why does the owner recommend Coco?",
         "options": [
-          "He likes water.",
           "He can cook.",
+          "He likes water.",
           "He is very quiet.",
           "He is a fish."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 4
       }
@@ -2191,12 +2191,12 @@
         "story_id": "00000000-0000-4000-8000-000000010019",
         "prompt": "What does Coco look at?",
         "options": [
-          "The lady’s pool.",
           "A mountain.",
+          "The lady’s pool.",
           "A cake.",
           "A shoe store."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 2
       },
@@ -2205,12 +2205,12 @@
         "story_id": "00000000-0000-4000-8000-000000010019",
         "prompt": "Who comes to visit?",
         "options": [
-          "Peter.",
+          "Henry.",
           "Max.",
           "Josh.",
-          "Henry."
+          "Peter."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 3
       },
@@ -2219,12 +2219,12 @@
         "story_id": "00000000-0000-4000-8000-000000010019",
         "prompt": "What do Peter and Coco pretend to do?",
         "options": [
-          "Sail the seas.",
-          "Bake a cake.",
           "Plant a tree.",
+          "Bake a cake.",
+          "Sail the seas.",
           "Sell pumpkins."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 4
       }
@@ -2311,12 +2311,12 @@
         "story_id": "00000000-0000-4000-8000-000000010020",
         "prompt": "What has Grandma made with the old pot?",
         "options": [
-          "Many wonderful meals.",
           "Shoes.",
+          "Many wonderful meals.",
           "Toys.",
           "Paintings."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 2
       },
@@ -2325,12 +2325,12 @@
         "story_id": "00000000-0000-4000-8000-000000010020",
         "prompt": "Why will Grandma not throw it away?",
         "options": [
-          "It is still usable.",
-          "It is new.",
           "It is made of gold.",
+          "It is new.",
+          "It is still usable.",
           "She has no kitchen."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 3
       },
@@ -2339,12 +2339,12 @@
         "story_id": "00000000-0000-4000-8000-000000010020",
         "prompt": "What gift does the family give Grandma?",
         "options": [
-          "A new pot.",
+          "A book.",
           "A cake.",
           "A bird.",
-          "A book."
+          "A new pot."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 4
       }
@@ -2417,12 +2417,12 @@
         "story_id": "00000000-0000-4000-8000-000000010021",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Patience is necessary because worthwhile things take time.",
-          "Being careless is always best.",
           "Nothing ever changes.",
+          "Being careless is always best.",
+          "Patience is necessary because worthwhile things take time.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 1
       },
@@ -2431,12 +2431,12 @@
         "story_id": "00000000-0000-4000-8000-000000010021",
         "prompt": "Where are Jimmy and his mother?",
         "options": [
-          "At a restaurant.",
           "At home.",
+          "At a restaurant.",
           "At school.",
           "At a park."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 2
       },
@@ -2459,12 +2459,12 @@
         "story_id": "00000000-0000-4000-8000-000000010021",
         "prompt": "What lesson does Mom teach?",
         "options": [
-          "Learn to wait.",
+          "Cook at the table.",
           "Eat very quickly.",
           "Leave the restaurant.",
-          "Cook at the table."
+          "Learn to wait."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 4
       }
@@ -2537,12 +2537,12 @@
         "story_id": "00000000-0000-4000-8000-000000010022",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "A repeated habit can become a talent and may run in a family.",
-          "Being careless is always best.",
           "Nothing ever changes.",
+          "Being careless is always best.",
+          "A repeated habit can become a talent and may run in a family.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 1
       },
@@ -2551,12 +2551,12 @@
         "story_id": "00000000-0000-4000-8000-000000010022",
         "prompt": "What habit does Kate have?",
         "options": [
-          "Tapping.",
+          "Drawing.",
           "Singing.",
           "Running.",
-          "Drawing."
+          "Tapping."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 2
       },
@@ -2579,12 +2579,12 @@
         "story_id": "00000000-0000-4000-8000-000000010022",
         "prompt": "Who taps many years later?",
         "options": [
-          "Kate’s son.",
           "Kate’s uncle.",
+          "Kate’s son.",
           "Her teacher.",
           "Her husband."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 4
       }
@@ -2671,12 +2671,12 @@
         "story_id": "00000000-0000-4000-8000-000000010023",
         "prompt": "Where does the bird family live?",
         "options": [
-          "In a nest above a canyon.",
+          "In a cave.",
           "In a pond.",
           "In a pet store.",
-          "In a cave."
+          "In a nest above a canyon."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 2
       },
@@ -2685,12 +2685,12 @@
         "story_id": "00000000-0000-4000-8000-000000010023",
         "prompt": "What do the parents teach the babies?",
         "options": [
-          "Their bird song.",
           "How to swim.",
+          "Their bird song.",
           "How to cook.",
           "How to read."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 3
       },
@@ -2699,12 +2699,12 @@
         "story_id": "00000000-0000-4000-8000-000000010023",
         "prompt": "How do the baby birds feel after the parents leave?",
         "options": [
-          "Hungry and worried.",
-          "Excited and full.",
           "Angry at the nest.",
+          "Excited and full.",
+          "Hungry and worried.",
           "Sleepy and warm."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 4
       }
@@ -2791,12 +2791,12 @@
         "story_id": "00000000-0000-4000-8000-000000010024",
         "prompt": "Why are the baby birds still hungry?",
         "options": [
-          "Mother brings too little food.",
+          "Father eats everything.",
           "They lose the nest.",
           "They do not like seeds.",
-          "Father eats everything."
+          "Mother brings too little food."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 2
       },
@@ -2805,12 +2805,12 @@
         "story_id": "00000000-0000-4000-8000-000000010024",
         "prompt": "Where does Mother Bird fly?",
         "options": [
-          "To the tree next door.",
-          "Into the canyon.",
           "To a pet store.",
+          "Into the canyon.",
+          "To the tree next door.",
           "To the ground."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 3
       },
@@ -2819,12 +2819,12 @@
         "story_id": "00000000-0000-4000-8000-000000010024",
         "prompt": "What does the last baby bird finally do?",
         "options": [
-          "Flies to the family.",
           "Goes to sleep.",
+          "Flies to the family.",
           "Stays alone forever.",
           "Falls into the canyon."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 4
       }
@@ -2897,12 +2897,12 @@
         "story_id": "00000000-0000-4000-8000-000000010025",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Languages may differ, but enjoyment can be shared.",
-          "Being careless is always best.",
           "Nothing ever changes.",
+          "Being careless is always best.",
+          "Languages may differ, but enjoyment can be shared.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 1
       },
@@ -2925,12 +2925,12 @@
         "story_id": "00000000-0000-4000-8000-000000010025",
         "prompt": "What two words are on the candy label?",
         "options": [
-          "Chocolate and Chocolat.",
           "Candy and Sweet.",
+          "Chocolate and Chocolat.",
           "Milk and Sugar.",
           "English and Canada."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 3
       },
@@ -2939,12 +2939,12 @@
         "story_id": "00000000-0000-4000-8000-000000010025",
         "prompt": "Why are two languages printed on food?",
         "options": [
-          "Canada has two official languages.",
+          "The candy is from two shops.",
           "The company made a mistake.",
           "Nick requested it.",
-          "The candy is from two shops."
+          "Canada has two official languages."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 4
       }
@@ -3017,12 +3017,12 @@
         "story_id": "00000000-0000-4000-8000-000000010026",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Water is essential to life and many daily activities.",
           "Being careless is always best.",
+          "Water is essential to life and many daily activities.",
           "Nothing ever changes.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 1
       },
@@ -3031,12 +3031,12 @@
         "story_id": "00000000-0000-4000-8000-000000010026",
         "prompt": "What is the answer to the riddle?",
         "options": [
-          "Water.",
-          "Air.",
           "Fire.",
+          "Air.",
+          "Water.",
           "Sand."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 2
       },
@@ -3045,12 +3045,12 @@
         "story_id": "00000000-0000-4000-8000-000000010026",
         "prompt": "How long can a person live without it according to the story?",
         "options": [
-          "Two or three days.",
+          "Ten weeks.",
           "Two or three months.",
           "One year.",
-          "Ten weeks."
+          "Two or three days."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 3
       },
@@ -3137,12 +3137,12 @@
         "story_id": "00000000-0000-4000-8000-000000010027",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Animals have different ways to protect themselves from danger.",
+          "Only adults can learn.",
           "Being careless is always best.",
           "Nothing ever changes.",
-          "Only adults can learn."
+          "Animals have different ways to protect themselves from danger."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 1
       },
@@ -3165,12 +3165,12 @@
         "story_id": "00000000-0000-4000-8000-000000010027",
         "prompt": "What sprayed Sam?",
         "options": [
-          "A skunk.",
-          "A hose.",
           "A plant.",
+          "A hose.",
+          "A skunk.",
           "A child."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 3
       },
@@ -3179,12 +3179,12 @@
         "story_id": "00000000-0000-4000-8000-000000010027",
         "prompt": "When do skunks spray?",
         "options": [
-          "When they are scared.",
           "When they are sleeping.",
+          "When they are scared.",
           "When they are eating.",
           "When they are happy."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 4
       }
@@ -3257,12 +3257,12 @@
         "story_id": "00000000-0000-4000-8000-000000010028",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Seasonal changes explain the beautiful colours of fall leaves.",
-          "Being careless is always best.",
           "Nothing ever changes.",
+          "Being careless is always best.",
+          "Seasonal changes explain the beautiful colours of fall leaves.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 1
       },
@@ -3285,12 +3285,12 @@
         "story_id": "00000000-0000-4000-8000-000000010028",
         "prompt": "What does the green in leaves help make?",
         "options": [
-          "Food for the tree.",
+          "Wind.",
           "Snow.",
           "Flowers only.",
-          "Wind."
+          "Food for the tree."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 3
       },
@@ -3299,12 +3299,12 @@
         "story_id": "00000000-0000-4000-8000-000000010028",
         "prompt": "Why does the green fade?",
         "options": [
-          "Days become shorter and cooler.",
           "The leaves get more sunlight.",
+          "Days become shorter and cooler.",
           "The tree is painted.",
           "The wind becomes warm."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 4
       }
@@ -3391,12 +3391,12 @@
         "story_id": "00000000-0000-4000-8000-000000010029",
         "prompt": "Where does the story describe winter?",
         "options": [
-          "Canada.",
-          "Egypt.",
           "Australia.",
+          "Egypt.",
+          "Canada.",
           "Brazil."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 2
       },
@@ -3405,12 +3405,12 @@
         "story_id": "00000000-0000-4000-8000-000000010029",
         "prompt": "What do black bears do in summer and fall?",
         "options": [
-          "They eat a lot.",
+          "They build houses.",
           "They sleep all day.",
           "They swim south.",
-          "They build houses."
+          "They eat a lot."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 3
       },
@@ -3419,12 +3419,12 @@
         "story_id": "00000000-0000-4000-8000-000000010029",
         "prompt": "About how long do they sleep?",
         "options": [
-          "Almost five months.",
           "Five days.",
+          "Almost five months.",
           "Two weeks.",
           "One year."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 4
       }
@@ -3497,12 +3497,12 @@
         "story_id": "00000000-0000-4000-8000-000000010030",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "Healthy daily habits can help prevent illness from spreading.",
+          "Only adults can learn.",
           "Being careless is always best.",
           "Nothing ever changes.",
-          "Only adults can learn."
+          "Healthy daily habits can help prevent illness from spreading."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 1
       },
@@ -3511,12 +3511,12 @@
         "story_id": "00000000-0000-4000-8000-000000010030",
         "prompt": "How old is Eric?",
         "options": [
-          "Five.",
           "Seven.",
+          "Five.",
           "Ten.",
           "Twelve."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 2
       },
@@ -3539,12 +3539,12 @@
         "story_id": "00000000-0000-4000-8000-000000010030",
         "prompt": "Which habit does Eric practise?",
         "options": [
-          "Washing his hands often.",
-          "Skipping sleep.",
           "Avoiding water.",
+          "Skipping sleep.",
+          "Washing his hands often.",
           "Eating only candy."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 4
       }
@@ -3617,12 +3617,12 @@
         "story_id": "00000000-0000-4000-8000-000000010031",
         "prompt": "What is the main idea of the story?",
         "options": [
-          "The Nile’s great length makes it an extraordinary natural feature.",
-          "Being careless is always best.",
           "Nothing ever changes.",
+          "Being careless is always best.",
+          "The Nile’s great length makes it an extraordinary natural feature.",
           "Only adults can learn."
         ],
-        "answer_index": 0,
+        "answer_index": 2,
         "explanation": "",
         "sort_order": 1
       },
@@ -3645,12 +3645,12 @@
         "story_id": "00000000-0000-4000-8000-000000010031",
         "prompt": "How long is the Nile according to the story?",
         "options": [
-          "4,184 miles.",
           "418 miles.",
+          "4,184 miles.",
           "1,000 miles.",
           "184 miles."
         ],
-        "answer_index": 0,
+        "answer_index": 1,
         "explanation": "",
         "sort_order": 3
       },
@@ -3659,12 +3659,12 @@
         "story_id": "00000000-0000-4000-8000-000000010031",
         "prompt": "What animals mentioned live in the Nile?",
         "options": [
-          "Crocodiles.",
+          "Skunks.",
           "Black bears.",
           "Goldfish.",
-          "Skunks."
+          "Crocodiles."
         ],
-        "answer_index": 0,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 4
       }

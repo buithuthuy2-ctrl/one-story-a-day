@@ -39,6 +39,8 @@ Quản trị viên và học sinh đã đăng nhập có thể tự đổi mật
 
 Vào `/admin`, chọn **Nhập JSON**. Tải [tệp mẫu](public/sample-import.json) để xem cấu trúc. Mỗi mục cần `month`, `day`, `title`, `content`; có thể thêm `summary`, `youtube_url`, `level`, `duration_minutes`, `questions`. Mỗi câu hỏi có bốn `options`, `answer_index` từ 0 đến 3, và `explanation`. Nội dung nhập hàng loạt luôn là bản nháp; mở từng truyện để kiểm tra rồi xuất bản. Mỗi tháng/ngày chỉ có một truyện.
 
+Các tệp truyện mẫu tháng 9–11 đã được cân bằng để trong mỗi truyện, đáp án đúng xuất hiện một lần ở mỗi vị trí A, B, C và D. Khi bổ sung dữ liệu mẫu mới, chạy `node scripts/balance-answers.mjs`; lệnh chỉ đổi vị trí lựa chọn và giữ nguyên nội dung đáp án đúng.
+
 Trong `/admin`, mục **Ảnh bìa 12 tháng** cho phép tải, thay hoặc xóa ảnh từng tập. Mở **Chỉnh sửa** ở một truyện để tải ảnh đại diện riêng cho truyện đó. Ảnh JPG, PNG hoặc WebP tối đa 5 MB được lưu trong bucket công khai `story-covers` của Supabase Storage; chỉ tài khoản quản trị có quyền tải hoặc xóa. Nếu chưa có ảnh, giao diện dùng màu và biểu tượng mặc định.
 
 ### Dữ liệu tháng 9

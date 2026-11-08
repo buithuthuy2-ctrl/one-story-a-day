@@ -60,11 +60,11 @@
         "prompt": "What did they learn to do?",
         "options": [
           "Ride a backhoe",
-          "Repair a bike",
+          "Change a bike’s colour",
           "Build a house",
-          "Change a bike’s colour"
+          "Repair a bike"
         ],
-        "answer_index": 1,
+        "answer_index": 3,
         "explanation": "",
         "sort_order": 4
       }
