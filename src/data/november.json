@@ -1,5 +1,125 @@
 [
   {
+    "id": "00000000-0000-4000-8000-000000011001",
+    "month": 11,
+    "day": 1,
+    "title": "The Bike Shop",
+    "summary": "We can learn new skills by trying things ourselves.",
+    "content": "A family friend gave my brother a bike. It was not a very old bike, but it had a flat tire.\n\nMy brother and I went to a bike shop to have it repaired.\n\nThe man in the shop said, “It’s easy! In fact, I'll tell you how to repair the bike, and you will be the one to do it.”\n\nWell, that was not what we expected. But my brother liked the idea. At the end, we fixed the flat tire and learned how to repair the bike.",
+    "youtube_url": "https://youtu.be/xuzjPWmExws?si=G4vsPZWMyuDw_I_U",
+    "image_url": "",
+    "level": "Cơ bản",
+    "duration_minutes": 5,
+    "status": "published",
+    "questions": [
+      {
+        "id": "00000000-0000-4000-8000-000011000101",
+        "story_id": "00000000-0000-4000-8000-000000011001",
+        "prompt": "What did a family friend give the narrator’s brother?",
+        "options": [
+          "A toy truck",
+          "A bike",
+          "A book",
+          "A ball"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 1
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000102",
+        "story_id": "00000000-0000-4000-8000-000000011001",
+        "prompt": "What was wrong with the bike?",
+        "options": [
+          "It had a flat tire.",
+          "It had no seat.",
+          "It was too old.",
+          "It had a broken light."
+        ],
+        "answer_index": 0,
+        "explanation": "",
+        "sort_order": 2
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000103",
+        "story_id": "00000000-0000-4000-8000-000000011001",
+        "prompt": "Where did the brother and narrator go?",
+        "options": [
+          "To a school",
+          "To a park",
+          "To a bike shop",
+          "To a friend’s house"
+        ],
+        "answer_index": 2,
+        "explanation": "",
+        "sort_order": 3
+      },
+      {
+        "id": "00000000-0000-4000-8000-000011000104",
+        "story_id": "00000000-0000-4000-8000-000000011001",
+        "prompt": "What did they learn to do?",
+        "options": [
+          "Ride a backhoe",
+          "Repair a bike",
+          "Build a house",
+          "Change a bike’s colour"
+        ],
+        "answer_index": 1,
+        "explanation": "",
+        "sort_order": 4
+      }
+    ],
+    "activities": {
+      "cloze_text": "",
+      "true_false": [
+        "The bike was very old.",
+        "The bike had a flat tire.",
+        "The man at the shop repaired the bike without their help.",
+        "The brother liked the idea of learning how to repair the bike."
+      ],
+      "short_answer": [
+        "Who gave the brother the bike?",
+        "What did the brother and narrator fix?",
+        "What did they learn at the bike shop?"
+      ],
+      "discussion": [],
+      "true_false_answers": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "short_answer_keys": [
+        "A family friend gave him the bike.",
+        "They fixed the flat tire.",
+        "They learned how to repair the bike."
+      ],
+      "vocabulary": [
+        {
+          "term": "family friend",
+          "meaning": "a friend of someone in the family"
+        },
+        {
+          "term": "flat tire",
+          "meaning": "a tire that has lost air"
+        },
+        {
+          "term": "bike shop",
+          "meaning": "a place where people buy or repair bikes"
+        },
+        {
+          "term": "repair",
+          "meaning": "to fix something that is broken"
+        },
+        {
+          "term": "at the end",
+          "meaning": "after everything is finished"
+        }
+      ],
+      "language_notice": "“It was” is the past form of be. “I’ll” means “I will”; the man uses it to say what he is going to do."
+    }
+  },
+  {
     "id": "00000000-0000-4000-8000-000000011002",
     "month": 11,
     "day": 2,

@@ -9,7 +9,7 @@ pnpm install
 pnpm dev
 ```
 
-Mở `http://localhost:3000`. Khi chưa khai báo Supabase, ứng dụng chạy ở **chế độ xem trước** với ba truyện minh họa, 29 truyện tháng 9, 31 truyện tháng 10 và 29 truyện tháng 11 (ngày 2–30). Dữ liệu chỉnh sửa và tiến độ lưu trong `localStorage` của trình duyệt. Trang `/admin` mở trực tiếp để thử giao diện.
+Mở `http://localhost:3000`. Khi chưa khai báo Supabase, ứng dụng chạy ở **chế độ xem trước** với ba truyện minh họa, 29 truyện tháng 9, 31 truyện tháng 10 và 30 truyện tháng 11. Dữ liệu chỉnh sửa và tiến độ lưu trong `localStorage` của trình duyệt. Trang `/admin` mở trực tiếp để thử giao diện.
 
 ## Kết nối Supabase
 
@@ -49,7 +49,7 @@ Trong `/admin`, mục **Ảnh bìa 12 tháng** cho phép tải, thay hoặc xóa
 
 ### Dữ liệu tháng 11
 
-[Tệp JSON tháng 11](src/data/november.json) chứa 29 truyện cho ngày 2–30, 116 câu trắc nghiệm kèm đáp án, câu đúng/sai, câu trả lời ngắn và link YouTube tương ứng. Nguồn là [tài liệu truyện và câu hỏi](https://docs.google.com/document/d/1Udu7U5NOqjbgV1Fe3v9RBg6o-csPxq4Ga7-ssEWJX2c/edit) cùng [bảng link video](https://docs.google.com/spreadsheets/d/1RlISSX83dGvuAYC5MZqt2p57VFGdcrlQQ4nONoaTqGQ/edit). Tài liệu không có nội dung và câu hỏi của ngày 1 (*The Bike Shop*), nên ngày 1 chưa được thêm vào dữ liệu.
+[Tệp JSON tháng 11](src/data/november.json) chứa 30 truyện, 120 câu trắc nghiệm kèm đáp án, câu đúng/sai, câu trả lời ngắn và link YouTube tương ứng. Nguồn ngày 2–30 là [tài liệu truyện và câu hỏi](https://docs.google.com/document/d/1Udu7U5NOqjbgV1Fe3v9RBg6o-csPxq4Ga7-ssEWJX2c/edit); truyện ngày 1 (*The Bike Shop*) do người dùng cung cấp trực tiếp. Link video lấy từ [bảng YouTube](https://docs.google.com/spreadsheets/d/1RlISSX83dGvuAYC5MZqt2p57VFGdcrlQQ4nONoaTqGQ/edit).
 
 ## Cấu trúc dữ liệu
 
