@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./kid-theme.css";
 
 export const metadata: Metadata = {
   title: "One Story a Day | Góc đọc mỗi ngày",
