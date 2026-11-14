@@ -2,6 +2,8 @@
 
 Ứng dụng Next.js cho học sinh nghe video, đọc truyện và làm câu hỏi đọc hiểu. Thư viện được chia thành 12 tập theo tháng, mỗi tập có 28–31 ngày. Trang quản trị cho phép tạo/sửa/xóa truyện, tải ảnh bìa cho từng tháng và từng truyện, gắn video YouTube, soạn câu hỏi và nhập hàng loạt bằng JSON.
 
+Mỗi truyện tiếng Anh có tab **Nghe điền từ**: hệ thống tự chọn 5–6 từ trong nội dung, ưu tiên danh sách từ vựng của truyện, để học sinh nghe giọng đọc hoặc video và điền vào chỗ trống. Nút **Kiểm tra kết quả** báo đúng/sai từng ô và tổng số từ đúng; học sinh có thể sửa và thử lại. Giọng đọc dùng tính năng tổng hợp tiếng nói trên thiết bị, nên chất giọng phụ thuộc trình duyệt. Bài dictation hiện chấm trực tiếp trên trang và chưa lưu vào tiến độ tài khoản.
+
 ## Chạy thử
 
 ```bash
