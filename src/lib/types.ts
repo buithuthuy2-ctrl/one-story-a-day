@@ -59,3 +59,12 @@ export type StudentProfile = {
   display_name: string;
   created_at: string;
 };
+
+export type StudentAttempt = {
+  id: number;
+  user_id: string;
+  story_id: string;
+  score: number;
+  total: number;
+  created_at: string;
+};

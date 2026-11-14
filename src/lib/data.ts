@@ -2,7 +2,7 @@
 
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { DEMO_STORIES } from "./catalog";
-import type { Attempt, MonthCover, Question, Story, StoryRead, StudentProfile } from "./types";
+import type { Attempt, MonthCover, Question, Story, StoryRead, StudentAttempt, StudentProfile } from "./types";
 
 const STORY_KEY = "storyday:stories:v1";
 const ATTEMPT_KEY = "storyday:attempts:v1";
@@ -194,19 +194,26 @@ export async function getStudentProfiles(): Promise<StudentProfile[]> {
   return data as StudentProfile[];
 }
 
-export async function getStudentReadCounts(): Promise<Record<string, number>> {
+export async function getStudentProgress(): Promise<{ reads: StoryRead[]; attempts: StudentAttempt[] }> {
   const db = supabase();
-  if (!db) return {};
-  const counts: Record<string, number> = {};
+  if (!db) return { reads: [], attempts: [] };
+  const { data: auth } = await db.auth.getUser();
+  if (auth.user?.app_metadata?.role !== "admin") throw new Error("Chỉ quản trị viên được xem tiến độ học sinh.");
+  const reads: StoryRead[] = [];
+  const attempts: StudentAttempt[] = [];
   for (let offset = 0; ; offset += 1000) {
-    const { data, error } = await db.from("story_reads").select("user_id").range(offset, offset + 999);
+    const { data, error } = await db.from("story_reads").select("user_id, story_id, read_at").order("read_at", { ascending: false }).order("story_id").range(offset, offset + 999);
     if (error) throw error;
-    for (const row of data as Pick<StoryRead, "user_id">[]) {
-      counts[row.user_id] = (counts[row.user_id] || 0) + 1;
-    }
+    reads.push(...data as StoryRead[]);
     if (data.length < 1000) break;
   }
-  return counts;
+  for (let offset = 0; ; offset += 1000) {
+    const { data, error } = await db.from("attempts").select("id, user_id, story_id, score, total, created_at").order("id", { ascending: false }).range(offset, offset + 999);
+    if (error) throw error;
+    attempts.push(...data as StudentAttempt[]);
+    if (data.length < 1000) break;
+  }
+  return { reads, attempts };
 }
 
 async function invokeStudentAccountAction(body: Record<string, string>): Promise<void> {

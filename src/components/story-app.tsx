@@ -5,8 +5,8 @@ import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Dictation } from "@/components/dictation";
 import { DAYS_IN_MONTH, MONTH_COLORS, MONTHS, youtubeId } from "@/lib/catalog";
-import { blankStory, changePassword, createStudentAccount, deleteStory, getAccess, getAttempts, getMonthCovers, getStories, getStoryReads, getStudentProfiles, getStudentReadCounts, isDemo, markStoryRead, resetStudentPassword, saveAttempt, saveMonthCover, saveStory, saveStoryWithCover, signIn, signOut, validateCoverFile } from "@/lib/data";
-import type { Attempt, MonthCover, Question, Story, StoryActivities, StoryRead, StudentProfile } from "@/lib/types";
+import { blankStory, changePassword, createStudentAccount, deleteStory, getAccess, getAttempts, getMonthCovers, getStories, getStoryReads, getStudentProfiles, getStudentProgress, isDemo, markStoryRead, resetStudentPassword, saveAttempt, saveMonthCover, saveStory, saveStoryWithCover, signIn, signOut, validateCoverFile } from "@/lib/data";
+import type { Attempt, MonthCover, Question, Story, StoryActivities, StoryRead, StudentAttempt, StudentProfile } from "@/lib/types";
 
 type View = "home" | "month" | "story" | "admin" | "login" | "progress" | "password";
 type Props = { view: View; month?: number; storyId?: string };
@@ -283,10 +283,10 @@ function Admin({ stories, monthCovers, editor, setEditor, onSave, onSaveMonthCov
       await onReload();
     } catch (cause) { setMessage(cause instanceof Error ? cause.message : "Không thể nhập tệp."); }
   }
-  return <main className="page subpage admin-page"><div className="breadcrumb"><Link href="/">Trang chủ</Link><span>›</span><span>Quản lý nội dung</span></div><div className="admin-heading"><div><span className="kicker">KHÔNG GIAN BIÊN TẬP</span><h1>Quản lý bộ truyện</h1><p>Chuẩn bị nội dung cho từng ngày học, từ câu chuyện đến câu hỏi đọc hiểu.</p></div><button className="button primary" onClick={() => setEditor(blankStory(1, 1))}>＋ Thêm câu chuyện</button></div>
+  return <main className="page subpage admin-page"><div className="breadcrumb"><Link href="/">Trang chủ</Link><span>›</span><span>Quản lý nội dung</span></div><div className="admin-heading"><div><span className="kicker">KHÔNG GIAN BIÊN TẬP</span><h1>Quản lý bộ truyện</h1><p>Chuẩn bị nội dung cho từng ngày học, từ câu chuyện đến câu hỏi đọc hiểu.</p></div><div className="admin-heading-actions"><Link href="#student-progress" className="button soft">Xem tiến độ học sinh ↓</Link><button className="button primary" onClick={() => setEditor(blankStory(1, 1))}>＋ Thêm câu chuyện</button></div></div>
     <div className="admin-stats"><div><span className="stat-icon violet">▣</span><div><strong>{stories.length}</strong><p>Tổng số truyện</p></div></div><div><span className="stat-icon green">✓</span><div><strong>{stories.filter(s => s.status === "published").length}</strong><p>Đã xuất bản</p></div></div><div><span className="stat-icon orange">✎</span><div><strong>{stories.filter(s => s.status === "draft").length}</strong><p>Bản nháp</p></div></div><div><span className="stat-icon blue">☷</span><div><strong>{stories.reduce((n,s) => n + totalQuestions(s),0)}</strong><p>Câu hỏi đọc hiểu</p></div></div></div>
     <MonthCoverManager covers={monthCovers} onSave={onSaveMonthCover} />
-    <StudentAccountManager />
+    <StudentAccountManager stories={stories} />
     <div className="admin-panel"><div className="panel-heading"><div><h2>Danh sách nội dung</h2><p>Quản lý truyện theo tháng và ngày.</p></div><div className="panel-actions"><label className="button soft import-button">↑ Nhập JSON<input type="file" accept=".json,application/json" onChange={e => { const file = e.target.files?.[0]; if (file) void importJson(file); e.target.value = ""; }} /></label><a className="button soft" href="/sample-import.json" download>↓ Tệp mẫu</a></div></div>{message && <div className="notice">{message}</div>}<div className="filters"><input placeholder="⌕  Tìm theo tên truyện..." value={query} onChange={e => setQuery(e.target.value)} /><select value={month} onChange={e => setMonth(Number(e.target.value))}><option value={0}>Tất cả các tháng</option>{MONTHS.map((m,i) => <option key={m} value={i+1}>{m}</option>)}</select></div><div className="table-wrap"><table><thead><tr><th>CÂU CHUYỆN</th><th>THỜI GIAN</th><th>CÂU HỎI</th><th>TRẠNG THÁI</th><th></th></tr></thead><tbody>{filtered.map(story => <tr key={story.id}><td><div className="table-story">{story.image_url ? <span className="table-cover" style={{ backgroundImage: `url(${JSON.stringify(story.image_url)})` }} aria-hidden="true" /> : <span>📖</span>}<div><strong>{story.title || "Chưa đặt tên"}</strong><small>{story.summary || "Chưa có mô tả"}</small></div></div></td><td>{MONTHS[story.month - 1]} · Ngày {story.day}</td><td>{totalQuestions(story)} câu</td><td><span className={`status ${story.status}`}>{story.status === "published" ? "Đã xuất bản" : "Bản nháp"}</span></td><td><button className="edit-link" onClick={() => setEditor(story)}>Chỉnh sửa →</button></td></tr>)}</tbody></table>{filtered.length === 0 && <div className="table-empty">Chưa có truyện phù hợp. Hãy thêm một câu chuyện mới.</div>}</div></div>
     <div className="admin-hint"><span>💡</span><p><strong>Mẹo nhập dữ liệu:</strong> Tải tệp mẫu, thay nội dung truyện và câu hỏi rồi nhập JSON. Nội dung mới luôn ở trạng thái bản nháp để bạn kiểm tra trước khi xuất bản.</p></div>
     {email && <button className="signout" onClick={async () => { await signOut(); router.refresh(); await onReload(); }}>Đăng xuất {email}</button>}
@@ -294,9 +294,11 @@ function Admin({ stories, monthCovers, editor, setEditor, onSave, onSaveMonthCov
   </main>;
 }
 
-function StudentAccountManager() {
+function StudentAccountManager({ stories }: { stories: Story[] }) {
   const [profiles, setProfiles] = useState<StudentProfile[]>([]);
-  const [counts, setCounts] = useState<Record<string, number>>({});
+  const [reads, setReads] = useState<StoryRead[]>([]);
+  const [attempts, setAttempts] = useState<StudentAttempt[]>([]);
+  const [selectedId, setSelectedId] = useState<string | null>(null);
   const [displayName, setDisplayName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -306,16 +308,27 @@ function StudentAccountManager() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
 
+  const readCounts = useMemo(() => reads.reduce<Record<string, number>>((totals, read) => {
+    totals[read.user_id] = (totals[read.user_id] || 0) + 1;
+    return totals;
+  }, {}), [reads]);
+  const attemptCounts = useMemo(() => attempts.reduce<Record<string, number>>((totals, attempt) => {
+    totals[attempt.user_id] = (totals[attempt.user_id] || 0) + 1;
+    return totals;
+  }, {}), [attempts]);
+  const selectedProfile = profiles.find(profile => profile.id === selectedId);
+
   async function refresh() {
-    const [nextProfiles, nextCounts] = await Promise.all([getStudentProfiles(), getStudentReadCounts()]);
+    const [nextProfiles, progress] = await Promise.all([getStudentProfiles(), getStudentProgress()]);
     setProfiles(nextProfiles);
-    setCounts(nextCounts);
+    setReads(progress.reads);
+    setAttempts(progress.attempts);
   }
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
-      void Promise.all([getStudentProfiles(), getStudentReadCounts()])
-        .then(([nextProfiles, nextCounts]) => { setProfiles(nextProfiles); setCounts(nextCounts); })
+      void Promise.all([getStudentProfiles(), getStudentProgress()])
+        .then(([nextProfiles, progress]) => { setProfiles(nextProfiles); setReads(progress.reads); setAttempts(progress.attempts); })
         .catch(cause => setError(cause instanceof Error ? cause.message : "Không tải được danh sách học sinh."));
     }, 0);
     return () => window.clearTimeout(timer);
@@ -344,12 +357,39 @@ function StudentAccountManager() {
     finally { setBusy(false); }
   }
 
-  return <section className="admin-panel student-panel"><div className="panel-heading"><div><h2>Tài khoản học sinh</h2><p>Cấp tài khoản riêng và theo dõi số truyện mỗi em đã đánh dấu đã đọc.</p></div></div>
+  return <section id="student-progress" className="admin-panel student-panel"><div className="panel-heading"><div><h2>Tài khoản học sinh</h2><p>Cấp tài khoản riêng và theo dõi tiến độ đọc, kết quả đọc hiểu của từng em.</p></div><button type="button" className="button soft" onClick={() => { setError(""); void refresh().catch(cause => setError(cause instanceof Error ? cause.message : "Không tải được tiến độ học sinh.")); }}>↻ Làm mới tiến độ</button></div>
     <form className="student-create-form" onSubmit={create}><label>Họ tên học sinh<input required maxLength={100} value={displayName} onChange={e => setDisplayName(e.target.value)} placeholder="Nguyễn An" /></label><label>Email đăng nhập<input required type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="an@example.com" /></label><label>Mật khẩu ban đầu<input required type="password" minLength={8} value={password} onChange={e => setPassword(e.target.value)} placeholder="Ít nhất 8 ký tự" autoComplete="new-password" /></label><button className="button primary" disabled={busy}>{busy ? "Đang tạo..." : "＋ Cấp tài khoản"}</button></form>
     {error && <p className="form-error" role="alert">{error}</p>}{message && <p className="success-message" role="status">{message}</p>}
-    <div className="table-wrap"><table><thead><tr><th>HỌC SINH</th><th>EMAIL ĐĂNG NHẬP</th><th>TRUYỆN ĐÃ ĐỌC</th><th></th></tr></thead><tbody>{profiles.map(profile => <tr key={profile.id}><td><strong>{profile.display_name}</strong></td><td>{profile.email}</td><td>{counts[profile.id] || 0}</td><td><button type="button" className="edit-link" onClick={() => { setResetTarget(profile); setReplacement(""); setError(""); setMessage(""); }}>Đặt lại mật khẩu →</button></td></tr>)}</tbody></table>{profiles.length === 0 && <div className="table-empty">Chưa có tài khoản học sinh nào.</div>}</div>
+    <div className="table-wrap"><table><thead><tr><th>HỌC SINH</th><th>EMAIL ĐĂNG NHẬP</th><th>TRUYỆN ĐÃ ĐỌC</th><th>BÀI ĐỌC HIỂU</th><th></th></tr></thead><tbody>{profiles.map(profile => <tr key={profile.id}><td><strong>{profile.display_name}</strong></td><td>{profile.email}</td><td>{readCounts[profile.id] || 0}/{stories.filter(story => story.status === "published").length}</td><td>{attemptCounts[profile.id] || 0} lượt</td><td className="student-actions"><button type="button" className="edit-link" onClick={() => setSelectedId(profile.id)}>Xem tiến độ →</button><button type="button" className="edit-link" onClick={() => { setResetTarget(profile); setReplacement(""); setError(""); setMessage(""); }}>Đặt lại mật khẩu →</button></td></tr>)}</tbody></table>{profiles.length === 0 && <div className="table-empty">Chưa có tài khoản học sinh nào.</div>}</div>
+    {selectedProfile && <StudentProgressDetails profile={selectedProfile} stories={stories} reads={reads.filter(read => read.user_id === selectedProfile.id)} attempts={attempts.filter(attempt => attempt.user_id === selectedProfile.id)} onClose={() => setSelectedId(null)} />}
     {resetTarget && <form className="student-reset-form" onSubmit={resetPassword}><div><strong>Đặt lại mật khẩu: {resetTarget.display_name}</strong><p>Nhập mật khẩu mới rồi gửi riêng cho học sinh.</p></div><label>Mật khẩu mới<input type="password" required minLength={8} autoComplete="new-password" value={replacement} onChange={event => setReplacement(event.target.value)} placeholder="Ít nhất 8 ký tự" /></label><button className="button primary" disabled={busy}>{busy ? "Đang lưu..." : "Lưu mật khẩu"}</button><button className="button soft" type="button" onClick={() => { setResetTarget(null); setReplacement(""); }}>Hủy</button></form>}
   </section>;
+}
+
+function StudentProgressDetails({ profile, stories, reads, attempts, onClose }: { profile: StudentProfile; stories: Story[]; reads: StoryRead[]; attempts: StudentAttempt[]; onClose: () => void }) {
+  const published = stories.filter(story => story.status === "published");
+  const readIds = new Set(reads.map(read => read.story_id));
+  const storyById = new Map(stories.map(story => [story.id, story]));
+  const average = attempts.length ? Math.round(attempts.reduce((sum, attempt) => sum + (attempt.total ? attempt.score / attempt.total * 100 : 0), 0) / attempts.length) : 0;
+
+  return <div className="student-progress-detail">
+    <div className="student-progress-head"><div><span className="kicker">TIẾN ĐỘ HỌC SINH</span><h3>{profile.display_name}</h3><p>{profile.email}</p></div><button type="button" className="button soft" onClick={onClose}>Đóng</button></div>
+    <div className="student-progress-summary"><div><strong>{reads.length}/{published.length}</strong><span>truyện đã đọc</span></div><div><strong>{attempts.length}</strong><span>lượt làm bài đọc hiểu</span></div><div><strong>{attempts.length ? `${average}%` : "—"}</strong><span>điểm trung bình</span></div></div>
+    <h4>Tiến độ theo tháng</h4>
+    <div className="progress-month-grid">{MONTHS.map((label, index) => {
+      const monthStories = published.filter(story => story.month === index + 1);
+      const count = monthStories.filter(story => readIds.has(story.id)).length;
+      return <div className="progress-month" key={label}><strong>{label}</strong><span>{count}/{monthStories.length} truyện</span><div className="progress-track"><div style={{ width: monthStories.length ? `${count / monthStories.length * 100}%` : "0%" }} /></div></div>;
+    })}</div>
+    <div className="student-progress-columns"><div><h4>Truyện đã đọc</h4>{reads.length ? <div className="student-progress-list">{reads.map(read => {
+      const story = storyById.get(read.story_id);
+      return <div key={read.story_id}><span><strong>{story?.title || "Truyện đã xóa"}</strong>{story && <small>{MONTHS[story.month - 1]} · Ngày {story.day}</small>}</span><time>{new Date(read.read_at).toLocaleDateString("vi-VN")}</time></div>;
+    })}</div> : <p className="student-progress-empty">Học sinh chưa đánh dấu truyện nào đã đọc.</p>}</div>
+    <div><h4>Kết quả đọc hiểu</h4>{attempts.length ? <div className="student-progress-list">{attempts.map(attempt => {
+      const story = storyById.get(attempt.story_id);
+      return <div key={attempt.id}><span><strong>{story?.title || "Truyện đã xóa"}</strong><small>{new Date(attempt.created_at).toLocaleDateString("vi-VN")}</small></span><b>{attempt.score}/{attempt.total}</b></div>;
+    })}</div> : <p className="student-progress-empty">Học sinh chưa nộp bài đọc hiểu.</p>}</div></div>
+  </div>;
 }
 
 function MonthCoverManager({ covers, onSave }: { covers: MonthCover[]; onSave: (month: number, file: File | null) => Promise<void> }) {

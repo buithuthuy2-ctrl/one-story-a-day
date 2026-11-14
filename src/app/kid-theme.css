@@ -173,6 +173,28 @@ td { color: var(--ink); font-size: 15px; }
 .month-cover-item, .story-cover-controls { border-color: var(--line); }
 .month-cover-item strong, .field-label { color: var(--ink); font-size: 16px; }
 .cover-remove, .story-cover-controls p { color: var(--muted); font-size: 14px; }
+.admin-heading-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.student-panel { scroll-margin-top: 110px; }
+.student-actions { min-width: 260px; }
+.student-actions .edit-link { margin: 4px 12px 4px 0; }
+.student-progress-detail { margin: 20px; padding: 24px; border: 1px solid var(--line); border-radius: 16px; background: #fffdf6; }
+.student-progress-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; }
+.student-progress-head h3 { margin: 7px 0 2px; font: 900 25px Nunito, sans-serif; }
+.student-progress-head p { margin: 0; color: var(--muted); font-size: 15px; }
+.student-progress-summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 20px 0 24px; }
+.student-progress-summary > div { display: grid; gap: 4px; padding: 17px; border-radius: 12px; background: #edf4d4; }
+.student-progress-summary strong { font: 900 25px Nunito, sans-serif; color: var(--deep); }
+.student-progress-summary span { color: var(--muted); font-size: 15px; }
+.student-progress-detail h4 { margin: 20px 0 12px; font: 900 19px Nunito, sans-serif; }
+.student-progress-detail .progress-month-grid { padding: 0; }
+.student-progress-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.student-progress-list { max-height: 380px; overflow: auto; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+.student-progress-list > div { display: flex; justify-content: space-between; gap: 14px; align-items: center; padding: 13px 15px; border-bottom: 1px solid var(--line); font-size: 15px; }
+.student-progress-list > div:last-child { border-bottom: 0; }
+.student-progress-list span { display: grid; gap: 4px; }
+.student-progress-list small, .student-progress-list time { color: var(--muted); font-size: 13px; }
+.student-progress-list b { color: var(--deep); white-space: nowrap; }
+.student-progress-empty { color: var(--muted); font-size: 15px; }
 
 @media (max-width: 900px) {
   .topbar { flex-wrap: wrap; height: auto; padding-top: 12px; padding-bottom: 8px; gap: 2px 20px; }
@@ -199,5 +221,7 @@ td { color: var(--ink); font-size: 15px; }
   .quiz-card, .dictation-card { padding: 22px; }
   .option { font-size: 16px; }
   .admin-stats { grid-template-columns: 1fr; }
+  .student-progress-detail { margin: 14px; padding: 16px; }
+  .student-progress-summary, .student-progress-columns { grid-template-columns: 1fr; }
   .footer { font-size: 13px; }
 }
