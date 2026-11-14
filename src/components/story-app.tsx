@@ -182,7 +182,17 @@ function ActivityPanel({ activities }: { activities?: StoryActivities }) {
   return <section className="activity-panel">
     <div className="activity-heading"><span className="kicker">LUYỆN TẬP THÊM</span><h2>Hoạt động đọc hiểu</h2><p>Các phần dưới đây được giữ theo tài liệu gốc. Phần đúng/sai và câu trả lời mở chưa tính vào điểm trắc nghiệm.</p></div>
     {activities.cloze_text && <details><summary>Bài điền từ trong tài liệu gốc</summary><p className="cloze-text">{activities.cloze_text}</p></details>}
-    {activities.true_false.length > 0 && <details><summary>Đúng hay sai? · {activities.true_false.length} câu</summary><ol className="activity-list">{activities.true_false.map((prompt, index) => <li key={index}><span>{prompt}</span><div className="tf-options"><button type="button" className={trueFalseAnswers[index] === true ? "selected" : ""} onClick={() => setTrueFalseAnswers(prev => ({ ...prev, [index]: true }))}>Đúng</button><button type="button" className={trueFalseAnswers[index] === false ? "selected" : ""} onClick={() => setTrueFalseAnswers(prev => ({ ...prev, [index]: false }))}>Sai</button></div>{trueFalseAnswers[index] !== undefined && activities.true_false_answers?.[index] !== undefined && <small>{trueFalseAnswers[index] === activities.true_false_answers[index] ? "✓ Chính xác" : `Đáp án: ${activities.true_false_answers[index] ? "Đúng" : "Sai"}`}</small>}</li>)}</ol></details>}
+    {activities.true_false.length > 0 && <details>
+      <summary>True or False? · {activities.true_false.length} questions</summary>
+      <ol className="activity-list">{activities.true_false.map((prompt, index) => <li key={index}>
+        <span>{prompt}</span>
+        <div className="tf-options">
+          <button type="button" className={trueFalseAnswers[index] === true ? "selected" : ""} onClick={() => setTrueFalseAnswers(prev => ({ ...prev, [index]: true }))}>True</button>
+          <button type="button" className={trueFalseAnswers[index] === false ? "selected" : ""} onClick={() => setTrueFalseAnswers(prev => ({ ...prev, [index]: false }))}>False</button>
+        </div>
+        {trueFalseAnswers[index] !== undefined && activities.true_false_answers?.[index] !== undefined && <small>{trueFalseAnswers[index] === activities.true_false_answers[index] ? "✓ Correct" : `Answer: ${activities.true_false_answers[index] ? "True" : "False"}`}</small>}
+      </li>)}</ol>
+    </details>}
     {activities.short_answer.length > 0 && <details><summary>Trả lời ngắn · {activities.short_answer.length} câu</summary><ol className="activity-list">{activities.short_answer.map((prompt, index) => <li key={index}>{prompt}{activities.short_answer_keys?.[index] && <details><summary>Xem gợi ý đáp án</summary><p>{activities.short_answer_keys[index]}</p></details>}</li>)}</ol></details>}
     {Boolean(activities.vocabulary?.length) && <details><summary>Từ vựng · {activities.vocabulary?.length} từ</summary><dl className="activity-vocabulary">{activities.vocabulary?.map((item, index) => <div key={index}><dt>{item.term}</dt><dd>{item.meaning}</dd></div>)}</dl></details>}
     {activities.language_notice && <details><summary>Ghi chú ngôn ngữ</summary><p>{activities.language_notice}</p></details>}
