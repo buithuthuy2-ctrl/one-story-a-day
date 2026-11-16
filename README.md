@@ -1,5 +1,7 @@
 # One Story a Day — bản thiết kế ứng dụng
 
+Xem [quy trình xây dựng, triển khai và cập nhật truyện](docs/quy-trinh-web-doc-truyen.md) để dựng lại website hoặc thêm tháng mới.
+
 Ứng dụng Next.js cho học sinh nghe video, đọc truyện và làm câu hỏi đọc hiểu. Thư viện được chia thành 12 tập theo tháng, mỗi tập có 28–31 ngày. Trang quản trị cho phép tạo/sửa/xóa truyện, tải ảnh bìa cho từng tháng và từng truyện, gắn video YouTube, soạn câu hỏi và nhập hàng loạt bằng JSON.
 
 Mỗi truyện tiếng Anh có tab **Nghe điền từ**: hệ thống tự chọn 5–6 từ trong nội dung, ưu tiên danh sách từ vựng của truyện, để học sinh nghe giọng đọc hoặc video và điền vào chỗ trống. Nút **Kiểm tra kết quả** báo đúng/sai từng ô và tổng số từ đúng; học sinh có thể sửa và thử lại. Giọng đọc dùng tính năng tổng hợp tiếng nói trên thiết bị, nên chất giọng phụ thuộc trình duyệt. Bài dictation hiện chấm trực tiếp trên trang và chưa lưu vào tiến độ tài khoản.
@@ -18,7 +20,7 @@ Mở `http://localhost:3000`. Khi chưa khai báo Supabase, ứng dụng chạy 
 Project Supabase của ứng dụng là `yzpckbwyoaonnheunmfe` tại Singapore. Truyện tháng 9 và tháng 10 đang ở trạng thái xuất bản. Tệp `.env.local` trên máy phát triển đã được cấu hình và được Git bỏ qua.
 
 1. Trên máy khác hoặc môi trường triển khai, sao chép `.env.example` thành `.env.local` và điền Project URL cùng publishable key trong Supabase Dashboard → Settings → API Keys. Với môi trường triển khai, khai báo hai biến này trong phần cấu hình của nhà cung cấp dịch vụ.
-2. Nếu tạo project Supabase mới, chạy [schema.sql](supabase/schema.sql), [cover_images.sql](supabase/cover_images.sql) và [student_progress.sql](supabase/student_progress.sql) trong SQL Editor; triển khai Edge Function [create-student](supabase/functions/create-student/index.ts) với `verify_jwt = true`; rồi nhập dữ liệu qua `/admin`.
+2. Nếu tạo project Supabase mới, chạy [schema.sql](supabase/schema.sql), [cover_images.sql](supabase/cover_images.sql), [student_progress.sql](supabase/student_progress.sql) và [admin_student_attempts.sql](supabase/admin_student_attempts.sql) trong SQL Editor theo thứ tự; triển khai Edge Function [create-student](supabase/functions/create-student/index.ts) với `verify_jwt = true`; rồi nhập dữ liệu qua `/admin`.
 3. Tạo tài khoản quản trị trong Supabase Auth, rồi đặt `app_metadata.role` của người dùng thành `admin` bằng công cụ quản trị tin cậy (Dashboard hoặc Admin API dùng secret key ở môi trường riêng). Không đặt quyền qua `user_metadata`.
 4. Khởi động lại Next.js sau khi thay đổi biến môi trường. Trang `/admin` sẽ yêu cầu đăng nhập quản trị. Dữ liệu học sinh chỉ hiển thị sau khi truyện được xuất bản.
 
@@ -31,17 +33,17 @@ NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=YOUR_PUBLISHABLE_KEY
 
 ## Tài khoản và tiến độ học sinh
 
-Trong `/admin` → **Tài khoản học sinh**, nhập họ tên, email và mật khẩu ban đầu (ít nhất 8 ký tự), rồi bấm **Cấp tài khoản**. Gửi riêng email và mật khẩu cho học sinh. Danh sách quản trị cho thấy số truyện mỗi em đã đọc.
+Trong `/admin` → **Tài khoản học sinh**, nhập họ tên, email và mật khẩu ban đầu (ít nhất 8 ký tự), rồi bấm **Cấp tài khoản**. Gửi riêng email và mật khẩu cho học sinh. Bấm **Xem tiến độ** để xem số truyện đã đọc theo tháng, danh sách truyện và kết quả trắc nghiệm của từng em.
 
 Học sinh đăng nhập ở `/login`, mở truyện và bấm **Đánh dấu đã đọc**. Mỗi truyện chỉ được tính một lần cho từng tài khoản. Trang `/progress` hiển thị tổng số truyện, tiến độ theo tháng, truyện vừa đọc và số lượt làm bài. Tiến độ được lưu trong `story_reads` và chỉ học sinh đó hoặc quản trị viên xem được.
 
-Quản trị viên và học sinh đã đăng nhập có thể tự đổi mật khẩu tại `/change-password` bằng cách nhập mật khẩu hiện tại và mật khẩu mới. Nếu học sinh quên mật khẩu, quản trị viên vào **Tài khoản học sinh** → **Đặt lại mật khẩu** cạnh tên em đó, rồi gửi riêng mật khẩu mới cho em.
+Quản trị viên và học sinh đã đăng nhập có thể tự đổi mật khẩu tại `/change-password` bằng cách nhập mật khẩu hiện tại và mật khẩu mới. Nếu quên mật khẩu, dùng `/forgot-password` để nhận email đặt lại; quản trị viên cũng có thể vào **Tài khoản học sinh** → **Đặt lại mật khẩu** cạnh tên em đó, rồi gửi riêng mật khẩu mới cho em. Site URL và `/reset-password` phải được cấu hình trong Supabase Auth → URL Configuration.
 
 ## Nhập nội dung
 
 Vào `/admin`, chọn **Nhập JSON**. Tải [tệp mẫu](public/sample-import.json) để xem cấu trúc. Mỗi mục cần `month`, `day`, `title`, `content`; có thể thêm `summary`, `youtube_url`, `level`, `duration_minutes`, `questions`. Mỗi câu hỏi có bốn `options`, `answer_index` từ 0 đến 3, và `explanation`. Nội dung nhập hàng loạt luôn là bản nháp; mở từng truyện để kiểm tra rồi xuất bản. Mỗi tháng/ngày chỉ có một truyện.
 
-Các tệp truyện mẫu tháng 9–11 đã được cân bằng để trong mỗi truyện, đáp án đúng xuất hiện một lần ở mỗi vị trí A, B, C và D. Khi bổ sung dữ liệu mẫu mới, chạy `node scripts/balance-answers.mjs`; lệnh chỉ đổi vị trí lựa chọn và giữ nguyên nội dung đáp án đúng.
+Các tệp truyện mẫu tháng 9–11 đã được cân bằng để trong mỗi truyện, đáp án đúng xuất hiện một lần ở mỗi vị trí A, B, C và D. Script `node scripts/balance-answers.mjs` hiện chỉ xử lý ba tệp này và yêu cầu mỗi truyện có đúng bốn câu trắc nghiệm. Khi thêm tháng mới, cập nhật danh sách tệp trong script rồi rà lại đáp án sau khi chạy.
 
 Trong `/admin`, mục **Ảnh bìa 12 tháng** cho phép tải, thay hoặc xóa ảnh từng tập. Mở **Chỉnh sửa** ở một truyện để tải ảnh đại diện riêng cho truyện đó. Ảnh JPG, PNG hoặc WebP tối đa 5 MB được lưu trong bucket công khai `story-covers` của Supabase Storage; chỉ tài khoản quản trị có quyền tải hoặc xóa. Nếu chưa có ảnh, giao diện dùng màu và biểu tượng mặc định.
 
